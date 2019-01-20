@@ -1,0 +1,62 @@
+{
+    "name": "SENTENCE",
+    "children": [{
+            "name": "SUBJ-PRED",
+            "children": [{
+                    "name": "PRONOUN",
+                    "children": [{ "name": "他" }]
+                },
+                {
+                    "name": "VERB-AND",
+                    "children": [{
+                            "name": "VERB-C",
+                            "children": [{
+                                    "name": "VERB-B",
+                                    "children": [{
+                                            "name": "VERB-A",
+                                            "children": [{ "name": "騎" }]
+                                        },
+                                        { "name": "著" }
+                                    ]
+                                },
+                                {
+                                    "name": "ANIMATE-A",
+                                    "children": [{ "name": "馬" }]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "VERB-P",
+                            "children": [{
+                                    "name": "ADV",
+                                    "children": [{ "name": "繼續" }]
+                                },
+                                {
+                                    "name": "VERB-P",
+                                    "children": [{
+                                            "name": "VERB-MOD",
+                                            "children": [{ "name": "向" },
+                                                {
+                                                    "name": "DIR",
+                                                    "children": [{ "name": "前" }]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "VERB-A",
+                                            "children": [{ "name": "走" }]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "END",
+            "children": [{ "name": "。" }]
+        }
+    ]
+}
