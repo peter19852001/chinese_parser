@@ -1,0 +1,271 @@
+Input: 北京重雾霾又来了
+Parse: ((SUBJ-PRED
+         (NOUN-T (PLACE-A (北 京)) (NOUN-B (ADJ-A 重) (INANIMATE-A (雾 霾))))
+         (NOT-PREFER-PAUSE)
+         (VERB (VERB-A (ADV 又) (DIR-VERB 来)) (VERB-SUFFIX-LE 了))))
+
+Input: 北京接下来连续4天将陷入重度雾霾。
+Parse: ((SENTENCE
+         (SUBJ-PRED (PLACE-A (北 京)) (NOT-PREFER-PAUSE)
+          (VERB-P-A (FRONT-ADV (接 下 来))
+           (VERB-P-A
+            (VERB-MOD (TIME-PERIOD (ADJ-A (连 续)) (TIME-PERIOD-A (INTEGER 4) 天))
+             (MAY-PAUSE))
+            (VERB-P-A (ADV 将)
+             (VERB-C (VERB-A (陷 入))
+              (NOUN-B (ADJ-A (重 度)) (INANIMATE-A (雾 霾))))))))
+         (END 。)))
+
+Input: 北京当局昨天晚上发布重污染警报。
+Parse: ((SENTENCE
+         (SUBJ-PRED (NOUN-T (PLACE-A (北 京)) (ABSTRACT-A (当 局)))
+          (NOT-PREFER-PAUSE)
+          (VERB-P-A (VERB-MOD (AD-HOC-TIME-PT (昨 天) (晚 上)) (MAY-PAUSE))
+           (VERB-C (VERB-A (发 布))
+            (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+             (ABSTRACT-A (警 报))))))
+         (END 。)))
+
+Input: 天气预报显示气象条件尤其是风力不给力，不利于污染扩散。
+Parse: ((SENTENCE
+         (SUBJ-PRED (ABSTRACT-A (天 气 预 报)) (NOT-PREFER-PAUSE)
+          (VERB-C2-CONN-A
+           (VERB-C2 (VERB-A (显 示))
+            (SUBJ-PRED
+             (NOUN-T (NOUN-T (ABSTRACT-A (气 象)) (ABSTRACT-A (条 件)))
+              (NOUN-B (P-PRONOUN-A (尤 其 是)) (ABSTRACT-A (风 力))))
+             (NOT-PREFER-PAUSE) (VERB-P-A (ADV 不) (VERB-A (给 力)))))
+           (PAUSE ，)
+           (VERB-C2 (VERB-A (不 利 于))
+            (SUBJ-PRED (ABSTRACT-A (污 染)) (NOT-PREFER-PAUSE) (VERB-A (扩 散))))))
+         (END 。)))
+
+Input: 据东网今天报道警告北京雾霾来袭！
+Parse: ((SENTENCE
+         (VERB-P-A
+          (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 据)
+           (NOUN-T (ABSTRACT-A (东 网))
+            (NOUN-T (NOUN-B (TIME-PT-A (今 天))) (ABSTRACT-A (报 道)))))
+          (VERB-C2 (VERB-MAY-PAUSE (VERB-A (警 告)) (PLACE-A (北 京)) (MAY-PAUSE))
+           (SUBJ-PRED (INANIMATE-A (雾 霾)) (NOT-PREFER-PAUSE) (VERB-A (来 袭)))))
+         (END ！)))
+
+Input: 且扩散条件不利，致使北京在周日至周三将有重污染天气。
+Parse: ((SENTENCE
+         (VERB-P-CONN-A
+          (PRED-V (BUT-ALSO 且) (MAY-PAUSE)
+           (SUBJ-PRED (NOUN-B (VERB-A (扩 散)) (ABSTRACT-A (条 件)))
+            (NOT-PREFER-PAUSE) (ADJ-A (不 利))))
+          (PAUSE ，)
+          (VERB-C2 (VERB-A (致 使))
+           (SUBJ-PRED (PLACE-A (北 京)) (NOT-PREFER-PAUSE)
+            (VERB-P-A
+             (VERB-MOD
+              (TIME-PT-H (TIME-AT-TO 在)
+               (TIME-PT-B-CONN-A (TIME-PT-A (周 日)) 至 (TIME-PT-A (周 三))))
+              (MAY-PAUSE))
+             (VERB-C (VERB-A (ADV 将) (VERB-A 有))
+              (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+               (ABSTRACT-A (天 气))))))))
+         (END 。)))
+
+Input: 北京空气重污染应急指挥部3月24日晚发布空气重污染橙色预警，并于周日26日零时至周三28日期间实施橙色预警措施。
+Parse: ((SENTENCE
+         (SUBJ-PRED
+          (NOUN-T
+           (NOUN-T (NOUN-T (PLACE-A (北 京)) (INANIMATE-A (空 气)))
+            (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染))))
+           (NOUN-B (VERB-A (应 急)) (ABSTRACT-A (指 挥 部))))
+          (NOT-PREFER-PAUSE)
+          (VERB-P-CONN-A
+           (VERB-P-A
+            (VERB-MOD
+             (AD-HOC-TIME-PT (NOUN-B (TIME-PT-A (INTEGER 3) 月 (INTEGER 24) 日))
+              晚)
+             (MAY-PAUSE))
+            (VERB-C (VERB-A (发 布))
+             (NOUN-T
+              (NOUN-T (INANIMATE-A (空 气))
+               (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染))))
+              (NOUN-B (ADJ (ADJ-A 橙) 色) (ABSTRACT-A (预 警))))))
+           (L-CONN (PAUSE ，) (CONN 并))
+           (VERB-P-A
+            (VERB-MOD
+             (TIME-PT-H (TIME-AT-TO 于)
+              (AD-HOC-TIME-PT
+               (NOUN-B
+                (TIME-PT-D-CONN-A
+                 (TIME-PT-D (TIME-PT-A (周 日))
+                  (TIME-PT-D (TIME-PT-A (2 6) 日) (TIME-PT-A (INTEGER 0) 时)))
+                 至 (TIME-PT-D (TIME-PT-A (周 三)) (TIME-PT-A (2 8) 日))))
+               (期 间)))
+             (MAY-PAUSE))
+            (VERB-C (VERB-A (实 施))
+             (NOUN-T (NOUN-B (ADJ (ADJ-A 橙) 色) (ABSTRACT-A (预 警)))
+              (ABSTRACT-A (措 施)))))))
+         (END 。)))
+
+Input: 报道说，经中国环境监测总站会同京津冀及周边地区省级环境监测中心研判，上述时间内京津冀区域中部太行山以东、燕山以南地区可能出现低压辐合带，污染扩散条件不利，区域空气质量以4级中度污染至5级重度污染为主，部分地区部分时段更将达到6级严重污染水平。
+Parse: ((SENTENCE
+         (CLAUSES (SUBJ-PRED (ABSTRACT-A (报 道)) (NOT-PREFER-PAUSE) (VERB-A 说))
+          (PAUSE ，)
+          (CLAUSES
+           (CLAUSE-A00
+            (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 经)
+             (SUBJ-PRED
+              (NOUN-T (NOUN-T (PLACE-A (中 国)) (ABSTRACT-A (环 境)))
+               (NOUN-B (VERB-A (监 测)) (PLACE-A (总 站))))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A
+               (VERB-MOD (P-NOUN-WORD 会 同)
+                (NOUN-T
+                 (NOUN-C (PLACE-A (京 津 冀)) (CONN 及)
+                  (NOUN-T (PLACE-A (周 边)) (PLACE-A (地 区))))
+                 (NOUN-T (ADJ-A (省 级))
+                  (NOUN-T (ABSTRACT-A (环 境))
+                   (NOUN-B (VERB-A (监 测)) (PLACE-A (中 心)))))))
+               (VERB-A (研 判)))))
+            (PAUSE ，)
+            (SUBJ-PRED
+             (TIME-PT-E (TIME-PERIOD (ADJ-A (上 述)) (TIME-PERIOD-A (时 间)))
+              (TIME-F-B-P 内))
+             (MAY-PAUSE)
+             (NOUN-T
+              (NOUN-C
+               (NOUN-T
+                (NOUN-T (PLACE-A (京 津 冀))
+                 (NOUN-B (PLACE-A (区 域)) (DIR-SUFFIX-PLACE (中 部))))
+                (NOUN-B (PLACE-A (太 行 山)) (DIR-SUFFIX-PLACE (以 东))))
+               (SHORT-PAUSE 、)
+               (NOUN-B (PLACE-A (燕 山)) (DIR-SUFFIX-PLACE (以 南))))
+              (PLACE-A (地 区)))
+             (VERB-P-A (FRONT-ADV (可 能))
+              (VERB-C (VERB-A (出 现))
+               (NOUN-T (NOUN-B (ADJ-A 低) (ABSTRACT-A 压))
+                (NOUN-T (ABSTRACT-A (辐 合)) (INANIMATE-A 带)))))))
+           (PAUSE ，)
+           (CLAUSES
+            (SUBJ-PRED
+             (NOUN-T (ABSTRACT-A (污 染))
+              (NOUN-B (VERB-A (扩 散)) (ABSTRACT-A (条 件))))
+             (NOT-PREFER-PAUSE) (ADJ-A (不 利)))
+            (PAUSE ，)
+            (CLAUSES
+             (SUBJ-PRED
+              (NOUN-T (NOUN-T (PLACE-A (区 域)) (INANIMATE-A (空 气)))
+               (ABSTRACT-A (质 量)))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A
+               (VERB-MOD 以
+                (NOUN-C
+                 (NOUN-T (NUM-UNIT-A (INTEGER 4) (UNIT 级))
+                  (NOUN-B (ADJ-A (中 度)) (ABSTRACT-A (污 染))))
+                 至
+                 (NOUN-T (NUM-UNIT-A (INTEGER 5) (UNIT 级))
+                  (NOUN-B (ADJ-A (重 度)) (ABSTRACT-A (污 染))))))
+               (VERB-A (为 主))))
+             (PAUSE ，)
+             (SUBJ-PRED (NOUN-B (ROUGH-AMOUNT 部 分) (PLACE-A (地 区)))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A
+               (VERB-MOD (TIME-PERIOD-A (ROUGH-AMOUNT 部 分) (时 段)) (MAY-PAUSE))
+               (VERB-P-A (ADV 更)
+                (VERB-C (VERB-B (VERB-A (ADV 将) (VERB-A 达)) 到)
+                 (NOUN-T (NUM-UNIT-A (INTEGER 6) (UNIT 级))
+                  (NOUN-T (NOUN-B (ADJ-A (严 重)) (ABSTRACT-A (污 染)))
+                   (ABSTRACT-A (水 平))))))))))))
+         (END 。)))
+
+Input: 北京市环保局指，受此影响，北京将经历一次重污染天气，并预计要到周三夜间，当扩散条件自北向南逐步改善，北京的空气质素始会逐步好转。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T (NOUN-T (PLACE-A (北 京)) (PLACE-A 市)) (ABSTRACT-A (环 保 局)))
+           (NOT-PREFER-PAUSE)
+           (VERB-P-CONN-A (VERB-A 指) (PAUSE ，)
+            (VERB-P-A (VERB-MOD 受 (P-PRONOUN-A 此)) (VERB-A (影 响)))))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED (PLACE-A (北 京)) (NOT-PREFER-PAUSE)
+            (VERB-P-CONN-A
+             (VERB-P-A (ADV 将)
+              (VERB-C (VERB-A (经 历))
+               (NOUN-T (NUM-UNIT-A (INTEGER 1) (UNIT 次))
+                (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+                 (ABSTRACT-A (天 气))))))
+             (L-CONN (PAUSE ，) (CONN 并))
+             (VERB-C2 (VERB-A (预 计))
+              (VERB-C (VERB-B (HELP-VERB 要) 到)
+               (NOUN-B
+                (TIME-PERIOD-B (TIME-PERIOD-A (周 三))
+                 (TIME-PERIOD-A (夜 间))))))))
+           (PAUSE ，)
+           (SUBJ-PRED
+            (TIME-PT-H (TIME-AT-TO 当)
+             (SUBJ-PRED (NOUN-B (VERB-A (扩 散)) (ABSTRACT-A (条 件)))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A
+               (VERB-MOD (P-FROM 自) (DIR-SUFFIX-PLACE (DIR 北)) 向
+                (DIR-SUFFIX-PLACE (DIR 南)))
+               (VERB-P-A (ADV (ADJ-A (逐 步))) (VERB-A (改 善))))))
+            (PAUSE ，)
+            (NOUN-T (PLACE-A (北 京)) 的
+             (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (质 素))))
+            (VERB-P-A (ADV 始)
+             (VERB-P-A (HELP-VERB 会)
+              (VERB-P-A (ADV (ADJ-A (逐 步))) (VERB-A (好 转))))))))
+         (END 。)))
+
+Input: 根据相关应急预案，在橙色预警期间，北京市将实施工作日高峰时段区域限行管理措施，同时亦包括禁止相关企业停产限产，以及禁止燃放烟花爆竹和露天烧烤。
+Parse: ((SENTENCE
+         (CLAUSE-A00
+          (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 根 据)
+           (NOUN-T (VERB-A (相 关)) (NOUN-B (VERB-A (应 急)) (ABSTRACT-A (预 案)))))
+          (PAUSE ，)
+          (SUBJ-PRED
+           (TIME-PT-H (TIME-AT-TO 在)
+            (AD-HOC-TIME-PT (NOUN-B (ADJ (ADJ-A 橙) 色) (ABSTRACT-A (预 警)))
+             (期 间)))
+           (PAUSE ，) (NOUN-T (PLACE-A (北 京)) (PLACE-A 市))
+           (VERB-P-CONN-A
+            (VERB-P-CONN-A
+             (VERB-P-A (ADV 将)
+              (VERB-C (VERB-A (实 施))
+               (NOUN-T
+                (NOUN-T (NOUN-B (AD-HOC-TIME-PT (VERB-A (工 作)) 日))
+                 (NOUN-T (NOUN-B (AD-HOC-TIME-PT (ABSTRACT-A (高 峰)) (时 段)))
+                  (PLACE-A (区 域))))
+                (NOUN-B (VERB-X (VERB-A (限 行)) (VERB-A (管 理)))
+                 (ABSTRACT-A (措 施))))))
+             (PAUSE ，)
+             (VERB-P-A (FRONT-ADV (同 时))
+              (VERB-P-A (ADV 亦)
+               (VERB-C2 (VERB-A (包 括))
+                (VERB-C2 (VERB-A (禁 止))
+                 (NOUN-B (VERB-A (相 关)) (ABSTRACT-A (企 业)))
+                 (VERB-AND (VERB-A (停 产)) (VERB-A (限 产))))))))
+            (L-CONN (PAUSE ，) (CONN (以 及)))
+            (VERB-C2 (VERB-A (禁 止))
+             (VERB-P-CONN-A
+              (VERB-C (VERB-A (燃 放))
+               (NOUN-T (INANIMATE-A (烟 花)) (INANIMATE-A (爆 竹))))
+              (CONN 和) (VERB-P-A (ADV (ADJ-A (露 天))) (VERB-A (烧 烤))))))))
+         (END 。)))
+
+Input: 此外，当局还建议中小学幼儿园停止户外活动，并希望市民做好健康防护。
+Parse: ((SENTENCE
+         (CLAUSE-A00 (FRONT-ADV (此 外)) (PAUSE ，)
+          (SUBJ-PRED (ABSTRACT-A (当 局)) (NOT-PREFER-PAUSE)
+           (VERB-P-CONN-A
+            (VERB-P-A (ADV 还)
+             (VERB-C2 (VERB-A (建 议))
+              (NOUN-T (PLACE-A (中 小 学)) (PLACE-A (幼 儿 园)))
+              (VERB-C (VERB-A (停 止))
+               (NOUN-T (PLACE-A (户 外)) (ABSTRACT-A (活 动))))))
+            (L-CONN (PAUSE ，) (CONN 并))
+            (VERB-C2 (VERB-A (希 望))
+             (SUBJ-PRED (ANIMATE-A (市 民)) (NOT-PREFER-PAUSE)
+              (VERB-C (VERB-A (做 好))
+               (NOUN-T (ABSTRACT-A (健 康)) (ABSTRACT-A (防 护)))))))))
+         (END 。)))
+

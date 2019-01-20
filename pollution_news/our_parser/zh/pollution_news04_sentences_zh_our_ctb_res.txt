@@ -1,0 +1,130 @@
+((IP (NP (NP (NR "中國")) (QP (NUM (VV "年逾") (CD "百萬"))) (NP (NN "人")))
+  (VP (VV "死於") (NP (NN "空氣") (NN "污染")))))
+((IP
+  (IP (NP (NN "內地") (NN "霧霾") (NN "問題"))
+   (ADJP (ADVP (AD "日趨")) (ADJP (JJ "嚴重"))))
+  (PU "，")
+  (VP
+   (VP
+    (PP (P "與")
+     (IP
+      (VP (VP (NP (NT "1970年代") (LC "末")) (VP (VV "實施") (NP (NN "改革開放"))))
+       (PU "，") (VP (ADVP (AD "大力")) (VP (VV "發展") (NP (NN "經濟")))))))
+    (VP (VV "不無") (NP (NN "關係"))))
+   (PU "，")
+   (VP (ADVP (AD "但"))
+    (IP (LCP (NP (NT "近40年")) (LC "來")) (PU "，")
+     (NP
+      (CP (IP (NP (NN "內地")) (VP (ADVP (AD "高速")) (VP (VV "發展")))) (DEC "的"))
+      (NP (NN "經濟")))
+     (VP (ADVP (AD "主要"))
+      (PP (P "依靠")
+       (NP (NP (NP (ADJP (JJ "低")) (NP (NN "能源"))) (NP (NN "效率"))) (CC "和")
+        (NP (ADJP (JJ "廉價")) (NP (NN "勞力")))))
+      (VP (VV "推動"))))))
+  (PU "，")
+  (IP
+   (NP (DNP (ADJP (JJ "相應")) (DEG "的"))
+    (NP (NN "環境") (NN "保護") (NN "意識") (CC "及") (NN "法規")))
+   (ADJP (ADVP (AD "卻")) (ADJP (ADVP (AD "非常")) (ADJP (JJ "薄弱")))))
+  (PU "。")))
+((IP
+  (IP (NP (NT "去年")) (PU "，") (NP (NN "世衞"))
+   (VP (PP (P "根據") (NP (ADJP (JJ "最新")) (NP (NN "數據")))) (VP (VV "推算"))))
+  (PU "，")
+  (IP (NP (NT "2012年")) (NP (NR "中國"))
+   (VP (VE "有")
+    (IP (NP (QP (NUM (VV "逾") (CD "103萬"))) (NP (NN "人")))
+     (VP (VV "死於") (NP (NN "空氣") (NN "污染"))))))
+  (PU "，")
+  (IP (NP (NN "死亡人數"))
+   (VP (VP (VV "排名") (NP (ADJP (JJ "全球")) (NP (OD "第一")))) (PU "，")
+    (VP (VV "遠超")
+     (NP (CP (IP (VP (VV "僅次") (NP (NR "印度")))) (DEC "的")) (QP (CD "62萬"))
+      (NP (NN "人"))))))
+  (PU "。")))
+((IP
+  (IP (NP (NT "2013年") (LC "底")) (PU "，") (NP (NN "內地"))
+   (VP (VV "發生")
+    (NP (CP (IP (VP (VV "震驚") (LCP (LC "中外")))) (DEC "的")) (ADJP (JJ "嚴重"))
+     (NP (NN "霧霾") (NN "事件")))))
+  (PU "，")
+  (PP (P "除")
+   (IP
+    (NP
+     (NP
+      (NP
+       (NP
+        (NP (NR "天津") (PU "、") (NR "河北") (PU "、") (NR "山東") (PU "、") (NR "江蘇")
+         (PU "、") (NR "安徽") (PU "、") (NR "河南") (PU "、") (NR "浙江") (PU "、")
+         (NR "上海") (ETC "等"))
+        (NP (QP (CD "多")) (NP (NN "地"))))
+       (NP (NN "空氣")))
+      (NP (NN "品質")))
+     (NP (NN "指數")))
+    (VP (VV "達到")
+     (NP (QP (CD "六") (CLP (M "級"))) (NP (ADJP (JJ "嚴重")) (NP (NN "污染")))
+      (NP (NN "級別"))))))
+  (PU "，")
+  (IP
+   (NP (CP (IP (VP (VV "臨近"))) (DEC "的"))
+    (NP (NR "台灣") (PU "、") (NR "日本") (CC "和") (NR "韓國") (PU "，") (CC "甚至")
+     (NR "美國")))
+   (VP (ADVP (AD "也")) (VP (SB "受") (VP (VV "波及")))))
+  (PU "。")))
+((IP
+  (IP
+   (NP
+    (CP
+     (IP
+      (NP
+       (NP (NP (NR "美國")) (NP (ADJP (JJ "健康")) (NP (NN "影響"))) (NP (NN "研究所")))
+       (CC "和") (NR "清華大學"))
+      (VP (NP (NT "去年")) (VP (VV "發佈"))))
+     (DEC "的"))
+    (NP (NN "調查") (NN "報告")))
+   (VP (VV "顯示")))
+  (PU "，")
+  (IP (NP (NN "燃煤"))
+   (VP (VC "是")
+    (NP (DNP (NP (NT "當前") (NN "內地") (NN "空氣") (NN "污染")) (DEG "的"))
+     (ADJP (ADVP (AD "最")) (ADJP (JJ "主要"))) (NP (NN "來源")))))
+  (PU "，")
+  (IP (NP (NT "2013年")) (NP (NN "燃煤"))
+   (VP (PU "「") (VV "貢獻") (PU "」")
+    (NP (DNP (QP (CD "40%")) (DEG "的")) (NP (NN "PM2.5")))))
+  (PU "，")
+  (IP
+   (NP
+    (CP (IP (NP (QP (DT "這") (CD "一")) (NP (NN "因素"))) (VP (VV "造成")))
+     (DEC "的"))
+    (NP (NN "空氣") (NN "污染")))
+   (VP (VV "導致")
+    (IP (NP (QP (CD "36.6萬")) (NP (NN "人")))
+     (VP (ADVP (AD "過早")) (VP (VV "死亡"))))))
+  (PU "。")))
+((IP
+  (IP (NP (NR "北京市") (NN "環保") (NN "應急") (NN "中心") (NN "主任") (NR "張大偉"))
+   (VP (VV "稱")))
+  (PU "，") (PP (P "從") (LCP (NP (NN "國際") (NN "經驗")) (LC "看"))) (PU "，")
+  (IP (NP (NN "空氣") (NN "治理"))
+   (VP (VC "是")
+    (NP (QP (CD "一") (CLP (M "個"))) (DNP (ADJP (JJ "長期")) (DEG "的"))
+     (NP (DNP (ADJP (JJ "艱巨")) (DEG "的")) (NP (NN "工程"))))))
+  (PU "，")
+  (VP
+   (VP (VV "要") (NP (NUM-C-RANGE (CD "30") (CC "到") (CD "50")) (CLP (M "年"))))
+   (VP (VV "才有") (NP (DNP (NN "根本") (DEG "的")) (NP (NN "改變")))))
+  (PU "。")))
+((IP (NP (NN "報告"))
+  (VP (VP (ADVP (AD "並")) (VP (VV "預測"))) (PU "，")
+   (VP
+    (CP (ADVP (CS "即使"))
+     (IP (IP (NP (NN "內地")) (VP (VV "嚴控") (NP (NN "排放")))) (PU "，")))
+    (VP (NP (NT "2030年"))
+     (VP (ADVP (AD "仍")) (VV "會")
+      (VP (VE "有")
+       (IP (NP (QP (CD "99萬")) (NP (NN "人")))
+        (VP (PP (P "因") (NP (NN "PM2.5"))) (ADVP (AD "過早"))
+         (VP (VV "死亡")))))))))
+  (PU "。")))

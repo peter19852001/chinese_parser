@@ -1,0 +1,2159 @@
+(IP (NP (NN "空气") (NN "污染") (NN "雾霾")) (VP (VV "肆虐")))
+
+(IP (NP (NN "北方人"))
+ (VP (PP (P "较") (NP (NN "南方人"))) (VP (VV "短寿") (QP (CD "3") (CLP (M "年"))))))
+
+(IP (NP (NR "中国")) (ADVP (AD "尤其"))
+ (IP (NP (NN "北部") (NN "地区")) (NP (NN "空气") (NN "污染")) (VP (VA "严重"))) (PU "，")
+ (IP
+  (VP (ADVP (AD "更")) (ADVP (AD "直接"))
+   (VP (VV "影响") (NP (NN "民众") (NN "健康")))))
+ (PU "。"))
+
+(IP
+ (IP
+  (NP (NP (NR "美国") (NR "芝加哥") (NN "大学")) (QP (CD "一") (CLP (M "项")))
+   (NP (NN "研究")))
+  (VP (VV "指出") (PU "，")
+   (IP
+    (IP
+     (PP (P "因为")
+      (NP (NP (NP (NN "雾霾") (ETC "等")) (NP (NN "空气") (NN "污染")))
+       (NP (NN "问题"))))
+     (PU "，") (NP (NP (NR "中国")) (NP (NN "北方人")))
+     (VP (PP (P "比起") (NP (NN "南方人")))
+      (VP (VV "短寿") (QP (CD "3") (CLP (M "年"))))))
+    (PU "，")
+    (NP
+     (DNP
+      (NP (NP (NR "哈尔滨") (ETC "等")) (NP (NN "东北")) (ADJP (JJ "重"))
+       (NP (NN "工业") (NN "城市")))
+      (DEG "的"))
+     (NP (NN "居民")))
+    (VP (ADVP (AD "甚至")) (VP (VV "可能") (VP (VV "短寿") (QP (CD "6")))))))
+  (PU "."))
+ (VP (QP (CD "9") (CLP (M "年")))) (PU "。"))
+
+(IP
+ (NP (NP (NR "美国") (NR "芝加哥") (NN "大学")) (NP (NN "能源") (NN "政策") (NN "研究所")))
+ (VP
+  (VP (NP (NT "周一") (PRN (PU "（") (NP (NT "11日")) (PU "）")))
+   (VP (VV "发表") (NP (NN "报告"))))
+  (PU "，")
+  (IP (NP (NN "研究") (NN "人员"))
+   (VP
+    (VP (VV "分析")
+     (NP (NP (NP (NR "中国")) (QP (CD "154") (CLP (M "个"))) (NP (NN "城市")))
+      (DNP (PP (P "自") (NP (NT "1981年") (CC "至") (NT "2012年"))) (DEG "的"))
+      (NP (NN "空气") (NN "质素") (NN "数据"))))
+    (PU "，")
+    (IP
+     (IP
+      (VP (VV "发现")
+       (NP
+        (IP
+         (NP (DNP (NP (LCP (NP (NR "淮河")) (LC "以北")) (NP (NN "地区"))) (DEG "的"))
+          (NP (NN "污染") (NN "程度")))
+         (VP (ADVP (AD "较")) (PP (P "以") (NP (NP (NR "南地")) (NP (NN "区"))))
+          (VP (VV "高出"))))
+        (QP (CD "46")) (NP (NN "%")))))
+     (PU "，")
+     (IP
+      (VP (VV "导致")
+       (IP (NP (NP (NN "北方人")) (ADJP (JJ "平均")) (NP (NN "寿命")))
+        (VP (VV "减少") (QP (CD "3"))))))))))
+ (PRN (PU ".")
+  (IP (QP (CD "1") (CLP (M "年"))) (PU "，")
+   (NP (ADVP (AD "无论")) (NP (NN "男女") (NN "老幼")))
+   (VP (ADVP (AD "也")) (VP (VV "受") (NP (NN "影响"))))))
+ (PU "。"))
+
+(IP (ADVP (AD "而")) (NP (CP (IP (VV "增加")) (DEC "的")) (NP (NN "死亡率")))
+ (VP (ADVP (AD "通常")) (PP (P "与") (NP (NN "心肺") (NN "疾病"))) (VP (VV "有关")))
+ (PU "。"))
+
+(IP (NP (NN "研究") (NN "人员"))
+ (VP (VV "认为") (PU "，")
+  (IP
+   (IP (NP (NP (NR "中国")) (NP (NN "北部") (NN "地区")))
+    (VP (PP (P "在") (NP (NT "冬季"))) (ADVP (AD "通常"))
+     (VP (VSB (VV "燃煤") (VV "供暖")))))
+   (PU "，")
+   (IP
+    (VP (VV "使") (NP (NN "当地") (NN "空气") (NN "污染"))
+     (IP (VP (ADVP (AD "尤其")) (VP (VA "严重"))))))
+   (PU "，")
+   (IP
+    (VP (VV "形成")
+     (NP (DNP (NP (ADJP (JJ "大")) (NP (NN "范围"))) (DEG "的"))
+      (NP (NN "雾霾")))))))
+ (PU "。"))
+
+(IP (ADVP (AD "而"))
+ (NP (NP (DNP (LCP (NP (NN "空气")) (LC "中")) (DEG "的")) (NP (NN "PM2")))
+  (PU ".") (NP (QP (CD "5") (CLP (M "悬"))) (ADJP (JJ "浮")) (NP (NN "粒子"))))
+ (PU "，")
+ (VP (ADVP (AD "更"))
+  (VP (VC "是")
+   (NP
+    (CP (IP (NP (NP (NN "北部")) (NP (NN "人口") (NN "寿命"))) (VP (VV "缩减")))
+     (DEC "的"))
+    (NP (NN "元凶")))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NN "研究"))
+  (VP (VV "指出") (PU "，")
+   (IP
+    (CP (ADVP (CS "若"))
+     (IP (NP (NR "中国"))
+      (VP (VV "能")
+       (VP (VV "遵守")
+        (NP (DNP (NP (NN "世界") (NN "卫生") (NN "组织")) (DEG "的"))
+         (NP (NN "空气") (NN "质量") (NN "标准")))))))
+    (PU "，") (NP (NP (NN "中国人")) (ADJP (JJ "平均")) (NP (NN "寿命")))
+    (VP (VV "可") (VP (VV "延长") (QP (CD "3")))))))
+ (PU ".")
+ (IP
+  (IP (QP (CD "5") (CLP (M "年"))) (PU "，")
+   (NP (NP (NP (NR "北京")) (NP (NN "民众"))) (ADJP (JJ "平均")) (NP (NN "寿命额")))
+   (VP (ADVP (AD "外")) (VP (VV "增加") (QP (CD "6.4") (CLP (M "年"))))))
+  (PU "，")
+  (IP (NP (NP (NP (NR "哈尔滨")) (NP (NN "民众"))) (ADJP (JJ "平均")) (NP (NN "寿命")))
+   (VP (ADVP (AD "更")) (VP (VV "增加") (QP (CD "6.9") (CLP (M "年")))))))
+ (PU "。"))
+
+(IP (NP (NP (NR "北京")) (ADJP (JJ "重")) (NP (NN "雾霾")))
+ (VP (ADVP (AD "又")) (VP (VV "来") (AS "了"))))
+
+(IP (NP (NR "北京"))
+ (VP (IP (VRD (VV "接") (VV "下来")))
+  (QP (ADVP (AD "连续")) (QP (CD "4") (CLP (M "天")))) (ADVP (AD "将"))
+  (VP (VV "陷入") (NP (ADJP (JJ "重度")) (NP (NN "雾霾")))))
+ (PU "。"))
+
+(IP (NP (NP (NR "北京")) (NP (NN "当局")))
+ (VP (NP (NT "昨天") (NT "晚上"))
+  (VP (VP (VV "发布")) (VP (VV "重") (NP (NN "污染") (NN "警报")))))
+ (PU "。"))
+
+(IP (NP (NN "天气") (NN "预报"))
+ (VP (VV "显示")
+  (IP
+   (IP (NP (NN "气象") (NN "条件")) (ADVP (AD "尤其是")) (NP (NN "风力"))
+    (VP (ADVP (AD "不")) (VP (VV "给") (NP (NN "力")))))
+   (PU "，") (IP (VP (VV "不利于") (NP (NN "污染") (NN "扩散"))))))
+ (PU "。"))
+
+(PP (P "据")
+ (IP (NP (NN "东网"))
+  (VP (NP (NT "今天"))
+   (VP (VV "报道")
+    (IP
+     (VP (VP (VV "警告") (NP (NP (NR "北京")) (NP (NN "雾霾"))))
+      (VP (MSP "来") (VP (VV "袭"))))))))
+ (PU "！"))
+
+(IP (CC "且") (IP (NP (NN "扩散") (NN "条件")) (VP (VA "不利"))) (PU "，")
+ (IP
+  (VP (VV "致使") (NP (NR "北京"))
+   (IP
+    (VP (PP (P "在") (NP (NT "周日") (CC "至") (NT "周三"))) (ADVP (AD "将"))
+     (VP (VV "有重") (NP (NN "污染") (NN "天气")))))))
+ (PU "。"))
+
+(IP
+ (NP (NP (NP (NP (NR "北京")) (NP (NN "空气"))) (ADJP (JJ "重")) (NP (NN "污染")))
+  (NP (NN "应急") (NN "指挥部")))
+ (VP
+  (VP (NP (NT "3月") (DVP (NT "24日") (NN "晚")))
+   (VP (VP (VV "发布") (NP (NP (NN "空气")) (ADJP (JJ "重")) (NP (NN "污染"))))
+    (VP (VV "橙色") (NP (NN "预警")))))
+  (PU "，") (CC "并")
+  (VP
+   (PP (P "于")
+    (NP (NP (NT "周日") (NT "26日"))
+     (NP (NT "零时") (CC "至") (NT "周三") (NT "28日"))))
+   (NP (NN "期间")) (VP (VV "实施") (NP (NN "橙色") (NN "预警") (NN "措施")))))
+ (PU "。"))
+
+(IP (NP (NN "报道"))
+ (VP (VV "说") (PU "，")
+  (IP
+   (PP (P "经")
+    (NP
+     (NP (NP (NP (NR "中国")) (NP (NN "环境") (NN "监测") (NN "总站会"))) (CC "同")
+      (NP (NP (NR "京津冀")) (CC "及")
+       (NP (NP (NN "周边") (NN "地区")) (ADJP (JJ "省级"))
+        (NP (NN "环境") (NN "监测") (NN "中心")))))
+     (NP (NN "研判"))))
+   (PU "，")
+   (IP (LCP (NP (ADJP (JJ "上述")) (NP (NN "时间"))) (LC "内"))
+    (NP (NP (NP (NR "京津冀") (NN "区域")) (NP (NN "中部"))) (NP (NR "太行山")))
+    (VP
+     (PP (P "以")
+      (NP (LCP (NP (NR "东") (PU "、") (NR "燕山")) (LC "以南")) (NP (NN "地区"))))
+     (VP (VV "可能") (VP (VV "出现") (NP (NN "低压") (NN "辐合带"))))))
+   (PU "，") (IP (NP (NN "污染") (NN "扩散") (NN "条件")) (VP (VA "不利"))) (PU "，")
+   (IP (NP (NN "区域") (NN "空气") (NN "质量"))
+    (VP (PP (P "以") (NP (QP (CD "4") (CLP (M "级"))) (NP (NN "中度"))))
+     (VP
+      (VP (VRD (VV "污染") (VV "至"))
+       (NP (NP (QP (CD "5") (CLP (M "级"))) (NP (NN "重度"))) (NP (NN "污染"))))
+      (VP (VV "为主")))))
+   (PU "，")
+   (IP (NP (NP (QP (CD "部分")) (NP (NN "地区"))) (QP (CD "部分")) (NP (NN "时段")))
+    (VP (ADVP (AD "更")) (ADVP (AD "将"))
+     (VP (VV "达到")
+      (NP (QP (CD "6") (CLP (M "级"))) (ADJP (JJ "严重"))
+       (NP (NN "污染") (NN "水平"))))))))
+ (PU "。"))
+
+(IP (NP (NR "北京市") (NN "环保局"))
+ (VP (VV "指") (PU "，")
+  (IP (IP (VP (LB "受") (CP (IP (NP (PN "此")) (VP (VV "影响")))))) (PU "，")
+   (NP (NR "北京"))
+   (VP
+    (VP (ADVP (AD "将"))
+     (VP (VV "经历")
+      (IP
+       (VP (QP (CD "一") (CLP (M "次")))
+        (VP (VV "重") (NP (NN "污染") (NN "天气")))))))
+    (PU "，") (CC "并")
+    (VP (VV "预计")
+     (IP (IP (VP (VV "要") (PP (P "到") (NP (NT "周三") (NN "夜间"))))) (PU "，")
+      (IP
+       (PP (P "当")
+        (IP (NP (NN "扩散") (NN "条件"))
+         (VP (PP (P "自") (NP (NN "北"))) (PP (P "向") (NP (NN "南")))
+          (ADVP (AD "逐步")) (VP (VV "改善")))))
+       (PU "，") (NP (DNP (NP (NR "北京")) (DEG "的")) (NP (NN "空气") (NN "质素")))
+       (VP (ADVP (AD "始"))
+        (VP (VV "会") (VP (ADVP (AD "逐步")) (VP (VV "好转")))))))))))
+ (PU "。"))
+
+(IP (PP (P "根据") (NP (ADJP (JJ "相关")) (ADJP (JJ "应急")) (NP (NN "预案"))))
+ (PU "，") (PP (P "在") (NP (NP (ADJP (JJ "橙色")) (NP (NN "预警"))) (NP (NN "期间"))))
+ (PU "，") (NP (NR "北京市"))
+ (VP
+  (VP (ADVP (AD "将"))
+   (VP (VV "实施")
+    (NP (NN "工作日") (NN "高峰") (NN "时段") (NN "区域") (NN "限行") (NN "管理")
+     (NN "措施"))))
+  (PU "，")
+  (VP (ADVP (AD "同时")) (ADVP (AD "亦"))
+   (VP (VV "包括")
+    (IP
+     (VP
+      (VP (VV "禁止")
+       (IP (NP (ADJP (JJ "相关")) (NP (NN "企业"))) (VP (VV "停产") (NP (NN "限产")))))
+      (PU "，") (CC "以及")
+      (VP (VV "禁止")
+       (IP
+        (VP (VP (VV "燃放") (NP (NN "烟花") (NN "爆竹"))) (CC "和")
+         (VP (VV "露天") (IP (VV "烧烤")))))))))))
+ (PU "。"))
+
+(IP (ADVP (AD "此外")) (PU "，") (NP (NN "当局"))
+ (VP (ADVP (AD "还"))
+  (VP (VV "建议") (NP (NN "中小学") (NN "幼儿园"))
+   (IP
+    (VP (VP (VV "停止") (NP (ADJP (JJ "户外")) (NP (NN "活动")))) (PU "，") (CC "并")
+     (VP (VV "希望")
+      (IP (NP (NN "市民")) (VP (VV "做好") (NP (NN "健康") (NN "防护")))))))))
+ (PU "。"))
+
+(IP (NP (NN "阴霾"))
+ (VP (VV "笼罩") (NP (NP (NN "大陆")) (QP (CD "十余")) (NP (NN "省")))))
+
+(IP (NP (NN "局地")) (VP (VV "能") (VP (VV "见度不足") (QP (CD "50") (CLP (M "米"))))))
+
+(IP
+ (IP (NP (NN "大陆") (NN "阴霾"))
+  (VP (ADVP (AD "再度")) (VP (VV "卷土") (NP (NN "重来")))))
+ (PU "，")
+ (IP (NP (NP (DP (DT "各")) (NP (NN "地"))) (NP (PU "「") (NN "霾情") (PU "」")))
+  (VP (VA "不断")))
+ (PU "。"))
+
+(IP
+ (IP (NP (NT "目前")) (NP (QP (CD "多")) (NP (NN "省") (NN "市")))
+  (VP (ADVP (AD "已"))
+   (VP (VV "发布")
+    (NP (NP (NN "空气") (NN "污染")) (ADJP (JJ "黄色")) (NP (NN "预警"))))))
+ (PU "，")
+ (IP
+  (IP (NP (QP (CD "局部")) (NP (NN "地区")))
+   (VP (VV "能")
+    (VP (VV "见度")
+     (IP (VP (ADVP (AD "不")) (VP (VV "足") (QP (CD "50") (CLP (M "米")))))))))
+  (PU "，") (IP (VP (VV "导致") (IP (NP (NN "车祸")) (VP (VV "发生"))))) (PU "，")
+  (IP
+   (IP (NP (ADJP (JJ "高速")) (NP (NN "公路")))
+    (VP (ADVP (AD "也")) (VP (SB "被") (VP (VSB (VV "迫") (VV "关闭"))))))
+   (PU "，")
+   (IP (NP (DNP (NP (QP (CD "部分")) (NP (NN "地区"))) (DEG "的")) (NP (NN "学校")))
+    (VP (ADVP (AD "已")) (VP (VV "停课"))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NN "中央") (NN "气象台"))
+  (VP (ADVP (AD "已")) (PP (P "于") (NP (NT "29日"))) (ADVP (AD "6时"))
+   (VP (VV "发布")
+    (NP (IP (VP (VV "重") (NP (NN "污染") (NN "天气")))) (ADJP (JJ "橙色"))
+     (NP (NN "预警"))))))
+ (PU "，")
+ (IP (NP (NT "29日") (NT "早晨") (CC "至") (NT "上午")) (PU "，")
+  (NP (NR "北京") (PU "、") (NR "天津") (PU "、") (NR "河北") (PU "、") (NR "山东")
+   (PU "、") (NR "江苏") (PU "、") (NR "安徽") (PU "、") (NR "浙江") (PU "、") (NR "湖北")
+   (PU "、") (NR "江西") (PU "、") (NR "广西") (PU "、") (NR "四川")
+   (NP (NN "盆地") (ETC "等")) (NP (NN "地空气") (NN "污染")))
+  (VP (VA "严重")))
+ (PU "，")
+ (IP
+  (VP (ADVP (AD "局地"))
+   (VP (VV "能")
+    (VP (ADVP (AD "见度")) (VP (VV "低于") (QP (CD "50") (CLP (M "米"))))))))
+ (PU "。"))
+
+(IP
+ (PP (P "据") (IP (NP (NP (NR "山东省") (NN "气象局")) (NP (NN "消息"))) (VP (VV "称"))))
+ (PU "，")
+ (VP (ADVP (AD "已")) (ADVP (AD "将"))
+  (VP (VV "重") (NP (NN "污染") (NN "天气"))
+   (IP
+    (VP (VV "黄色")
+     (IP
+      (IP (NP (NN "预警") (NN "信号"))
+       (VP (VRD (VV "升级") (VV "为"))
+        (NP (NP (ADJP (JJ "红色")) (NP (NN "预警"))) (NP (NN "信号")))))
+      (PU "，")
+      (NP
+       (DNP
+        (NP (NP (NR "济南") (PU "、") (NR "淄博") (PU "、") (NR "潍坊") (ETC "等"))
+         (QP (CD "10")) (NP (NN "市")))
+        (DEG "的"))
+       (QP (CD "部分")) (NP (NN "地区")))
+      (VP (VV "能")
+       (VP (ADVP (AD "见度")) (VP (VV "低于") (QP (CD "50") (CLP (M "米")))))))))))
+ (PU "。"))
+
+(IP (IP (VP (VV "重") (NP (NN "污染") (NN "天气"))))
+ (VP (VV "导致")
+  (IP (IP (NP (QP (CD "部分")) (ADJP (JJ "高速")) (NP (NN "路口"))) (VP (VV "封闭")))
+   (PU "，")
+   (IP (NP (NP (NN "当地")) (QP (CD "不少")) (NP (NN "民众")))
+    (VP (VP (VV "戴") (NP (NN "口罩"))) (VP (VV "出行"))))))
+ (PU "。"))
+
+(IP
+ (PP (P "根据")
+  (NP (NP (NR "山西省") (NN "环保厅")) (NP (ADJP (JJ "重")) (NP (NN "污染")))
+   (NP (NN "天气") (NN "预警") (NN "信息"))))
+ (PU "，")
+ (VP
+  (NP (NR "山西") (NR "运城市") (NT "12月") (NT "27日") (NT "24时")
+   (PRN (PU "-")
+    (IP
+     (VP (NP (NT "12月") (NT "29日") (NT "24时"))
+      (PP (P "在")
+       (LCP (NP (NP (DP (DT "全")) (NP (NN "市"))) (NP (NN "范围"))) (LC "内")))
+      (VP
+       (VP (VSB (VV "发布") (VV "重"))
+        (NP (NP (NN "污染") (NN "天气")) (ADJP (JJ "红色")) (NP (NN "预警"))))
+       (CC "并")
+       (VP (VV "启动") (IP (NP (NN "Ⅰ级")) (VP (VV "应急") (VP (VV "响应")))))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NR "杭州"))
+  (VP (ADVP (AD "也"))
+   (VP (VV "遭遇")
+    (NP (NP (NN "今冬")) (CP (IP (VP (ADVP (AD "最")) (VP (VA "严重")))) (DEC "的"))
+     (NP (NN "空气") (NN "污染"))))))
+ (PU "，")
+ (IP (NP (NN "城市"))
+  (VP (VV "陷入")
+   (NP (QP (CD "一") (CLP (M "片"))) (CP (IP (VV "朦胧")) (DEC "之"))
+    (NP (NN "中")))))
+ (PU "，")
+ (IP (LCP (NP (NN "清晨") (NN "路")) (LC "上")) (VP (VV "能") (VP (VV "见度不足百米"))))
+ (PU "。"))
+
+(IP (NP (DP (DT "该")) (NP (NN "市")))
+ (VP (LCP (IP (VP (PP (P "于") (NP (NT "28日"))) (VP (VV "晚5")))) (LC "时"))
+  (QP (CD "45") (CLP (M "分"))) (ADVP (AD "已"))
+  (VP (VSB (VV "发布") (VV "重"))
+   (NP (NP (NN "污染") (NN "天气")) (ADJP (JJ "黄色")) (NP (NN "预警")))))
+ (PU "。"))
+
+(IP (IP (VP (VV "受") (NP (DP (DT "此")) (NP (NN "影响"))))) (PU "，")
+ (IP
+  (IP (NP (NT "28日") (NT "上午") (NT "10时许")) (PU "，")
+   (NP (NP (NR "沪昆")) (ADJP (JJ "高速")) (NP (NN "公路")))
+   (VP (VV "发生")
+    (NP (QP (CD "数十") (CLP (M "辆"))) (ADJP (JJ "车连")) (NP (NN "环撞")))))
+  (PU "，")
+  (IP
+   (NP
+    (CP
+     (IP
+      (VP
+       (VP (ADVP (AD "已"))
+        (VP (VV "致") (NP (QP (CD "1")) (NP (NN "人"))) (IP (VV "死亡"))))
+       (PU "，") (IP (NP (QP (CD "多")) (NP (NN "人"))) (VP (VV "受伤")))))
+     (DEC "的"))
+    (NP (NN "交通") (NN "事故")))))
+ (PU "。"))
+
+(IP (NP (NR "江苏省") (NN "气象台"))
+ (VP (ADVP (AD "也"))
+  (VP (VV "升级")
+   (IP
+    (IP (VP (VV "发布") (NP (NP (ADJP (JJ "重")) (NP (NN "污染"))) (NP (NN "天气")))))
+    (VP (VV "橙色") (NP (NN "预警") (NN "信号"))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (NP (NP (NR "淮北") (PU "、") (NR "江淮") (ETC "等")) (QP (CD "部分"))
+   (NP (NN "地区")))
+  (VP (VV "能") (VP (VV "见度小于") (QP (CD "200") (CLP (M "米"))))))
+ (PU "，")
+ (IP (NP (NN "局部") (NN "地区"))
+  (VP (VP (VV "小于") (QP (CD "50") (CLP (M "米")))) (PU "，") (CC "并")
+   (VP (ADVP (AD "将")) (VP (VV "持续")))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NT "28日")) (PU "，")
+  (NP (NP (NR "陜西省") (NR "西安市")) (NP (NN "空气") (NN "质量")))
+  (VP (VC "为") (NP (ADJP (JJ "严重")) (NP (NN "污染")))))
+ (PU "，")
+ (IP
+  (NP
+   (NP (IP (VP (VV "重") (NP (NN "污染") (NN "天气") (NN "预警") (ETC "等"))))
+    (NP (NN "级")))
+   (NP (NN "升级")))
+  (VP (VP (VC "为") (NP (ADJP (JJ "橙色")) (NP (NN "预警")))) (PU "，") (CC "并")
+   (VP (VV "启动") (NP (QP (OD "Ⅱ") (CLP (M "级"))) (NP (NN "应急") (NN "响应"))))))
+ (PU "。"))
+
+(IP (PP (P "同") (NP (NR "日"))) (PU "，")
+ (NP (NP (NR "重庆市") (NN "环境") (NN "保护局")) (NP (NN "官方") (NN "网站")))
+ (VP (VV "显示")
+  (IP
+   (IP (NP (NN "空气") (NN "质量"))
+    (VP (VC "为") (NP (ADJP (JJ "中度")) (NP (NN "污染")))))
+   (PU "，")
+   (IP (NP (ADJP (JJ "首要")) (NP (NN "污染物"))) (VP (VC "为") (NP (NR "PM2.5"))))))
+ (PU "。"))
+
+(IP
+ (VP (VE "有")
+  (IP (NP (QP (CD "许多")) (NP (NN "大陆")) (NP (NN "网民")))
+   (VP (VV "发布") (AS "了")
+    (NP
+     (DNP (NP (NP (ADJP (JJ "有关")) (NP (NN "当地"))) (NP (NN "空气") (NN "污染")))
+      (DEG "的"))
+     (NP (NN "照片"))))))
+ (PU "。"))
+
+(IP
+ (VP (VE "有")
+  (IP (NP (NN "网民"))
+   (VP (VV "说") (PU "：")
+    (IP (PU "「")
+     (IP (LCP (NP (NT "十九大")) (LC "之后")) (NP (NP (NR "中共")) (NP (NN "把霾")))
+      (VP (ADVP (AD "就")) (VP (VV "变成") (AS "了") (NP (NN "雾")))))
+     (PU "，")
+     (IP (IP (NP (PN "我")) (VP (VV "叫") (QP (CD "一") (CLP (M "声")))))
+      (NP (PU "『") (NN "雾") (PU "』")) (NP (PN "它"))
+      (VP (VV "敢") (NP (NN "答应么"))))
+     (PU "，") (IP (VP (ADVP (AD "明明")) (VP (VC "是") (NP (NN "霾嘛")))))))))
+ (PU "。"))
+
+(FRAG (PU "」"))
+
+(IP (NP (NR "中国"))
+ (VP (VV "年逾")
+  (IP (NP (QP (CD "百万")) (NP (NN "人")))
+   (VP (VV "死") (PP (P "于") (NP (NN "空气") (NN "污染")))))))
+
+(IP
+ (IP (NP (NP (NN "内地") (NN "雾霾")) (NP (NN "问题")))
+  (VP (ADVP (AD "日趋")) (VP (VA "严重"))))
+ (PU "，")
+ (IP
+  (IP
+   (VP
+    (VP (PP (P "与") (LCP (NP (NT "1970年代")) (LC "末")))
+     (VP (VV "实施") (NP (NN "改革") (NN "开放"))))
+    (PU "，")
+    (VP (ADVP (AD "大力"))
+     (VP (VV "发展")
+      (IP (NP (NN "经济")) (VP (ADVP (AD "不")) (VP (VE "无") (NP (NN "关系")))))))))
+  (PU "，")
+  (IP (ADVP (AD "但"))
+   (LCP (QP (ADVP (AD "近")) (QP (CD "40") (CLP (M "年")))) (LC "来")) (PU "，")
+   (NP (CP (IP (NP (NN "内地")) (VP (ADVP (AD "高速")) (VP (VV "发展")))) (DEC "的"))
+    (NP (NN "经济")))
+   (VP (ADVP (AD "主要"))
+    (VP
+     (VP (VV "依靠")
+      (NP (NP (ADJP (JJ "低")) (NP (NN "能源") (NN "效率"))) (CC "和")
+       (NP (ADJP (JJ "廉价")) (NP (NN "劳力")))))
+     (VP (VV "推动")))))
+  (PU "，")
+  (IP
+   (NP (DNP (ADJP (JJ "相应")) (DEG "的"))
+    (NP (NN "环境") (NN "保护") (NN "意识") (CC "及") (NN "法规")))
+   (VP (ADVP (AD "却")) (ADVP (AD "非常")) (VP (VA "薄弱")))))
+ (PU "。"))
+
+(IP (NP (NT "去年")) (PU "，") (NP (NR "世卫"))
+ (PP (P "根据") (IP (NP (ADJP (JJ "最新")) (NP (NN "数据"))) (VP (VV "推算"))))
+ (PU "，")
+ (IP (NP (NT "2012年")) (NP (NR "中国"))
+  (VP (VE "有")
+   (IP (NP (QP (ADVP (AD "逾")) (QP (CD "103万"))) (NP (NN "人")))
+    (VP (VV "死") (PP (P "于") (NP (NN "空气") (NN "污染")))))))
+ (PU "，")
+ (IP
+  (IP (NP (NN "死亡") (NN "人数"))
+   (VP (VV "排名") (QP (NP (NN "全球")) (QP (OD "第一")))))
+  (PU "，")
+  (IP (NP (NN "远超"))
+   (VP
+    (NP (ADVP (AD "仅"))
+     (NP (DNP (NP (NN "次印度")) (DEG "的")) (QP (CD "62万")) (NP (NN "人")))))))
+ (PU "。"))
+
+(IP
+ (IP (LCP (NP (NT "2013年")) (LC "底")) (PU "，") (NP (NN "内地"))
+  (VP (VV "发生")
+   (NP (CP (IP (VP (VV "震惊") (NP (NN "中外")))) (DEC "的")) (ADJP (JJ "严重"))
+    (NP (NN "雾霾") (NN "事件")))))
+ (PU "，")
+ (PP (P "除")
+  (IP
+   (NP
+    (NP
+     (NP (NR "天津") (PU "、") (NR "河北") (PU "、") (NR "山东") (PU "、") (NR "江苏")
+      (PU "、") (NR "安徽") (PU "、") (NR "河南") (PU "、") (NR "浙江") (PU "、")
+      (NR "上海") (ETC "等"))
+     (QP (CD "多")) (NP (NN "地")))
+    (NP (NN "空气") (NN "质量") (NN "指数")))
+   (VP (VV "达到")
+    (NP (QP (CD "六") (CLP (M "级"))) (ADJP (JJ "严重"))
+     (NP (NN "污染") (NN "级别"))))))
+ (PU "，")
+ (NP (DNP (NP (NN "临近")) (DEG "的"))
+  (NP (NR "台湾") (PU "、") (NR "日本") (CC "和") (NR "韩国")))
+ (PU "，")
+ (IP (ADVP (AD "甚至")) (NP (NR "美国"))
+  (VP (ADVP (AD "也")) (VP (VV "受") (NP (NN "波及")))))
+ (PU "。"))
+
+(IP
+ (NP
+  (CP
+   (IP
+    (NP (NP (NP (NR "美国")) (NP (NN "健康") (NN "影响")) (NP (NN "研究所"))) (CC "和")
+     (NP (NR "清华") (NN "大学")))
+    (VP (NP (NT "去年")) (VP (VV "发布"))))
+   (DEC "的"))
+  (NP (NN "调查") (NN "报告")))
+ (VP (VV "显示") (PU "，")
+  (IP
+   (IP (NP (NN "燃煤"))
+    (VP (VC "是")
+     (NP (DNP (NP (NP (NT "当前")) (NP (NN "内地") (NN "空气") (NN "污染"))) (DEG "的"))
+      (ADJP (ADVP (AD "最")) (ADJP (JJ "主要"))) (NP (NN "来源")))))
+   (PU "，")
+   (IP (NP (NT "2013年"))
+    (NP (NP (NN "燃煤") (PU "「") (NN "贡献") (PU "」"))
+     (DNP (QP (CD "40") (CLP (M "%"))) (DEG "的")) (NP (NN "PM2")))
+    (VP (VV ".5")))
+   (PU "，")
+   (IP
+    (NP
+     (CP (IP (NP (DP (DT "这") (QP (CD "一"))) (NP (NN "因素"))) (VP (VV "造成")))
+      (DEC "的"))
+     (NP (NN "空气") (NN "污染")))
+    (VP (VV "导致") (QP (CD "36"))))
+   (PU ".")
+   (IP (NP (QP (CD "6万")) (NP (NN "人")))
+    (VP (VP (ADVP (AD "过")) (VP (VA "早"))) (VP (VV "死亡"))))))
+ (PU "。"))
+
+(IP
+ (NP (NP (NP (NR "北京市") (NN "环保") (NN "应急") (NN "中心")) (NP (NN "主任")))
+  (NP (NR "张大伟")))
+ (VP (VV "称") (PU "，")
+  (IP (IP (VP (PP (P "从") (NP (NN "国际") (NN "经验"))) (VP (VV "看")))) (PU "，")
+   (IP (NP (NN "空气") (NN "治理"))
+    (VP
+     (VP (VC "是")
+      (NP (QP (CD "一") (CLP (M "个"))) (DNP (ADJP (JJ "长期")) (DEG "的"))
+       (CP (IP (VA "艰巨")) (DEC "的")) (NP (NN "工程"))))
+     (PU "，")
+     (IP
+      (VP
+       (VP (VV "要") (QP (QP (CD "30")) (CC "到") (QP (CD "50") (CLP (M "年")))))
+       (VP (ADVP (AD "才"))
+        (VP (VE "有") (NP (DNP (NP (NN "根本")) (DEG "的")) (NP (NN "改变")))))))))))
+ (PU "。"))
+
+(IP (NP (NN "报告"))
+ (VP
+  (VP (ADVP (AD "并"))
+   (VP (VV "预测") (PU "，")
+    (IP
+     (CP (ADVP (CS "即使"))
+      (IP (NP (NN "内地")) (VP (ADVP (AD "严控")) (VP (VV "排放")))))
+     (PU "，")
+     (VP (QP (CD "2030") (CLP (M "年"))) (ADVP (AD "仍"))
+      (VP (VV "会")
+       (VP (VE "有")
+        (IP (NP (QP (CD "99万")) (NP (NN "人")))
+         (PP (P "因") (NP (NN "PM2"))))))))))
+  (PU ".") (VP (CD "5") (AS "过") (NP (NN "早死亡"))))
+ (PU "。"))
+
+(IP (NP (NP (NR "北京")) (NP (NN "雾霾"))) (VP (VV "卷土重来")))
+
+(IP (NP (NN "原因")) (VP (VV "可能") (VP (VC "是") (DP (DT "这") (CLP (M "个"))))))
+
+(IP
+ (IP
+  (VP (NP (NT "过去")) (ADVP (AD "常"))
+   (VP (VV "笼罩")
+    (NP
+     (NP (DNP (LCP (NP (NN "雾霾")) (LC "中")) (DEG "的")) (NP (NR "中国"))
+      (NP (NN "首都")))
+     (NP (NR "北京"))))))
+ (PU "，")
+ (IP
+  (VP
+   (PP (P "在")
+    (NP (CP (IP (VP (ADVP (AD "刚")) (VP (VV "过去")))) (DEC "的")) (NP (NT "冬天"))
+     (NP (NN "供暖季"))))
+   (ADVP (AD "却")) (ADVP (AD "经常")) (VP (VV "见到") (NP (NN "蓝天")))))
+ (PU "。"))
+
+(IP (ADVP (AD "只是")) (PU "，")
+ (LCP
+  (IP (NP (NN "冬季"))
+   (VP (VP (VV "控制") (NP (NN "污染") (NN "措施"))) (VP (VV "结束"))))
+  (LC "后"))
+ (PU "，")
+ (IP (NP (DNP (NP (NT "3月")) (DEG "的")) (NP (NR "北京")) (NP (NN "雾霾")))
+  (VP (VV "重现")))
+ (PU "，")
+ (IP (NP (NN "外媒"))
+  (VP (VV "分析") (PU "，")
+   (IP (NP (NP (NR "北京")) (NP (NN "空污")))
+    (VP (ADVP (AD "总是"))
+     (VP (VP (VV "紧随") (NP (NN "经济") (NN "规划")))
+      (VP (MSP "而") (VP (VV "变动"))))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (NP
+   (NP (NP (NR "英国")) (NP (NN "金融") (NN "时报"))
+    (PRN (PU "（") (NP (NN "FT")) (PU "）")) (NP (NN "中文网")))
+   (NP (NT "30日") (NN "报导")))
+  (PU "，") (NP (NR "北京市"))
+  (VP
+   (VP (NP (NT "2017年")) (ADVP (AD "细悬"))
+    (VP (VV "浮")
+     (NP (NP (NN "微粒") (PRN (PU "（") (NP (NN "PM2.5")) (PU "）")))
+      (ADJP (JJ "平均")) (NP (NN "浓度")))))
+   (VP (VV "下降") (IP (VP (VV "逾") (QP (CD "1") (PU "/") (CD "5")))))))
+ (PU "，")
+ (IP (NP (PN "这"))
+  (VP (VV "显示")
+   (IP (NP (NR "中国"))
+    (VP (BA "将")
+     (IP (NP (NN "重工业"))
+      (VP (VP (VV "迁出") (NP (NR "北京"))) (PU "、")
+       (VP (VP (VV "减少") (NP (NN "煤炭")))
+        (VP (VV "依赖")
+         (IP
+          (VP (PP (P "对") (NP (NN "环境")))
+           (VP (VV "产生") (NP (ADJP (JJ "积极")) (NP (NN "影响"))))))))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NP (NT "去年")) (NP (NT "11月") (CC "至") (NT "今年") (NT "3月"))) (PU "，")
+  (VP
+   (PP (P "在")
+    (NP
+     (CP
+      (IP
+       (VP (ADVP (AD "通常")) (PP (P "因") (NP (NN "燃煤") (NN "供暖")))
+        (VP (VV "导致") (IP (NP (NN "雾霾天")) (VP (VV "增多"))))))
+      (DEC "的"))
+     (NP (NN "冬季"))))
+   (VP (VV "供暖") (NP (NN "期间")))))
+ (PU "，")
+ (IP (NP (NP (NR "北京")) (NP (NN "空污"))) (VP (ADVP (AD "却")) (VP (VV "减少"))))
+ (PU "。"))
+
+(IP (NP (NN "报导"))
+ (VP (VV "指出") (PU "，")
+  (IP
+   (IP
+    (NP (DNP (LCP (NP (NT "2018年")) (LC "初")) (DEG "的"))
+     (NP (NN "刺激") (NN "支出")))
+    (VP (VV "可能")
+     (VP (VV "使得") (NP (NN "工业") (NN "活动"))
+      (IP (VP (ADVP (AD "大")) (VP (VV "增")))))))
+   (PU "，")
+   (IP
+    (VP (ADVP (AD "从而"))
+     (VP (VV "导致")
+      (IP (NP (NP (ADJP (JJ "重度")) (NP (NN "空气"))) (NP (NN "污染")))
+       (VP (VV "卷土重来"))))))))
+ (PU "。"))
+
+(IP (ADVP (AD "例如")) (PU "，")
+ (LCP
+  (IP (NP (NT "2017年") (NT "10月"))
+   (NP (NP (NR "中共")) (QP (OD "第19") (CLP (M "次")))
+    (NP (DP (DT "全")) (NP (NN "国"))) (NP (NN "代表") (NN "大会")))
+   (VP (VV "召开")))
+  (LC "前"))
+ (PU "，") (NP (NN "工业") (NN "活动"))
+ (VP (VP (ADVP (AD "大幅")) (VP (VV "上扬"))) (PU "，")
+  (VP (MSP "以")
+   (VP (VV "至")
+    (IP (NP (NP (NR "中国")) (NP (NN "年度"))) (NP (NN "煤炭") (NN "消耗量"))
+     (VP (VV "出现")
+      (IP
+       (VP (LCP (QP (CD "3") (CLP (M "年"))) (LC "来"))
+        (QP (OD "首") (CLP (M "次"))) (VP (VV "成长")))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NP (NR "中国")) (NP (NN "东北") (NN "省份")))
+  (NP (NT "2012年") (CC "至") (NT "2016年")) (NP (NN "经济")) (VP (VA "低迷")))
+ (PU "，")
+ (IP
+  (VP (ADVP (AD "有助"))
+   (VP (VV "减少")
+    (NP (DNP (NP (DP (DT "这") (QP (CD "一"))) (NP (NN "时期"))) (DEG "的"))
+     (NP (NN "总体") (NN "颗粒物") (NN "排放量"))))))
+ (PU "。"))
+
+(IP (ADVP (AD "通常")) (LCP (NP (NN "情况")) (LC "下")) (PU "，")
+ (PP (P "由于")
+  (IP (NP (NN "春节") (NN "期间")) (NP (DP (DT "全")) (NP (NR "中国")))
+   (VP (VV "放假"))))
+ (PU "，")
+ (NP (DNP (NP (NT "1月") (CC "和") (NT "2月")) (DEG "的")) (NP (NN "用电量")))
+ (VP (ADVP (AD "不")) (VP (VV "会") (VP (ADVP (AD "太")) (VP (VA "高"))))) (PU "。"))
+
+(IP
+ (IP (ADVP (AD "但"))
+  (NP (NP (NT "今年")) (DP (DT "头") (QP (CD "两") (CLP (M "个")))) (NP (NN "月")))
+  (PU "，") (NP (NN "电力") (NN "消耗量"))
+  (VP (VV "出现")
+   (IP (NP (CP (IP (VP (VV "创") (NP (NN "纪录")))) (DEC "的")))
+    (VP (VV "逾") (NP (QP (CD "11") (CLP (M "%"))) (NP (NN "成长")))))))
+ (PU "，")
+ (IP (NP (PN "这"))
+  (VP (ADVP (AD "很"))
+   (VP (VV "可能")
+    (VP (VC "是")
+     (NP
+      (CP
+       (IP
+        (VP
+         (PP (P "由")
+          (NP
+           (NP (NN "建筑") (PU "、") (NN "钢铁") (CC "和") (NN "水泥") (NN "生产")
+            (ETC "等"))
+           (ADJP (JJ "重")) (NP (NN "工业") (NN "活动"))))
+         (VP (VV "造成"))))
+       (DEC "的")))))))
+ (PU "。"))
+
+(IP (NP (NN "报导"))
+ (VP (VV "说") (PU "，")
+  (IP
+   (IP (NP (DNP (NP (NR "北京")) (DEG "的")) (NP (NN "空污") (NN "水准")))
+    (VP (ADVP (AD "总是"))
+     (PP (P "随着") (NP (DNP (NP (NN "经济") (NN "规划")) (DEG "的")) (NP (NN "变化"))))
+     (VP (MSP "而") (VP (VV "波动")))))
+   (PU "，") (IP (NP (NN "雾霾")) (VP (VV "缓解")))
+   (VP (ADVP (AD "或许")) (ADVP (AD "只"))
+    (VP (VC "是") (DNP (ADJP (JJ "暂时")) (DEG "的"))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (PP (P "在")
+   (LCP
+    (IP
+     (VP (NP (NT "冬季"))
+      (VP (VP (VV "控制") (NP (NN "污染") (NN "措施"))) (VP (VV "取消")))))
+    (LC "后")))
+  (PU "，") (NP (DNP (NP (NT "3月")) (DEG "的")) (NP (NR "北京")))
+  (VP (QP (ADVP (AD "连续")) (QP (CD "多") (CLP (M "天"))))
+   (VP (VV "出现") (NP (NN "雾霾天")))))
+ (PU "，")
+ (IP (VP (VV "加剧") (AS "了") (NP (DP (DT "这") (CLP (M "担"))) (NP (NN "忧")))))
+ (PU "。"))
+
+(IP (NP (NR "中国"))
+ (VP (VV "测试")
+  (NP (NP (ADJP (JJ "大型")) (NP (NN "空气"))) (NP (NN "洁净") (NN "设施")))))
+
+(IP (VP (ADVP (AD "或")) (VP (VV "改善") (NP (NN "雾霾") (NN "问题")))))
+
+(IP
+ (IP (NP (NR "中国")) (NP (NR "西安"))
+  (VP
+   (VP (PP (P "与") (NP (NP (NN "大陆")) (DP (DT "其他")) (NP (NN "地方"))))
+    (VP (VA "一样")))
+   (PU "，") (VP (VE "有") (NP (ADJP (JJ "严重")) (NP (NN "雾霾") (NN "问题"))))))
+ (PU "，")
+ (VP (VV "影响") (NP (NP (NN "空气") (NN "质素")) (CC "及") (NP (NN "居民") (NN "健康"))))
+ (PU "。"))
+
+(IP
+ (NP
+  (DNP
+   (NP
+    (NP
+     (NP (NP (NR "中国") (NN "科学院"))
+      (NP (NN "气溶胶") (NN "化学") (NN "物理") (NN "重点") (NN "研究室")))
+     (NP (NN "化学家")))
+    (NP (NR "曹军骥")))
+   (DEG "的"))
+  (NP (NN "研究") (NN "队伍")))
+ (PU "，")
+ (VP (VV "尝试")
+  (IP (IP (VP (VV "建设") (NP (ADJP (JJ "新")) (NP (NN "空气") (NN "过滤厂")))))
+   (VP (VV "改善") (NP (NN "空气") (NN "污染") (NN "问题")))))
+ (PU "。"))
+
+(IP (NP (NN "世界") (NN "卫生") (NN "组织"))
+ (VP (VV "调查")
+  (VP (VV "发现")
+   (IP (NP (NR "中国"))
+    (VP (PP (P "在") (QP (CD "2012") (CLP (M "年")))) (ADVP (AD "就"))
+     (VP (VE "有")
+      (IP (NP (QP (ADVP (CD "103")) (QP (CD "万"))) (NP (NN "人")))
+       (VP (PP (P "因") (IP (NP (NN "空气")) (VP (VV "污染"))))
+        (VP (MSP "而") (VP (VV "死亡"))))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (DP (DT "整") (CLP (M "座"))) (NP (NN "设施")))
+  (VP (ADVP (AD "不")) (ADVP (AD "只"))
+   (VP (VE "有")
+    (NP (QP (CD "60") (CLP (M "米"))) (CP (IP (VA "高")) (DEC "的"))
+     (NP (NN "烟囱"))))))
+ (PU "，")
+ (IP
+  (VP (ADVP (AD "还"))
+   (VP (VE "有") (NP (QP (CD "一") (CLP (M "座"))) (NP (NN "玻璃屋"))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NN "阳光"))
+  (VP (VV "会")
+   (VP (VV "照射") (PP (P "至") (LCP (NP (NN "玻璃") (NN "屋")) (LC "内"))))))
+ (PU "，") (IP (LCP (NP (NN "加热室")) (LC "内")) (NP (NN "空气"))) (PU "。"))
+
+(IP
+ (IP (NP (NN "热空") (NN "气会"))
+  (VP (VV "会") (VP (VV "升上") (NP (NN "大楼") (NN "顶部")))))
+ (PU "，")
+ (IP
+  (VP (LCP (NP (NN "过滤") (NN "空气")) (LC "后")) (ADVP (AD "再"))
+   (PP (P "从") (NP (NN "烟囱")))
+   (VP (VV "排出")
+    (NP (ADVP (AD "较"))
+     (NP (PU "「") (CP (IP (VA "清洁")) (DEC "的")) (NP (NN "空气")) (PU "」"))))))
+ (PU "。"))
+
+(IP (NP (NR "曹军骥"))
+ (VP
+  (PP (P "在")
+   (NP
+    (CP
+     (CP
+      (IP (NP (NP (NN "空气") (NN "污染")) (NP (NN "问题")))
+       (VP (ADVP (AD "特别")) (VP (VA "严重"))))
+      (DEC "的"))
+     (NP (NN "冬季")))
+    (NP (NN "期间"))))
+  (PU "，")
+  (VP (VV "选择") (NP (QP (CD "两")) (NP (NN "星期")))
+   (IP (VP (VV "测试") (NP (NN "空气") (NN "洁净") (NN "设施")) (IP (VV "效能"))))))
+ (PU "。"))
+
+(IP (NP (PN "他")) (ADVP (AD "分别"))
+ (PP (P "于")
+  (NP
+   (DNP
+    (LCP
+     (NP (NP (NN "设施")) (CC "和")
+      (NP (QP (CD "十") (CLP (M "公里"))) (NP (NN "范围"))))
+     (LC "内"))
+    (DEG "的"))
+   (QP (CD "十多") (CLP (M "个"))) (NP (NN "空气") (NN "监测站"))))
+ (PU "，") (NP (NN "监控") (NN "直径"))
+ (VP (VV "小于") (QP (CD "2.5") (CLP (M "微米")))
+  (IP (PRN (PU NIL (NP (NN "PM2.5")) (PU)))
+   (VP (VV "悬浮") (NP (CP (IP (VA "微粒")) (DEC "的")) (NP (NN "大气") (NN "浓度"))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (PN "他"))
+  (VP (VV "发现")
+   (IP (NP (ADJP (JJ "洁净")) (NP (NN "设施")))
+    (VP (ADVP (AD "平均")) (DP (DT "每") (CLP (M "日")))
+     (VP (VV "会")
+      (VP (VV "挂出")
+       (NP (QP (CD "500") (CLP (M "–")))
+        (DNP (QP (CD "800") (CLP (M "立方米"))) (DEG "的")) (ADJP (JJ "洁净"))
+        (NP (NN "空气")))))))))
+ (PU "，")
+ (IP (ADVP (AD "而")) (NP (DNP (NP (NN "周边")) (DEG "的")) (NP (NN "PM2")))
+  (PU ".")
+  (IP (NP (QP (CD "5")) (NP (NN "浓度")))
+   (VP (PP (P "比起") (NP (DP (DT "其他")) (NP (NN "城市")))) (ADVP (AD "亦"))
+    (VP (VV "减少") (QP (ADVP (AD "约")) (QP (CD "19") (CLP (M "%"))))))))
+ (PU "。"))
+
+(IP (IP (VP (ADVP (CS "虽")) (ADVP (AD "未")) (VP (VV "发表") (NP (NN "报告")))))
+ (PU "，")
+ (IP (ADVP (AD "但")) (NP (NN "研究") (NN "人员"))
+  (VP (VV "认为")
+   (IP (NP (NN "仪器"))
+    (VP (VV "能")
+     (VP (ADVP (AD "有效"))
+      (VP (VV "减少")
+       (NP (NP (NP (NR "中国")) (NP (NN "市区"))) (NP (NN "空气") (NN "质素")))))))))
+ (PU "。"))
+
+(IP (NP (PN "他"))
+ (VP (ADVP (AD "亦"))
+  (VP (VV "指出") (PU "，")
+   (IP
+    (IP (NP (NT "现时")) (NP (DP (DT "此")) (NP (NN "设计")))
+     (VP (ADVP (AD "只"))
+      (VP (VV "能")
+       (VP (VV "减少")
+        (NP (DNP (NP (NN "小量") (NN "范围")) (DEG "的"))
+         (NP (NN "空气") (NN "质素")))))))
+    (PU "，")
+    (VP
+     (VP (NP (NT "未来"))
+      (VP (VV "需要")
+       (NP (QP (CD "几") (CLP (M "个"))) (NP (NN "空气") (NN "洁净") (NN "系统")))
+       (IP (VV "配合"))))
+     (PU "，")
+     (VP (ADVP (AD "才"))
+      (VP (VV "能")
+       (VP (ADVP (AD "有效"))
+        (VP (VV "减少") (NP (NN "空气") (NN "污染") (NN "问题"))))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NT "现时"))
+  (NP (DNP (NP (DP (DT "此") (CLP (M "座"))) (NP (NN "设施"))) (DEG "的"))
+   (NP (NN "建造") (NN "经费")))
+  (VP (VV "达") (QP (CD "200") (CLP (M "万美元")))
+   (PRN (PU "（")
+    (VP (VP (VV "折合") (QP (ADVP (AD "约")) (QP (CD "1")))) (PU ",")
+     (VP (QP (CD "600")) (VP (QP (CD "万") (CLP (M "港元"))))))
+    (PU "）"))))
+ (PU "，")
+ (IP
+  (IP (NP (NN "营运") (NN "经费"))
+   (VP (QP (CD "一") (CLP (M "年"))) (VP (QP (ADVP (AD "约")) (QP (CD "30"))))))
+  (PU ",") (IP (QP (CD "000") (CLP (M "美元")))))
+ (PU "。"))
+
+(IP (NP (DP (DT "此")) (NP (NN "计划")))
+ (VP
+  (VP (ADVP (AD "亦"))
+   (VP (VV "引起")
+    (NP (NP (NP (NR "中国") (NN "科学院")) (NP (NN "白春") (NN "礼")))
+     (NP (NN "注意")))))
+  (PU "，") (CC "并")
+  (VP (VV "提议")
+   (IP
+    (VP (PP (P "在") (NP (NR "西安")))
+     (VP (VV "建设")
+      (IP
+       (NP (DP (DT "另") (QP (CD "一") (CLP (M "座"))))
+        (CP (IP (VP (QP (CD "300") (CLP (M "米"))) (VP (VA "高")))) (DEC "的"))
+        (NP (NP (ADJP (JJ "大型")) (NP (NN "空气"))) (ADJP (JJ "洁净"))
+         (NP (NN "设施"))))
+       (PU "，") (CC "及")
+       (IP
+        (VP (VV "尝试")
+         (IP
+          (VP (PP (P "在") (NP (NR "广州") (PU "、") (NR "河北") (CC "和") (NR "河南")))
+           (VP (VV "建立") (NP (ADJP (JJ "类似")) (NP (NN "设施"))))))))))))))
+ (PU "。"))
+
+(IP (ADVP (AD "然而")) (PU "，")
+ (NP
+  (NP (NP (NR "卡尼基美隆") (NN "大学")) (NP (NN "大气") (NN "粒子"))
+   (NP (NN "研究") (NN "人员")))
+  (NP (NR "Neil") (NN "Donahue")))
+ (VP
+  (VP (ADVP (AD "则")) (PP (P "对") (NP (DP (DT "此")) (NP (NN "方法"))))
+   (VP (VV "存疑")))
+  (PU "，") (CC "并")
+  (VP (VV "认为")
+   (IP
+    (VP (ADVP (AD "还"))
+     (VP (VE "有")
+      (IP
+       (NP (DP (DT "其他"))
+        (CP (IP (VP (ADVP (AD "更")) (VP (VA "便宜")))) (DEC "的")) (NP (NN "方法")))
+       (VP (VV "控制") (NP (NP (NN "空气") (NN "污染")) (NP (NN "问题"))))))))))
+ (PU "。"))
+
+(IP (NP (PN "他"))
+ (VP
+  (PP (P "在")
+   (LCP (NP (NP (PU "《") (NN "自然") (PU "》")) (NP (NN "访问"))) (LC "中")))
+  (VP (VV "指出") (PU "，")
+   (IP
+    (IP
+     (VP (NP (NT "现时")) (ADVP (AD "仍"))
+      (VP (VV "需") (NP (ADJP (ADVP (AD "更")) (ADJP (JJ "多"))) (NP (NN "数据")))
+       (IP
+        (VP (MSP "以")
+         (VP (VV "确认")
+          (NP (DNP (NP (DP (DT "此")) (NP (NN "设施"))) (DEG "的"))
+           (NP (NN "效益")))))))))
+    (PU "，")
+    (VP (VC "是")
+     (NP
+      (CP
+       (IP
+        (VP (VP (VV "大于") (NP (NN "建造") (NN "设施")))
+         (VP (MSP "所") (VP (VV "带来")))))
+       (DEC "的"))
+      (NP (NN "环境") (NN "伤害")))))))
+ (PU "。"))
+
+(IP (NP (PN "他"))
+ (VP (VV "认为")
+  (IP
+   (IP
+    (VP (ADVP (AD "改而")) (VP (VV "使用") (NP (ADJP (JJ "洁净")) (NP (NN "能量"))))))
+   (PU "，")
+   (IP
+    (VP (ADVP (AD "或"))
+     (VP (VV "禁止")
+      (IP
+       (VP (VP (VV "排出") (NP (NN "污染"))) (CC "或")
+        (VP (VV "可能")
+         (VP (VV "达到")
+          (NP
+           (CP
+            (IP (VP (ADVP (AD "同样")) (VP (VV "减少") (NP (NN "空气") (NN "污染")))))
+            (DEC "的"))
+           (NP (NN "目标"))))))))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (NP (NP (NP (NR "伊利诺伊") (NN "大学")) (NP (NN "大气") (NN "科学家")))
+   (NP (NR "Donld") (NR "Wuebbles")))
+  (VP (ADVP (CS "虽")) (VP (VV "认为") (IP (NP (NN "方法")) (VP (VA "有趣"))))))
+ (PU "，")
+ (IP (ADVP (AD "但"))
+  (VP (ADVP (AD "亦"))
+   (VP (VV "指出")
+    (IP (NP (NN "设施"))
+     (VP (ADVP (AD "或")) (ADVP (AD "只"))
+      (VP (VV "能")
+       (VP (VV "过滤")
+        (IP
+         (VP (VP (VV "悬浮") (NP (NN "微粒"))) (PU "，")
+          (VP (ADVP (AD "而"))
+           (VP (VV "忽略") (AS "了")
+            (NP (DP (DT "其他"))
+             (CP
+              (IP (VP (PP (P "对") (NP (NN "人体"))) (VP (VE "有") (NP (NN "害")))))
+              (DEC "的"))
+             (NP (NN "气体"))))))))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (DP (DT "此")) (NP (NN "设施")))
+  (VP (VV "可能")
+   (VP (VV "会")
+    (VP (VV "令") (NP (PU "「") (NN "天色") (PU "」"))
+     (IP (VP (VV "变") (DER "得") (VP (ADVP (AD "更")) (VP (VA "好")))))))))
+ (PU "，")
+ (IP (ADVP (AD "但"))
+  (VP (ADVP (AD "实际")) (ADVP (AD "未"))
+   (VP (VE "有") (NP (NN "改善") (NN "空气") (NN "质素")))))
+ (PU "。"))
+
+(IP (NP (NR "曹军骥"))
+ (VP (ADVP (AD "则"))
+  (VP (VV "回应指") (PU "，")
+   (IP (NP (NT "现时")) (NP (NN "设施"))
+    (VP (ADVP (AD "已"))
+     (VP (VV "能")
+      (VP (VV "移除")
+       (NP
+        (CP (IP (VP (LCP (NP (NN "大气")) (LC "中")) (VP (VV "存在")))) (DEC "的"))
+        (NP (NN "二氧") (NN "化氮")))))))))
+ (PU "。"))
+
+(IP
+ (VP (ADVP (AD "如何"))
+  (VP (VV "减少")
+   (NP (NP (NN "雾霾")) (DNP (PP (P "对") (NP (NN "人"))) (DEG "的"))
+    (NP (NN "危害"))))))
+
+(IP
+ (IP
+  (IP
+   (VP (VP (VV "提高") (NP (NP (PN "我们")) (NP (NN "个人"))))
+    (VP (VV "免") (NP (NN "疫力")))))
+  (VP (VC "是")
+   (NP
+    (CP
+     (IP (NP (NN "防治") (NN "雾霾") (NN "伤害"))
+      (VP (ADVP (AD "更")) (ADVP (AD "稳妥")) (VP (VA "强大"))))
+     (DEC "的"))
+    (NP (NN "办法")))))
+ (PU "，")
+ (IP (ADVP (AD "免")) (NP (NN "疫力"))
+  (VP (VC "是")
+   (NP (DNP (NP (NP (NN "人体")) (NP (PN "自身"))) (DEG "的"))
+    (NP (NN "防御") (NN "机制")))))
+ (PU "，")
+ (IP
+  (VP (VV "用来")
+   (IP
+    (VP (VP (VV "识别")) (CC "和")
+     (VP (VV "消灭")
+      (NP (ADJP (JJ "外来")) (CP (IP (VV "侵入")) (DEC "的")) (DP (DT "任何"))
+       (NP (NN "异物"))
+       (PRN (PU "（") (NP (NN "病毒") (PU "、") (NN "细菌") (ETC "等"))
+        (PU "）"))))))))
+ (PU "，")
+ (IP
+  (VP (VE "有")
+   (NP
+    (CP
+     (IP
+      (VP (NP (NP (NN "识别") (CC "和") (NN "处理")) (NP (NN "体内")))
+       (VP (VV "突变") (NP (NN "细胞") (CC "和") (NN "病毒") (NN "感染") (NN "细胞")))))
+     (DEC "的"))
+    (NP (NN "能力")))))
+ (PU "。"))
+
+(IP
+ (VP (ADVP (AD "如何"))
+  (VP (VV "减少")
+   (NP (NP (NN "雾霾")) (DNP (PP (P "对") (NP (NN "人"))) (DEG "的"))
+    (NP (NN "危害"))))))
+
+(NP (LST (CD "1")) (PU "、") (NP (NN "补充") (NN "维生素")) (CC "及")
+ (NP (NN "微量") (NN "元素")))
+
+(IP
+ (IP (NP (NP (QP (CD "许多")) (NP (NN "维生素"))) (CC "及") (NP (NN "微量") (NN "元素")))
+  (VP
+   (PP (P "对于")
+    (IP
+     (VP (VP (VV "防止") (NP (NN "空气") (NN "污染"))) (CC "及")
+      (VP (VV "维护") (NP (NN "心肺") (NN "健康"))))))
+   (VP (VE "有") (NP (ADJP (JJ "重要")) (NP (NN "作用"))))))
+ (PU "，")
+ (IP (IP (VP (VV "包括") (IP (VP (VV "维生") (NP (NN "素C")))))) (PU "，")
+  (IP (LST (CD "E")) (PU "，")
+   (IP (LST (CD "A")) (PU "，")
+    (VP
+     (NP (NP (NP (NR "β-胡")) (NP (NN "萝卜素"))) (PU "，") (CC "及")
+      (NP (NN "微量") (NN "元素硒") (PU "、") (NN "锌") (ETC "等")))))))
+ (PU "。"))
+
+(IP (NP (PN "它们"))
+ (VP (VV "具有")
+  (NP (CP (IP (VP (VV "调节") (NP (NN "免疫")))) (DEC "的")) (NP (NN "作用"))))
+ (PU "。"))
+
+(IP
+ (NP
+  (CP
+   (IP
+    (VP (VV "富含")
+     (NP (NP (ADJP (JJ "上述")) (NP (NN "维生素"))) (CC "及")
+      (NP (NN "微量") (NN "元素")))))
+   (DEC "的"))
+  (NP (NN "食物")))
+ (VP (VV "包括")
+  (NP (ADJP (JJ "新鲜"))
+   (NP (NN "水果") (PU "、") (NN "蔬菜") (PU "、") (NN "谷物") (PU "、") (NN "肉类")
+    (CC "及") (NN "海产品"))))
+ (PU "。"))
+
+(IP (LST (CD "2")) (PU "、") (VP (VV "保证") (NP (NN "饮水"))))
+
+(IP (NP (ADJP (JJ "充分")) (NP (NN "饮水")))
+ (VP (VV "可")
+  (VP (VP (ADVP (AD "及时")) (VP (VV "补充") (NP (NN "体液")))) (PU "，")
+   (VP (VV "增加") (NP (NN "血液") (NN "循环"))) (PU "，")
+   (VP (VV "促进") (NP (ADJP (JJ "新")) (NP (NR "陈代谢"))))))
+ (PU "。"))
+
+(IP (ADVP (AD "同时")) (PU "，")
+ (VP (VV "保持")
+  (IP
+   (IP
+    (NP (NP (ADJP (JJ "充分")) (NP (NN "饮水"))) (CC "及") (NP (NN "体液") (NN "平衡")))
+    (VP (VV "有助于")
+     (IP (NP (NN "皮肤"))
+      (VP (VV "形成") (NP (CP (IP (VA "完整")) (DEC "的")) (NP (NN "皮脂膜")))))))
+   (PU "，")
+   (IP
+    (NP
+     (CP (IP (VP (PP (P "对") (NP (NN "经皮肤"))) (VP (VCD (VV "接触") (VV "进入")))))
+      (DEC "的"))
+     (NP (NN "空气") (NN "污染物")))
+    (VP (VE "有")
+     (NP (DNP (ADJP (JJ "一定")) (DEG "的")) (NP (NN "抵抗") (NN "作用")))))))
+ (PU "。"))
+
+(NP (LST (CD "3")) (PU "、") (NP (ADJP (JJ "充足")) (NP (NN "睡眠"))) (PU "、")
+ (NP (NN "适量") (NN "运动")))
+
+(IP
+ (IP (NP (DNP (NP (ADJP (JJ "高")) (NP (NN "质量"))) (DEG "的")) (NP (NN "睡眠")))
+  (VP (VV "可以")
+   (VP (VV "使") (NP (ADJP (JJ "免疫")) (NP (NN "系统")))
+    (IP
+     (VP (VV "得到")
+      (NP (CP (IP (VA "充足")) (DEC "的")) (NP (NN "修复") (CC "和") (NN "调整"))))))))
+ (PU "，")
+ (VP (VV "有助于")
+  (IP
+   (VP (VV "改善")
+    (NP (DNP (NP (NN "人体")) (DEG "的")) (ADJP (JJ "免疫")) (NP (NN "系统"))))))
+ (PU "。"))
+
+(IP
+ (VP (PP (P "在") (LCP (NP (NT "中午") (NT "10点")) (LC "以后")))
+  (VP (VV "可")
+   (VP (VP (ADVP (AD "适当")) (VP (VV "运动"))) (PU "，")
+    (VP (VV "增强") (NP (NN "体质"))) (PU "，")
+    (VP (VV "提高") (NP (NN "机体") (NN "免疫") (NN "功能"))))))
+ (PU "。"))
+
+(IP (LST (CD "4")) (PU "、")
+ (VP (VV "提高") (NP (IP (NP (PN "自身")) (VP (VV "免"))) (NP (NN "疫力")))))
+
+(IP
+ (IP
+  (IP
+   (VP (VP (VV "提高") (NP (NP (PN "我们")) (NP (NN "个人"))))
+    (VP (VV "免") (NP (NN "疫力")))))
+  (VP (VC "是")
+   (NP
+    (CP
+     (IP (NP (NN "防治") (NN "雾霾") (NN "伤害"))
+      (VP (ADVP (AD "更")) (ADVP (AD "稳妥")) (VP (VA "强大"))))
+     (DEC "的"))
+    (NP (NN "办法")))))
+ (PU "，")
+ (IP (ADVP (AD "免")) (NP (NN "疫力"))
+  (VP (VC "是")
+   (NP (DNP (NP (NP (NN "人体")) (NP (PN "自身"))) (DEG "的"))
+    (NP (NN "防御") (NN "机制")))))
+ (PU "，")
+ (IP
+  (VP (VV "用来")
+   (IP
+    (VP (VP (VV "识别")) (CC "和")
+     (VP (VV "消灭")
+      (NP (ADJP (JJ "外来")) (CP (IP (VV "侵入")) (DEC "的")) (DP (DT "任何"))
+       (NP (NN "异物"))
+       (PRN (PU "（") (NP (NN "病毒") (PU "、") (NN "细菌") (ETC "等"))
+        (PU "）"))))))))
+ (PU "，")
+ (IP
+  (VP (VE "有")
+   (NP
+    (CP
+     (IP
+      (VP (NP (NP (NN "识别") (CC "和") (NN "处理")) (NP (NN "体内")))
+       (VP (VV "突变") (NP (NN "细胞") (CC "和") (NN "病毒") (NN "感染") (NN "细胞")))))
+     (DEC "的"))
+    (NP (NN "能力")))))
+ (PU "。"))
+
+(IP
+ (IP (NP (ADJP (JJ "免疫")) (NP (NN "功能")))
+  (VP (ADVP (AD "好比"))
+   (VP (VV "保卫")
+    (NP (NP (NP (PN "我们")) (NP (NN "人体"))) (CP (IP (VA "健康")) (DEC "的"))
+     (NP (NN "卫士"))))))
+ (PU "，")
+ (IP (NP (ADVP (AD "只有")) (NP (NN "免疫力")))
+  (VP (VV "提高") (AS "了")
+   (IP
+    (VP (ADVP (AD "才"))
+     (VP (VV "能")
+      (VP (ADVP (AD "有效"))
+       (VP (VV "预防")
+        (NP (NP (NN "雾霾") (PU "、") (NN "辐射") (ETC "等"))
+         (DNP (PP (P "对") (NP (PN "我们"))) (DEG "的")) (NP (NN "伤害"))))))))))
+ (PU "。"))
+
+(IP (LST (CD "5")) (PU "、")
+ (VP (ADVP (AD "尽可能"))
+  (VP (VV "减少") (IP (VP (VV "呼入") (NP (ADJP (JJ "有害")) (NP (NN "气体"))))))))
+
+(IP
+ (IP (IP (NP (NN "雾霾天")) (VP (VV "减少") (NP (NN "出门"))))
+  (VP (VC "是")
+   (VP (VV "减少")
+    (NP
+     (CP (IP (NP (NN "雾霾") (NN "伤害")) (VP (ADVP (AD "最")) (VP (VA "直接"))))
+      (DEC "的"))
+     (NP (NN "办法"))))))
+ (PU "，")
+ (IP
+  (NP (ADVP (AD "尤其是"))
+   (NP
+    (CP
+     (IP
+      (VP (VE "有")
+       (NP (NN "心脑") (NN "血管") (PU "、") (NN "呼吸") (NN "系统") (NN "疾病"))))
+     (DEC "的"))
+    (NP (NN "人群"))))
+  (PU "，")
+  (VP (ADVP (AD "更"))
+   (VP (VV "要") (VP (ADVP (AD "尽量")) (VP (VV "少") (NP (NN "出门")))))))
+ (PU "。"))
+
+(IP
+ (VP (LCP (IP (VP (VV "必须") (VP (VV "外出")))) (LC "时"))
+  (VP (VV "记") (AS "着")
+   (IP
+    (VP (VP (VV "戴") (NP (NN "口罩"))) (PU "，")
+     (VP (ADVP (AD "不"))
+      (VP (VV "要")
+       (VP (VP (VV "开启") (NP (NN "车窗"))) (PU "，")
+        (VP (VV "减少")
+         (NP (DNP (PP (P "对") (NP (NN "呼吸道"))) (DEG "的"))
+          (NP (NN "污染")))))))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (VP
+   (PP (P "在")
+    (LCP
+     (NP (CP (IP (NP (NN "大雾") (NN "天气")) (VP (VV "升级"))) (DEC "的"))
+      (NP (NN "情况")))
+     (LC "下")))
+   (ADVP (AD "尽量")) (ADVP (AD "不")) (VP (VV "要") (VP (VV "开") (NP (NN "窗"))))))
+ (PU "，")
+ (IP
+  (VP (ADVP (AD "确实"))
+   (VP (VV "需要")
+    (CP (IP (VP (VP (VV "开") (NP (NN "窗"))) (VP (VV "透气")))) (SP "的话")))))
+ (PU "，")
+ (IP
+  (VP
+   (VP (LCP (IP (VP (VV "开") (NP (NN "窗")))) (LC "时"))
+    (VP (VV "应")
+     (VP
+      (VP (ADVP (AD "尽量"))
+       (VP (VV "避开") (NP (NN "早晚") (NN "雾霾") (NN "高峰") (NN "时段"))))
+      (PU "，")
+      (VP (VV "可以")
+       (VP (BA "将")
+        (IP (NP (NN "窗户"))
+         (VP (VV "打开") (NP (QP (CD "一") (CLP (M "条"))) (NP (NN "缝通风"))))))))))
+   (PU "，")
+   (VP (ADVP (AD "不"))
+    (VP (VV "让") (NP (NN "风"))
+     (IP (VP (ADVP (AD "直接")) (VP (VRD (VV "吹") (VV "进来")))))))
+   (PU "，")
+   (VP (VV "通风")
+    (IP (NP (NN "时间"))
+     (VP
+      (VP (DP (DT "每") (CLP (M "次")))
+       (PP (P "以") (NP (QP (CD "半")) (NP (NN "小时"))))
+       (VP (VV "至") (NP (QP (CD "一")) (NP (NN "小时")))))
+      (VP (MSP "为") (VP (VV "宜"))))))))
+ (PU "。"))
+
+(IP (NP (NN "雾霾"))
+ (VP (PP (P "对") (NP (DNP (NP (NN "人体")) (DEG "的")) (NP (NN "危害"))))
+  (VP (VE "有") (DP (DT "哪些")))))
+
+(IP (LST (CD "1")) (PU "、")
+ (IP (NP (DNP (NP (NN "患癌症")) (DEG "的")) (NP (NN "风险"))) (VP (VV "增高"))))
+
+(IP
+ (IP
+  (NP
+   (CP
+    (IP
+     (NP (CP (IP (VP (VV "众所周知") (PU "，") (VV "吸烟"))) (DEC "的")) (NP (NN "人")))
+     (VP (VV "患") (NP (NN "肺癌"))))
+    (DEC "的"))
+   (NP (NN "几率")))
+  (VP (PP (P "比") (NP (ADJP (JJ "普通")) (NP (NN "人"))))
+   (VP (VA "高") (QP (CD "60") (CLP (M "%"))))))
+ (PU "，")
+ (IP (ADVP (AD "而"))
+  (NP (CP (IP (VP (LCP (NP (NN "雾霾")) (LC "里")) (VP (VV "含有")))) (DEC "的")))
+  (VP (VE "有")
+   (IP (NP (ADJP (JJ "害颗")) (NP (NN "粒物")))
+    (VP (ADVP (AD "更")) (VP (VA "多"))))))
+ (PU "，")
+ (IP (ADVP (AD "所以")) (NP (NN "雾霾"))
+  (VP (PP (P "比") (NP (NN "吸烟"))) (ADVP (AD "更"))
+   (VP (VA "易") (VP (VV "致癌")))))
+ (PU "。"))
+
+(IP (LST (CD "2")) (PU "、")
+ (VP (VV "引发")
+  (NP (DP (DT "各") (CLP (M "种"))) (ADJP (JJ "细菌性")) (NP (NN "疾病")))))
+
+(PP (P "因为")
+ (IP
+  (IP (NP (NN "雾霾") (NN "天气") (NN "阳光") (NN "照射"))
+   (VP (ADVP (AD "不")) (VP (VV "到") (NP (NN "大地")))))
+  (PU "，") (CC "或者") (IP (NP (NN "阳光")) (VP (VA "微弱"))))
+ (PU "。"))
+
+(IP
+ (VP (ADVP (AD "这样"))
+  (VP (VV "会")
+   (VP
+    (VP (VV "使地")
+     (NP (CP (IP (VA "表面")) (DEC "的")) (NP (NN "细菌") (NN "病毒"))
+      (NP (NN "微生物")))
+     (IP (VP (ADVP (AD "快速")) (VP (VV "繁殖")))))
+    (PU "，") (VP (VV "引起") (NP (NP (NN "过敏") (ETC "等")) (NP (NN "疾病")))))))
+ (PU "。"))
+
+(IP (LST (CD "3")) (PU "、")
+ (VP (ADVP (AD "易")) (VP (VV "发生") (NP (NN "交通") (NN "事故")))))
+
+(IP (NP (NN "雾霾") (NN "天气"))
+ (VP (VV "会")
+  (VP (VV "让") (ADVP (AD "可"))
+   (IP
+    (VP (VP (ADVP (AD "见度")) (VP (VV "降低"))) (PU "，")
+     (VP (DVP (VP (VA "严重")) (DEV "的")) (ADVP (AD "只"))
+      (VP (VV "能")
+       (VP (VV "看清")
+        (NP (DNP (QP (CD "几") (CLP (M "米"))) (DEG "的")) (NP (NN "距离"))))))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (VP
+   (PP (P "对")
+    (NP (DNP (LCP (NP (NN "道路")) (LC "上")) (DEG "的"))
+     (NP (NN "行人") (PU "、") (NN "车辆"))))
+   (ADVP (AD "都"))
+   (VP (VE "有")
+    (NP (CP (IP (VP (ADVP (AD "很")) (VP (VA "大")))) (DEC "的"))
+     (NP (NN "安全") (NN "隐患"))))))
+ (PU "，") (IP (VP (ADVP (AD "十分")) (VP (VA "危险")))) (PU "。"))
+
+(IP (LST (CD "4")) (PU "、") (VP (VV "伤") (NP (NN "血管"))))
+
+(IP
+ (IP (NP (NP (NN "浓雾") (NN "天气")) (NP (NN "压")))
+  (VP (ADVP (AD "比较")) (VP (VA "低"))))
+ (PU "，")
+ (IP
+  (IP (NP (NN "人"))
+   (VP (VV "会")
+    (VP (VV "产生")
+     (NP (QP (CD "一") (CLP (M "种"))) (CP (IP (VA "烦躁")) (DEC "的"))
+      (NP (NN "感觉"))))))
+  (PU "，")
+  (IP (NP (NN "血压"))
+   (VP (ADVP (AD "自然")) (VP (VV "会") (VP (VV "有所") (NP (NN "增高")))))))
+ (PU "。"))
+
+(IP (ADVP (AD "另外")) (PU "，")
+ (IP (NP (NN "雾天")) (ADVP (AD "往往")) (NP (NN "气温"))
+  (VP (ADVP (AD "较")) (VP (VA "低"))))
+ (PU "，") (QP (CD "一些")) (NP (ADJP (JJ "高")) (NP (NN "血压"))) (PU "、")
+ (IP (NP (NN "冠心") (NN "病患者"))
+  (VP (PP (P "从") (NP (CP (IP (VA "温暖")) (DEC "的")) (NP (NN "室内"))))
+   (ADVP (AD "突然"))
+   (VP (VV "走到") (NP (CP (IP (VA "寒冷")) (DEC "的")) (NP (NN "室外"))))))
+ (PU "，") (IP (NP (NN "血管") (NN "热胀")) (VP (VV "冷缩"))) (PU "，")
+ (IP
+  (VP
+   (VP (ADVP (AD "也"))
+    (VP (VV "可") (VP (VV "使") (NP (NN "血压")) (IP (VV "升高")))))
+   (PU "，")
+   (VP (VV "导致")
+    (NP (DNP (NP (NP (NN "中风") (PU "、") (NN "心肌")) (NP (NN "梗死"))) (DEG "的"))
+     (NP (NN "发生"))))))
+ (PU "。"))
+
+(UCP (LST (CD "5")) (PU "、") (NP (NN "伤脑")))
+
+(IP (NP (NN "雾霾"))
+ (VP (CC "不仅") (VP (VV "伤害") (NP (NN "器官"))) (PU "，")
+  (VP (ADVP (AD "更")) (PP (P "在") (LCP (NP (NN "无形")) (LC "之中")))
+   (VP (VV "影响") (AS "着") (NP (NN "神经") (NN "系统")))))
+ (PU "。"))
+
+(IP (NP (NN "专家"))
+ (VP (ADVP (AD "曾"))
+  (VP (VV "介绍") (PU "，")
+   (IP
+    (IP
+     (NP
+      (NP (NP (NR "美国")) (QP (OD "第65") (CLP (M "届")))
+       (NP (NN "老年医") (NN "学会")))
+      (NP (NN "年会")))
+     (VP (VE "有") (NP (QP (M "个")) (NP (NN "结论")))))
+    (PU "，")
+    (IP
+     (IP (LCP (NP (NN "空气")) (LC "中")) (NP (NR "PM2.5"))
+      (VP (VV "增加") (QP (CD "10微") (CLP (M "克")))))
+     (VP (QP (PU "/") (CLP (M "立方米")))))
+    (PU "，") (NP (DNP (NP (NN "人")) (DEG "的")) (NP (NN "脑功能")))
+    (VP (ADVP (AD "就"))
+     (VP (VV "会") (VP (VV "衰老") (QP (CD "3") (CLP (M "年")))))))))
+ (PU "。"))
+
+(UCP (LST (CD "6")) (PU "、") (NP (NN "伤肺")))
+
+(IP
+ (IP (NP (NN "雾霾天")) (PP (P "对") (NP (NN "呼吸") (NN "系统"))) (NP (NN "影响"))
+  (VP (ADVP (AD "最")) (VP (VA "大"))))
+ (PU "，")
+ (IP (NP (PN "这"))
+  (VP (ADVP (AD "已"))
+   (VP (VV "成为")
+    (NP (DNP (NP (QP (CD "多数")) (NP (NN "人"))) (DEG "的")) (NP (NN "共识"))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NN "呼吸") (NN "系统") (CC "与") (NN "外界") (NN "环境") (NN "接触"))
+  (VP (ADVP (AD "最")) (VP (VA "频繁"))))
+ (PU "，")
+ (IP (NP (CP (VP (ADVP (AD "且")) (VP (VV "接触")))) (NP (NN "面积")))
+  (VP (ADVP (AD "较")) (VP (VA "大"))))
+ (PU "，")
+ (IP (NP (QP (CD "数百") (CLP (M "种"))) (NP (NN "大气") (NN "颗粒物")))
+  (VP (VV "能")
+   (VP (VP (ADVP (AD "直接")) (VP (VV "进入"))) (CC "并")
+    (VP (VV "黏附")
+     (IP
+      (VP
+       (VP (PP (P "在") (LCP (NP (NN "人体")) (LC "上")))
+        (VP (VV "下呼") (LCP (NP (NN "吸道") (CC "和") (NN "肺叶")) (LC "中"))))
+       (PU "，") (CC "并且")
+       (VP (QP (CD "大部分"))
+        (VP (VV "会")
+         (VP (LB "被") (CP (IP (NP (NN "人体")) (VP (VV "吸入")))))))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NR "美国"))
+  (VP (VV "调查") (AS "了")
+   (NP (QP (CD "2.5万") (CLP (M "名")))
+    (CP
+     (IP
+      (VP (VE "有")
+       (IP (NP (NN "心脏病") (CC "或") (NN "心脏"))
+        (VP (ADVP (AD "不")) (ADVP (AD "太")) (VP (VA "好"))))))
+     (DEC "的"))
+    (NP (NN "人")))))
+ (PU "，")
+ (IP (IP (VP (VV "发现") (NP (NN "PM2"))))
+  (VP
+   (QP (PU ".")
+    (IP
+     (LCP
+      (IP (IP (VP (QP (CD "5")) (VP (VV "增加") (QP (CD "10微") (CLP (M "克"))))))
+       (PU "/") (M "立方米"))
+      (LC "后"))
+     (PU "，") (NP (NN "病人") (NN "病死率"))
+     (VP (VV "会") (VP (VV "提高") (QP (CD "10") (CLP (M "%"))))))
+    (PU "~") (QP (CD "27") (CLP (M "%"))))))
+ (PU "。"))
+
+(IP (NP (NP (NR "悬浮")) (NP (NN "微粒") (NN "浓度")))
+ (VP (ADVP (AD "过")) (VP (VA "高"))))
+
+(IP (NP (NP (NR "南韩")) (NP (NN "职棒赛")))
+ (VP (QP (OD "首") (CLP (M "度"))) (VP (VV "取消"))))
+
+(IP
+ (IP (NP (NR "南韩"))
+  (VP (NP (NT "最近")) (ADVP (AD "也"))
+   (VP (SB "被") (VP (VV "雾霾") (IP (VV "侵袭"))))))
+ (PU "，")
+ (IP (LCP (NP (NN "空气")) (LC "中"))
+  (VP (VV "悬浮")
+   (IP (VP (NP (ADJP (JJ "微粒")) (NP (NN "浓度"))) (VP (VV "居高不下"))))))
+ (PU "，")
+ (IP (NP (ADVP (AD "连")) (NP (NP (NR "南韩")) (NP (NN "职棒") (NN "赛事"))))
+  (VP (ADVP (AD "都"))
+   (VP (VV "破天荒")
+    (IP
+     (VP (PP (P "因") (NP (NN "空气") (NN "品质")))
+      (VP (MSP "而") (VP (VV "取消"))))))))
+ (PU "。"))
+
+(IP (NP (NN "樱花季"))
+ (VP (ADVP (AD "也")) (PP (P "因为") (NP (NN "雾霾"))) (PU "，")
+  (VP (VV "打乱") (AS "了")
+   (NP (DNP (NP (QP (CD "不少")) (NP (NN "民众"))) (DEG "的"))
+    (NP (NN "赏樱") (NN "计划")))))
+ (PU "。"))
+
+(IP (IP (NP (NN "天空")) (VP (NP (QP (CD "一") (CLP (M "片"))) (NP (NN "灰蒙蒙")))))
+ (PU "，")
+ (IP (NP (NP (NR "南韩")) (ADJP (JJ "大")) (NP (NN "都市")))
+  (VP (ADVP (AD "像是")) (QP (OD "首") (CLP (M "尔")))
+   (VP (VV "垄罩") (PP (P "在") (LCP (NP (NN "雾霾")) (LC "之下"))))))
+ (PU "。"))
+
+(IP (NP (NN "记者")) (PU "：")
+ (IP (PU "「")
+  (IP
+   (VP (DP (DT "前") (QP (CD "几") (CLP (M "天")))) (ADVP (AD "还"))
+    (VP (VV "可以") (VP (VV "看到") (NP (NN "高楼") (NN "大厦"))))))
+  (PU "，")
+  (IP (ADVP (AD "但")) (NP (NT "现在")) (NP (NN "能见度"))
+   (VP (ADVP (AD "也"))
+    (VP (VP (VV "变得")) (VP (ADVP (AD "很")) (VP (VA "差")))))))
+ (PU "。"))
+
+(FRAG (PU "」"))
+
+(IP
+ (IP
+  (VP (LCP (NP (NN "空气")) (LC "中"))
+   (VP (VV "悬浮")
+    (NP (DNP (NP (ADJP (JJ "微粒")) (NP (NN "浓度"))) (DEG "之")) (NP (NN "高"))))))
+ (PU "，")
+ (IP (NP (ADVP (AD "连")) (NP (NP (NR "南韩")) (NP (NN "职棒赛"))))
+  (VP (ADVP (AD "都")) (VP (SB "被") (VP (VV "迫") (IP (VV "取消"))))))
+ (PU "。"))
+
+(IP (NP (NN "主播")) (PU "：") (PU "「")
+ (VP
+  (PP (P "在")
+   (NP (NP (QP (OD "首") (CLP (M "尔"))) (NP (NN "蚕室"))) (CC "以及")
+    (NP (DNP (NP (NN "京畿道") (NN "水原")) (DEG "的")) (NP (NN "棒球") (NN "比赛")))))
+  (VP (VV "取消") (AS "了")))
+ (PU "。"))
+
+(FRAG (PU "」"))
+
+(IP
+ (IP (ADVP (AD "其实"))
+  (LCP
+   (IP (NP (ADJP (JJ "先前")) (NP (NN "球迷")))
+    (VP (VP (VV "去") (NP (NN "现场"))) (VP (VV "看") (NP (NN "球")))))
+   (LC "时"))
+  (NP (NN "天气") (NN "状况"))
+  (VP (ADVP (AD "就")) (ADVP (AD "不")) (ADVP (AD "太")) (VP (VA "好"))))
+ (PU "。"))
+
+(IP
+ (VP
+  (VP (DP (DT "这") (CLP (M "次"))) (PP (P "因为") (NP (NN "雾霾")))
+   (VP (VV "取消") (NP (NN "赛事"))))
+  (PU "，")
+  (VP (ADVP (AD "也"))
+   (VP (VC "是")
+    (QP (NP (NP (NR "南韩")) (NP (NN "职棒")))
+     (LCP (QP (CD "36") (CLP (M "年"))) (LC "来"))
+     (QP (OD "第一") (CLP (M "次")))))))
+ (PU "。"))
+
+(IP
+ (VP (VV "旅") (NR "韩")
+  (VP (VV "投手")
+   (NP (CP (IP (NP (NR "王维中")) (VP (MSP "所") (VP (VV "属")))) (DEC "的"))
+    (NP (NN "NC") (NN "恐龙队"))))
+  (PU "，")
+  (VP (ADVP (AD "原"))
+   (VP (VV "定")
+    (IP
+     (VP
+      (PP (P "对")
+       (NP (CP (IP (VP (VV "上斗") (NP (NN "山熊")))) (DEC "的")) (NP (NN "赛程"))))
+      (ADVP (AD "也")) (VP (VV "受到") (NP (NN "影响"))))))))
+ (PU "。"))
+
+(IP (IP (NP (NN "雾霾")) (VP (VV "来袭"))) (PU "，")
+ (NP (DNP (NP (NR "南韩")) (DEG "的")) (LCP (NP (NN "空气") (NN "质量")) (LC "时"))
+  (ADJP (JJ "好")) (NP (NN "时坏")))
+ (PU "，")
+ (VP (ADVP (AD "连带")) (ADVP (AD "也"))
+  (VP (VV "打乱") (AS "了")
+   (NP (DNP (NP (QP (CD "不少")) (NP (NN "民众"))) (DEG "的"))
+    (NP (NN "赏樱") (NN "计划")))))
+ (PU "。"))
+
+(IP (NP (NN "民众")) (PU "：")
+ (IP (PU "「")
+  (IP (NP (NN "雾霾") (NN "问题"))
+   (VP (ADVP (AD "还是")) (ADVP (AD "很")) (VP (VA "严重"))))
+  (PU "，") (IP (ADVP (AD "所以")) (VP (ADVP (AD "很")) (VP (VA "麻烦")))))
+ (PU "。"))
+
+(FRAG (PU "」"))
+
+(IP (NP (NN "民众")) (PU "：")
+ (IP (PU "「")
+  (IP (NP (NT "今天")) (NP (NN "空气"))
+   (VP (ADVP (AD "不"))
+    (VP (VV "脏")
+     (IP (NP (NN "天气")) (VP (ADVP (AD "也")) (ADVP (AD "很")) (VP (VA "好")))))))
+  (PU "，")
+  (IP
+   (VP (VP (VV "来到") (NP (DNP (NP (PN "这样")) (DEG "的")) (NP (NN "观光区"))))
+    (PU "，")
+    (VP (VV "花开") (AS "了")
+     (IP
+      (VP (VV "感觉")
+       (IP (IP (NP (NN "春天")) (VP (ADVP (AD "也")) (VP (VV "来") (AS "了"))))
+        (PU "，") (VP (ADVP (AD "真的")) (ADVP (AD "很")) (VP (VA "好"))))))))))
+ (PU "。"))
+
+(FRAG (PU "」"))
+
+(IP
+ (IP
+  (VP (VV "趁") (AS "着")
+   (NP
+    (CP
+     (IP
+      (VP (LCP (NP (NN "空气")) (LC "中"))
+       (VP (VV "悬浮") (IP (NP (NN "微粒") (NN "浓度")) (VP (VV "降低"))))))
+     (DEC "的"))
+    (NP (NN "时候")))))
+ (PU "，")
+ (IP (NP (NN "民众"))
+  (VP
+   (VP (ADVP (AD "赶紧"))
+    (VP (VP (VV "换上") (NP (NP (ADJP (JJ "传统")) (NP (NN "韩服"))) (NP (NN "外出"))))
+     (VP (VV "赏") (NP (NN "花")))))
+   (PU "，") (VP (VV "把握") (NP (NN "樱花季") (NN "美景")))))
+ (PU "。"))
+
+(IP (ADVP (AD "但是"))
+ (NP (DNP (NP (NN "当地")) (DEG "的")) (NP (NN "气象") (NN "单位")))
+ (VP (ADVP (AD "也"))
+  (VP (VV "提醒") (PU "，")
+   (IP
+    (IP
+     (NP (DNP (NP (IP (VRD (VV "接") (VV "下来"))) (NP (NR "南韩"))) (DEG "的"))
+      (NP (NN "雾霾") (NN "问题")))
+     (VP (VV "会") (VP (ADVP (AD "更加")) (VP (VA "严重")))))
+    (PU "，")
+    (VP (LCP (IP (NP (NN "民众")) (VP (VV "外出"))) (LC "时")) (ADVP (AD "务必"))
+     (VP (VV "要")
+      (VP (VP (VV "携带") (NP (NN "口罩"))) (PU "，")
+       (VP (VV "保护") (NP (NN "呼吸道")))))))))
+ (PU "。"))
+
+(NP (LCP (NP (NP (NR "中国")) (NP (NN "飘来史"))) (LC "上"))
+ (ADJP (ADVP (AD "最")) (ADJP (JJ "严重"))) (NP (NN "霾害")))
+
+(IP (NP (NP (NR "南韩")) (NP (NN "民众"))) (VP (VV "怒") (AS "了")))
+
+(IP
+ (IP
+  (NP
+   (CP (IP (VP (LCP (NP (NN "史")) (LC "上")) (ADVP (AD "最")) (VP (VA "严重"))))
+    (DEC "的"))
+   (NP (NR "细悬")) (NP (NN "浮微粒")) (PRN (PU "（") (NP (NR "PM2.5")) (PU "）"))
+   (NP (NN "空污")))
+  (VP (VP (NP (NT "近日")) (VP (VV "袭卷") (NP (NR "南韩")))) (PU "，")
+   (VP (PP (P "为") (NP (DP (DT "各")) (NP (NN "地"))))
+    (VP (VV "带来")
+     (NP (CP (IP (VP (ADVP (AD "非常")) (VP (VA "严重")))) (DEC "的"))
+      (NP (NN "空气") (NN "污染")))))))
+ (PU "，")
+ (IP
+  (IP
+   (NP (CP (IP (NP (QP (CD "许多")) (NP (NN "地区"))) (VP (VV "测得"))) (DEC "的"))
+    (NP (NR "PM2")))
+   (PU ".") (NP (QP (CD "5")) (NP (NN "浓度")))
+   (VP (ADVP (AD "更")) (VP (VV "创下") (NP (NN "纪录")))))
+  (PU "，")
+  (IP
+   (IP
+    (VP (VV "面对")
+     (NP (CP (IP (VP (VV "来自") (NP (NR "中国")))) (DEC "的")) (NP (NN "污染物")))))
+   (PU "，")
+   (NP
+    (CP
+     (IP (NP (NP (NR "南韩")) (NP (NN "民众")))
+      (VP (VV "要求") (NP (NN "政府")) (IP (VV "问责"))))
+     (DEC "的"))
+    (NP (NN "呼声")))
+   (VP (VV "高涨"))))
+ (PU "，")
+ (IP (PP (P "截至") (NP (NT "今") (NT "上午") (NT "9时"))) (PU "，") (NP (NR "青瓦台"))
+  (VP (VV "请")
+   (VP (VV "愿")
+    (VP
+     (VP (VP (VV "留") (LCP (NP (NN "言板")) (LC "上")))
+      (VP (ADVP (AD "已"))
+       (VP (VV "出现")
+        (NP
+         (CP (IP (NP (NN "数")) (VP (PP (P "以") (QP (CD "百"))) (VP (VV "计"))))
+          (DEC "的"))
+         (NP (NN "请愿文"))))))
+     (PU "，")
+     (VP (VV "要求") (NP (NN "政府"))
+      (IP (IP (VP (VV "循") (NP (NN "外交") (NN "管道"))))
+       (VP (PP (P "对") (NP (NP (NR "中国")) (NP (NN "当局"))))
+        (VP (VV "施压以") (NP (NN "改善此") (NN "状况"))))))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NR "中国"))
+  (VP (VV "移入") (IP (NP (NN "雾霾")) (VP (ADVP (AD "相当")) (VP (VA "严重"))))))
+ (PU "，")
+ (IP (NP (NP (NR "南韩")) (NP (NN "网友")))
+  (VP
+   (VP (VP (VV "涌入") (NP (NR "青瓦台")))
+    (VP (VV "请") (NP (NN "愿"))
+     (IP (VP (VP (VV "留") (NP (NN "言板"))) (VP (VV "提出") (NP (NN "请愿")))))))
+   (PU "，")
+   (VP (VV "呼吁") (NP (NN "政府"))
+    (IP
+     (VP (VV "应")
+      (VP (PP (P "对") (NP (NP (NR "中国")) (NP (NN "当局"))))
+       (VP (VV "施加") (NP (NN "外交") (NN "压力")))))))))
+ (PU "。"))
+
+(IP (PP (P "根据") (NP (NP (PU "《") (NR "韩联社") (PU "》")) (NP (NN "报导"))))
+ (PU "，")
+ (IP
+  (VP (LB "受")
+   (CP
+    (IP
+     (NP (CP (IP (NP (NR "中国")) (VP (VV "移入"))) (DEC "的"))
+      (NP (NP (NN "污染物") (CC "与") (NN "大气") (NN "稳定") (ETC "等"))
+       (ADJP (JJ "综合")) (NP (NN "因素"))))
+     (VP (VV "影响"))))))
+ (PU "，")
+ (IP (NP (NP (NR "韩国")) (NP (NN "环境") (NN "部")))
+  (VP (NP (NT "27日")) (PP (P "在") (QP (OD "首") (CLP (M "尔"))))
+   (VP (VV "采取")
+    (IP (PU "「") (NP (NN "雾霾") (NN "天气"))
+     (VP (VV "应") (VP (ADVP (AD "急")) (VP (VV "减排") (NP (NN "措施")))))
+     (PU "」")))))
+ (PU "，")
+ (IP
+  (VP (VC "是")
+   (VP (LCP (NP (NT "今年")) (LC "以来")) (QP (OD "第2") (CLP (M "度")))
+    (QP (ADVP (AD "连续")) (QP (CD "2") (CLP (M "天"))))
+    (VP (VV "执行") (NP (DP (DT "此")) (NP (NN "措施")))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NT "过去"))
+  (NP
+   (CP
+    (IP
+     (NP (NP (DP (DT "这") (QP (CD "几") (CLP (M "天")))) (NP (NR "南韩")))
+      (DP (DT "各")) (NP (NN "地")))
+     (VP (VV "迎来") (NP (NN "灰蒙蒙"))))
+    (DEC "的"))
+   (NP (NN "天气")))
+  (PU "，")
+  (VP (ADVP (AD "就")) (ADVP (AD "连")) (NP (NT "周日"))
+   (VP (VV "放假")
+    (IP (NP (NN "民众"))
+     (VP (ADVP (AD "也")) (ADVP (AD "多"))
+      (VP (VV "选择")
+       (IP (VP (VV "待") (PP (P "在") (LCP (NP (NN "家")) (LC "中")))))))))))
+ (PU "，") (NP (QP (CD "少数")) (NP (NN "外出者")))
+ (VP (ADVP (AD "也")) (ADVP (AD "往往"))
+  (VP (VV "前往")
+   (NP (NP (NP (NN "电影院")) (CC "或") (NP (NN "购物") (NN "商场")) (ETC "等"))
+    (NP (NN "场所")))))
+ (PU "。"))
+
+(IP (NP (NN "报导"))
+ (VP (VV "指出") (PU "，")
+  (IP
+   (VP (VE "有")
+    (IP
+     (NP (QP (CD "大量")) (NP (NN "研究") (NN "报告") (CC "及") (NN "气象"))
+      (NP (NN "数据")))
+     (VP (VV "显示") (PU "，")
+      (IP
+       (IP
+        (NP (CP (IP (VP (PP (P "从") (NP (NR "中国"))) (VP (VV "移入")))) (DEC "的"))
+         (ADJP (JJ "细悬")) (NP (NN "浮微粒")))
+        (VP (VC "是")
+         (NP
+          (CP
+           (IP
+            (VP (VV "造成")
+             (IP (NP (NP (NR "朝鲜") (NN "半岛")) (NP (NN "空气") (NN "品质")))
+              (VP (VV "恶化")))))
+           (DEC "的"))
+          (NP (ADJP (JJ "主要")) (NP (NN "原因"))) (NP (NN "之一")))))
+       (PU "，")
+       (IP
+        (IP (PP (P "针对") (NP (PN "此") (NN "议题"))) (PU "，")
+         (NP (NP (NP (NR "南韩")) (NP (NN "官方"))) (CC "及")
+          (NP (ADJP (JJ "众多")) (NP (NN "民间") (NN "机构"))))
+         (VP (ADVP (AD "纷纷"))
+          (VP (VV "提交") (IP (VP (VV "报告") (NP (NN "警告")))))))
+        (PU "，")
+        (VP (VV "指")
+         (IP
+          (NP (CP (IP (VP (VV "来自") (NP (NR "中国")))) (DEC "的"))
+           (NP (NN "雾霾") (NN "问题")))
+          (VP (ADVP (AD "将"))
+           (VP (VP (ADVP (AD "越")) (VP (VV "演")))
+            (VP (ADVP (AD "越")) (VP (VA "烈"))))))))
+       (PU "，")
+       (IP
+        (VP (ADVP (AD "特别是")) (PP (P "在") (NP (NR "中国")))
+         (VP (VV "改")
+          (IP
+           (VP (PP (P "以") (NP (NN "焚烧")))
+            (VP (VV "取代") (NP (NN "填埋"))
+             (IP
+              (VP (VV "作为")
+               (LCP
+                (NP (DNP (NP (NN "生活") (NN "垃圾")) (DEG "的"))
+                 (NP (NN "处理") (NN "方式")))
+                (LC "以后"))))))))))))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (NP (CP (IP (NP (NP (NR "中国")) (NP (NN "雾霾"))) (VP (VV "飘洋过海"))) (DEC "的"))
+   (NP (NN "状况")))
+  (VP (VP (ADVP (AD "屡")) (VP (VV "见"))) (VP (ADVP (AD "不")) (VP (VA "鲜")))))
+ (PU "，")
+ (IP
+  (VP (ADVP (AD "已"))
+   (VP (VV "加深")
+    (NP (DNP (NP (NP (NR "韩国")) (NP (NN "网友"))) (DEG "的"))
+     (IP (VP (PU "「") (VV "排中") (PU "」"))) (NP (NN "情绪"))))))
+ (PU "，")
+ (IP
+  (VP (NP (NT "最近")) (ADVP (AD "更"))
+   (VP (VE "有")
+    (IP (NP (QP (CD "大量")) (NP (NN "网友")))
+     (VP (PP (P "在") (NP (NP (NR "青瓦") (NR "台")) (NP (NN "国民"))))
+      (VP (VV "请愿")
+       (IP
+        (VP (VP (VV "留") (LCP (NP (NN "言板")) (LC "上")))
+         (VP (VCD (VV "提出") (VV "请愿")))))))))))
+ (PU "，")
+ (IP
+  (PP (P "截至")
+   (NP (NP (NN "当地") (NN "时间")) (NP (NT "今天") (NT "上午") (NT "10点"))))
+  (PU "，") (NP (ADJP (JJ "相关")) (NP (NN "文章")))
+  (VP (ADVP (AD "已")) (VP (VV "突破") (QP (CD "670") (CLP (M "条"))))))
+ (PU "，")
+ (IP (NP (NN "其中"))
+  (VP (PP (P "以") (QP (CD "一") (CLP (M "篇"))))
+   (VP (VV "要求")
+    (IP (NP (NN "政府"))
+     (VP
+      (VP (PP (P "对") (NP (NP (NR "中国")) (NP (NN "当局"))))
+       (VP (VV "施加") (NP (NN "外交") (NN "压力"))))
+      (PU "，")
+      (VP (VV "逼迫")
+       (IP
+        (IP
+         (NP
+          (CP (IP (NP (PN "对方")) (VP (VV "解决") (NP (NN "雾霾") (NN "问题"))))
+           (DEC "的"))
+          (NP (NN "请愿") (NN "声势")))
+         (VP (ADVP (AD "最")) (VP (VA "大"))))
+        (PU "，")
+        (IP
+         (VP (ADVP (AD "已"))
+          (VP (VE "有")
+           (IP
+            (VP (VV "超过")
+             (IP (NP (QP (CD "11.6万")) (NP (NN "人")))
+              (VP (VV "表态")
+               (IP
+                (VP (VV "支持") (NP (DP (DT "该")) (NP (NN "请愿")))))))))))))))))))
+ (PU "。"))
+
+(IP (NP (NP (NP (NR "台湾")) (NP (NN "南部"))) (NP (NN "空气") (NN "质量")))
+ (VP (VV "变好")))
+
+(IP (NP (NN "中北部")) (VP (VV "欠佳")))
+
+(IP
+ (IP (NP (NR "台湾"))
+  (VP (NP (NT "1日"))
+   (VP (VV "受") (NP (NP (ADJP (JJ "高")) (NP (NN "压"))) (NP (NN "回流"))))))
+ (PU "、") (IP (NP (NN "偏南风")) (VP (VV "影响"))) (PU "，")
+ (IP (NP (NN "污染物"))
+  (VP (PP (P "由") (NP (NN "南"))) (PP (P "往") (NP (NN "北"))) (VP (VV "传送"))))
+ (PU "，")
+ (IP
+  (NP (NN "北部") (PU "、") (NN "竹苗") (PU "、") (NN "中部") (PU "、") (NN "云嘉南")
+   (PU "、") (NN "马祖"))
+  (PU "，") (CC "以及")
+  (IP (NP (NR "金门") (NN "空品区")) (VP (VC "为") (NP (NN "橘色") (NN "等级")))))
+ (PU "。"))
+
+(IP (NP (NP (NP (NN "交通部") (NN "气象局")) (NP (NN "副局长"))) (NP (NR "郑明典")))
+ (VP (ADVP (AD "脸书"))
+  (VP (VV "表示") (PU "，")
+   (IP
+    (IP
+     (VP (VE "没有")
+      (NP (NP (ADJP (JJ "明显")) (NP (NN "天气") (NN "系统"))) (NP (NN "影响")))))
+    (PU "，") (IP (NP (NN "风速")) (VP (VA "微弱"))))))
+ (PU "。"))
+
+(IP
+ (IP (LCP (NP (NN "基本")) (LC "上"))
+  (VP (ADVP (AD "还"))
+   (VP (VC "是")
+    (NP (NP (ADJP (JJ "高")) (NP (NN "压回流"))) (NP (NN "天气") (NN "型态"))))))
+ (PU "，") (IP (NP (NN "东南风")) (VP (VA "湿暖"))) (PU "，")
+ (IP (ADVP (AD "但"))
+  (VP (ADVP (AD "并"))
+   (VP (VV "没有") (VP (ADVP (AD "很")) (ADVP (AD "不")) (VP (VA "稳定"))))))
+ (PU "，")
+ (IP (ADVP (AD "所以")) (NP (NN "气温"))
+  (VP (ADVP (AD "还"))
+   (VP (VV "要") (VP (PP (P "比") (NP (NT "昨天"))) (VP (VA "高"))))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NN "好处"))
+  (VP (VC "是")
+   (QP
+    (CP (IP (NP (NN "南部")) (NP (NN "空气") (NN "质量")) (VP (VA "难得"))) (DEC "的"))
+    (JJ "好"))))
+ (PU "，")
+ (IP (ADVP (AD "但")) (LCP (NP (NN "中部")) (LC "以北"))
+  (VP (ADVP (AD "就")) (ADVP (AD "不"))
+   (VP (VC "是") (VP (ADVP (AD "很")) (VP (VA "理想"))))))
+ (PU "。"))
+
+(IP
+ (IP
+  (PP (P "根据")
+   (IP (NP (NP (NN "环保署")) (NP (NN "空气") (NN "质量") (NN "监测网")) (NP (NN "数据")))
+    (VP (VV "显示"))))
+  (PU "，") (NP (NT "1日")) (NP (NR "台湾"))
+  (VP (VV "受到")
+   (NP (NP (NP (ADJP (JJ "高")) (NP (NN "压"))) (NP (NN "回流"))) (NP (NN "影响")))))
+ (PU "，") (IP (NP (NN "整体")) (VP (VV "风向") (NP (NN "偏南风")))) (PU "，")
+ (IP (NP (NN "污染物"))
+  (VP (ADVP (AD "将")) (PP (P "由") (NP (NN "南"))) (PP (P "往") (NP (NN "北")))
+   (VP (VV "传送"))))
+ (PU "，")
+ (IP
+  (IP (NP (NR "云嘉南"))
+   (VP (PP (P "以") (NP (NP (NR "北空")) (NP (NN "品区"))))
+    (VP (VV "扩散") (IP (NP (NN "条件")) (VP (ADVP (AD "不")) (VP (VA "佳")))))))
+  (PU "，") (CC "且")
+  (IP (NP (LCP (NP (NN "午")) (LC "后")) (NP (NN "臭氧") (NN "浓度")))
+   (VP (VE "有") (NP (NN "增加") (NN "趋势")))))
+ (PU "，")
+ (IP
+  (NP (NN "北部") (PU "、") (NN "竹苗") (PU "、") (NN "中部") (PU "、") (NN "云嘉南")
+   (PU "、") (NN "马祖"))
+  (PU "，") (CC "以及")
+  (IP (NP (NR "金门") (NN "空品区"))
+   (VP (VC "为") (NP (ADJP (JJ "橘色")) (NP (NN "等级"))))
+   (PRN (PU "（")
+    (IP (PP (P "对") (NP (NN "敏感"))) (NP (NN "族群"))
+     (VP (ADVP (AD "不")) (VP (VA "健康"))))
+    (PU "）"))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NP (NP (NN "指标") (NN "污染")) (NP (NN "物云"))) (NP (NR "嘉南")))
+  (VP (VP (PP (P "以") (NP (NN "北"))) (VP (VV "为") (NP (NN "细悬"))))
+   (VP (VV "浮微")
+    (NP (NP (NR "粒") (PRN (PU "（") (NP (NR "PM2.5")) (PU "）"))) (PU "、")
+     (NP (NN "臭氧"))))))
+ (PU "，")
+ (IP (NP (NR "马祖") (PU "、") (NR "金门")) (VP (VC "为") (NP (NN "PM2.5"))))
+ (PU "。"))
+
+(IP
+ (IP (NP (NT "2日")) (NP (NN "锋面"))
+  (VP (ADVP (AD "逐渐")) (VP (VV "靠近") (NP (NR "台湾")))))
+ (PU "，")
+ (IP
+  (IP (NP (NN "中南部") (NN "空品区")) (NP (NN "扩散") (NN "条件"))
+   (VP (ADVP (AD "不")) (VP (VA "佳"))))
+  (PU "，")
+  (IP (LCP (NP (NN "且午")) (LC "后")) (NP (NN "臭氧") (NN "浓度"))
+   (VP (VV "有") (VP (VV "增加") (NP (NN "趋势")))))
+  (PU "，")
+  (IP (NP (NN "中部") (PU "、") (NN "云嘉南")) (PU "，") (CC "以及")
+   (IP (NP (NN "高屏") (NN "空品区"))
+    (VP (VC "为") (NP (ADJP (JJ "橘色")) (NP (NN "等级")))))))
+ (PU "。"))
+
+(IP (NP (NN "指标") (NN "污染物")) (VP (VC "为") (NP (NR "PM2.5"))) (PU "。"))
+
+(IP (NP (NT "3日")) (NP (NN "锋面"))
+ (VP (VV "通过")
+  (IP (CC "及") (IP (NP (NN "东北") (NN "季风")) (VP (VV "增强"))) (PU "，")
+   (IP
+    (IP (NP (NP (NN "北部")) (CC "及") (NP (NP (NR "东北部")) (NP (NN "地区"))))
+     (VP (VE "有")
+      (NP (NP (ADJP (JJ "短暂")) (NP (NN "阵雨"))) (CC "或") (NP (NN "雷雨")))))
+    (PU "，")
+    (IP (NP (NP (DP (DT "其它")) (NP (NN "地区"))) (NP (NN "局部")))
+     (VP (ADVP (AD "短暂")) (VP (VP (VV "阵雨")) (CC "或") (VV "雷雨")))))))
+ (PU "。"))
+
+(IP
+ (NP (NP (NN "中部") (PU "、") (NR "云嘉南") (PU "、") (NR "高屏") (NR "空品区"))
+  (NP (NN "局部") (NN "地区")))
+ (VP (VC "为") (NP (ADJP (JJ "橘色")) (NP (NN "等级")))) (PU "。"))
+
+(IP
+ (IP (LCP (NP (NN "中部")) (LC "以北")) (NP (NN "指标") (NN "污染物"))
+  (VP (VC "为") (NP (NR "PM2.5"))))
+ (PU "，")
+ (IP (NP (NR "云嘉南") (PU "、") (NR "高屏"))
+  (VP (VC "为")
+   (IP
+    (VP (VV "悬浮") (NP (NN "微粒") (PRN (PU "（") (NP (NN "PM10")) (PU "）")))))))
+ (PU "。"))
+
+

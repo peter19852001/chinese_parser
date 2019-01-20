@@ -239,3 +239,13 @@ JSON properly, we may open `chinse_parser/visual/index.html` in your
 browser, then type sentence to the "Input Text:" box, and submit to try.
 
 # Supplementary Materials
+
+We have also included some sample sentences from pollution news (in
+`pollution_news`) for demonstration. The parse results of our
+prototype parser are in `pollution_news/our_parser`, where the results
+of the [Stanford parser 2017-06-09
+version](https://stanfordnlp.github.io/CoreNLP/history.html) and the
+[ZPar parser version
+0.7.5](https://sourceforge.net/projects/zpar/files/0.7.5/zpar-0.7.5.tar.gz/download)
+are in `pollution_news/stanford_parser_res` and
+`pollution_news/ZPar_res` respectively.

@@ -1,0 +1,411 @@
+Input: 阴霾笼罩大陆十余省
+Parse: ((SUBJ-PRED (INANIMATE-A (阴 霾)) (NOT-PREFER-PAUSE)
+         (VERB-C (VERB-A (笼 罩))
+          (NOUN-T (PLACE-A (大 陆))
+           (NOUN-T (NOUN-B (NUM-B-X (INTEGER 10) (NUM-SUFF-APPROX 余)))
+            (PLACE-A 省))))))
+
+Input: 局地能见度不足50米
+Parse: ((SUBJ-PRED (NOUN-T (PLACE-A (局 地)) (ABSTRACT-A (能 见 度)))
+         (NOT-PREFER-PAUSE)
+         (VERB-C (VERB-A (不 足)) (NOUN-B (NUM-UNIT-A (INTEGER 50) (UNIT 米))))))
+
+Input: 大陆阴霾再度卷土重来，各地「霾情」不断。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (NOUN-T (PLACE-A (大 陆)) (INANIMATE-A (阴 霾)))
+           (NOT-PREFER-PAUSE) (VERB-P-A (ADV (再 度)) (VERB-A (卷 土 重 来))))
+          (PAUSE ，)
+          (SUBJ-PRED
+           (NOUN-T (PLACE-A (各 地))
+            (NOUN-T 「 (NOUN-T (INANIMATE-A 霾) (ABSTRACT-A 情)) 」))
+           (NOT-PREFER-PAUSE) (VERB-A (不 断))))
+         (END 。)))
+
+Input: 目前多省市已发布空气污染黄色预警，局部地区能见度不足50米，导致车祸发生，高速公路也被迫关闭，部分地区的学校已停课。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (TIME-PT-A (目 前)) (MAY-PAUSE)
+           (NOUN-T (NOUN-B (ROUGH-AMOUNT 多) (PLACE-A 省)) (PLACE-A 市))
+           (VERB-P-A (ADV 已)
+            (VERB-C (VERB-A (发 布))
+             (NOUN-T (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (污 染)))
+              (NOUN-B (ADJ (ADJ-A 黄) 色) (ABSTRACT-A (预 警)))))))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED
+            (NOUN-T (NOUN-B (ADJ-A (局 部)) (PLACE-A (地 区)))
+             (ABSTRACT-A (能 见 度)))
+            (NOT-PREFER-PAUSE)
+            (VERB-P-CONN-A
+             (VERB-C (VERB-A (不 足))
+              (NOUN-B (NUM-UNIT-A (INTEGER 50) (UNIT 米))))
+             (PAUSE ，)
+             (VERB-C2 (VERB-A (导 致))
+              (SUBJ-PRED (ABSTRACT-A (车 祸)) (NOT-PREFER-PAUSE)
+               (VERB-A (发 生))))))
+           (PAUSE ，)
+           (CLAUSES
+            (OBJ-PRED (INANIMATE-A (高 速 公 路))
+             (VERB-P-A (ADV 也) (VERB-P-A (ADV (被 迫)) (VERB-A (关 闭)))))
+            (PAUSE ，)
+            (SUBJ-PRED
+             (NOUN-T (NOUN-B (ROUGH-AMOUNT 部 分) (PLACE-A (地 区))) 的
+              (PLACE-A (学 校)))
+             (NOT-PREFER-PAUSE) (VERB-P-A (ADV 已) (VERB-A (停 课)))))))
+         (END 。)))
+
+Input: 中央气象台已于29日6时发布重污染天气橙色预警，29日早晨至上午，北京、天津、河北、山东、江苏、安徽、浙江、湖北、江西、广西、四川盆地等地空气污染严重，局地能见度低于50米。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T (DIR-SUFFIX-PLACE (中 央))
+            (NOUN-T (ABSTRACT-A (气 象)) (ABSTRACT-A 台)))
+           (NOT-PREFER-PAUSE)
+           (VERB-P-A (ADV 已)
+            (VERB-P-A
+             (VERB-MOD
+              (TIME-PT-H (TIME-AT-TO 于)
+               (TIME-PT-D (TIME-PT-A (2 9) 日) (TIME-PT-A (INTEGER 6) 时)))
+              (MAY-PAUSE))
+             (VERB-C (VERB-A (发 布))
+              (NOUN-T
+               (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+                (ABSTRACT-A (天 气)))
+               (NOUN-B (ADJ (ADJ-A 橙) 色) (ABSTRACT-A (预 警))))))))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED
+            (TIME-PT-D (TIME-PT-A (2 9) 日)
+             (TIME-PT-B-CONN-A (TIME-PT-A (早 晨)) 至 (TIME-PT-A (上 午))))
+            (PAUSE ，)
+            (NOUN-T
+             (NOUN-T
+              (NOUN-T
+               (NOUN-C
+                (NOUN-C
+                 (NOUN-C
+                  (NOUN-C
+                   (NOUN-C
+                    (NOUN-C
+                     (NOUN-C
+                      (NOUN-C
+                       (NOUN-C
+                        (NOUN-C (PLACE-A (北 京)) (SHORT-PAUSE 、)
+                         (PLACE-A (天 津)))
+                        (SHORT-PAUSE 、) (PLACE-A (河 北)))
+                       (SHORT-PAUSE 、) (PLACE-A (山 东)))
+                      (SHORT-PAUSE 、) (PLACE-A (江 苏)))
+                     (SHORT-PAUSE 、) (PLACE-A (安 徽)))
+                    (SHORT-PAUSE 、) (PLACE-A (浙 江)))
+                   (SHORT-PAUSE 、) (PLACE-A (湖 北)))
+                  (SHORT-PAUSE 、) (PLACE-A (江 西)))
+                 (SHORT-PAUSE 、) (PLACE-A (广 西)))
+                (SHORT-PAUSE 、) (NOUN-T (PLACE-A (四 川)) (PLACE-A (盆 地))))
+               (ETC (等)) (PLACE-A 地))
+              (INANIMATE-A (空 气)))
+             (ABSTRACT-A (污 染)))
+            (ADJ-A (严 重)))
+           (PAUSE ，)
+           (SUBJ-PRED (NOUN-T (PLACE-A (局 地)) (ABSTRACT-A (能 见 度)))
+            (NOT-PREFER-PAUSE)
+            (VERB-C (VERB-A (低 于))
+             (NOUN-B (NUM-UNIT-A (INTEGER 50) (UNIT 米)))))))
+         (END 。)))
+
+Input: 据山东省气象局消息称，已将重污染天气黄色预警信号升级为红色预警信号，济南、淄博、潍坊等10市的部分地区能见度低于50米。
+Parse: ((SENTENCE
+         (CLAUSE-A00
+          (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 据)
+           (SUBJ-PRED
+            (NOUN-T
+             (NOUN-T (NOUN-T (PLACE-A (山 东)) (PLACE-A 省))
+              (NOUN-T (ABSTRACT-A (气 象)) (ABSTRACT-A 局)))
+             (ABSTRACT-A (消 息)))
+            (NOT-PREFER-PAUSE)
+            (VERB-P-CONN-A (VERB-A 称) (PAUSE ，)
+             (VERB-P-A (ADV 已)
+              (VERB-P-A
+               (VERB-MOD 将
+                (NOUN-T
+                 (NOUN-T
+                  (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+                   (ABSTRACT-A (天 气)))
+                  (NOUN-B (ADJ (ADJ-A 黄) 色) (ABSTRACT-A (预 警))))
+                 (ABSTRACT-A (信 号))))
+               (VERB-C (VERB-B (VERB-A (升 级)) 为)
+                (NOUN-T (NOUN-B (ADJ (ADJ-A 红) 色) (ABSTRACT-A (预 警)))
+                 (ABSTRACT-A (信 号)))))))))
+          (PAUSE ，)
+          (SUBJ-PRED
+           (NOUN-T
+            (NOUN-T
+             (NOUN-C (NOUN-C (PLACE-A (济 南)) (SHORT-PAUSE 、) (PLACE-A (淄 博)))
+              (SHORT-PAUSE 、) (PLACE-A (潍 坊)))
+             (ETC (等)) (NOUN-T (NOUN-B (INTEGER 10)) (PLACE-A 市)))
+            的
+            (NOUN-T (NOUN-B (ROUGH-AMOUNT 部 分) (PLACE-A (地 区)))
+             (ABSTRACT-A (能 见 度))))
+           (NOT-PREFER-PAUSE)
+           (VERB-C (VERB-A (低 于))
+            (NOUN-B (NUM-UNIT-A (INTEGER 50) (UNIT 米))))))
+         (END 。)))
+
+Input: 重污染天气导致部分高速路口封闭，当地不少民众戴口罩出行。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染))) (ABSTRACT-A (天 气)))
+           (NOT-PREFER-PAUSE)
+           (VERB-C2 (VERB-A (导 致))
+            (SUBJ-PRED
+             (NOUN-T (ROUGH-AMOUNT 部 分) (NOUN-B (ADJ-A (高 速)) (PLACE-A (路 口))))
+             (NOT-PREFER-PAUSE) (VERB-A (封 闭)))))
+          (PAUSE ，)
+          (SUBJ-PRED
+           (NOUN-T (PLACE-A (当 地))
+            (NOUN-B (ROUGH-AMOUNT 不 少) (ANIMATE-A (民 众))))
+           (NOT-PREFER-PAUSE)
+           (VERB-AND (VERB-C (VERB-A 戴) (INANIMATE-A (口 罩))) (VERB-A (出 行)))))
+         (END 。)))
+
+Input: 根据山西省环保厅重污染天气预警信息，山西运城市12月27日24时-12月29日24时在全市范围内发布重污染天气红色预警并启动Ⅰ级应急响应。
+Parse: ((SENTENCE
+         (CLAUSE-A00
+          (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 根 据)
+           (NOUN-T
+            (NOUN-T
+             (NOUN-T
+              (NOUN-T
+               (NOUN-T (NOUN-T (PLACE-A (山 西)) (PLACE-A 省))
+                (NOUN-T (ABSTRACT-A (环 保)) (PLACE-A 厅)))
+               (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染))))
+              (ABSTRACT-A (天 气)))
+             (ABSTRACT-A (预 警)))
+            (ABSTRACT-A (信 息))))
+          (PAUSE ，)
+          (SUBJ-PRED (NOUN-T (PLACE-A (山 西)) (PLACE-A (运 城 市)))
+           (NOT-PREFER-PAUSE)
+           (VERB-P-A
+            (VERB-MOD
+             (TIME-PT-D-CONN-A
+              (TIME-PT-D (TIME-PT-A (INTEGER 12) 月 (INTEGER 27) 日)
+               (AD-HOC-TIME-PT (NOUN-B (INTEGER 24)) 时))
+              (NOUN-CONN -)
+              (TIME-PT-D (TIME-PT-A (INTEGER 12) 月 (INTEGER 29) 日)
+               (AD-HOC-TIME-PT (NOUN-B (INTEGER 24)) 时)))
+             (MAY-PAUSE))
+            (VERB-P-A
+             (VERB-MOD-FRONT
+              (PLACE-P-A 在
+               (NOUN-T (NOUN-B (P-PRONOUN-A 全) (PLACE-A 市))
+                (NOUN-B (PLACE-A (范 围)) (DIR 内)))))
+             (VERB-C-CONN-A
+              (VERB-C (VERB-A (发 布))
+               (NOUN-T
+                (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+                 (ABSTRACT-A (天 气)))
+                (NOUN-B (ADJ (ADJ-A 红) 色) (ABSTRACT-A (预 警)))))
+              (CONN 并)
+              (VERB-C (VERB-A (启 动))
+               (NOUN-T (NUM-UNIT-A Ⅰ (UNIT 级))
+                (NOUN-B (VERB-A (应 急)) (ABSTRACT-A (响 应))))))))))
+         (END 。)))
+
+Input: 杭州也遭遇今冬最严重的空气污染，城市陷入一片朦胧之中，清晨路上能见度不足百米。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (PLACE-A (杭 州)) (NOT-PREFER-PAUSE)
+           (VERB-P-A (ADV 也)
+            (VERB-C (VERB-A (遭 遇))
+             (NOUN-T (NOUN-B (TIME-PT-B 今 (TIME-PERIOD-A 冬)))
+              (NOUN-T (NOUN-ZHI-MOD-A (ADJ-X (ADV 最) (ADJ-A (严 重))) 的)
+               (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (污 染))))))))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED (PLACE-A (城 市)) (NOT-PREFER-PAUSE)
+            (VERB-C (VERB-A (陷 入))
+             (NOUN-T (VERB-X (ADV (一 片)) (VERB-A (朦 胧))) 之
+              (DIR-SUFFIX-PLACE (DIR 中)))))
+           (PAUSE ，)
+           (SUBJ-PRED (TIME-PT-A (清 晨)) (MAY-PAUSE)
+            (NOUN-T (NOUN-B (PLACE-A 路) (DIR 上)) (ABSTRACT-A (能 见 度)))
+            (VERB-C (VERB-A (不 足))
+             (NOUN-B (NUM-UNIT-A (INTEGER 100) (UNIT 米)))))))
+         (END 。)))
+
+Input: 该市于28日晚5时45分已发布重污染天气黄色预警。
+Parse: ((SENTENCE
+         (SUBJ-PRED (NOUN-B (P-PRONOUN-A 该) (PLACE-A 市)) (NOT-PREFER-PAUSE)
+          (VERB-P-A
+           (VERB-MOD
+            (TIME-PT-H (TIME-AT-TO 于)
+             (TIME-PT-D (TIME-PT-A (2 8) 日)
+              (TIME-PT-C (ADJ-A 晚)
+               (TIME-HOUR-MIN (INTEGER 5) 时 (INTEGER 45) 分))))
+            (MAY-PAUSE))
+           (VERB-P-A (ADV 已)
+            (VERB-C (VERB-A (发 布))
+             (NOUN-T
+              (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染))) (ABSTRACT-A (天 气)))
+              (NOUN-B (ADJ (ADJ-A 黄) 色) (ABSTRACT-A (预 警))))))))
+         (END 。)))
+
+Input: 受此影响，28日上午10时许，沪昆高速公路发生数十辆车连环撞，已致1人死亡，多人受伤的交通事故。
+Parse: ((SENTENCE
+         (CLAUSES (VERB-P-A (VERB-MOD 受 (P-PRONOUN-A 此)) (VERB-A (影 响)))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED
+            (TIME-PT-E
+             (TIME-PT-D (TIME-PT-A (2 8) 日)
+              (TIME-PT-D (TIME-PT-A (上 午)) (TIME-PT-A (INTEGER 10) 时)))
+             (TIME-F-B-PT 许))
+            (PAUSE ，) (NOUN-T (COUNTRY-ABBR (沪 昆)) (INANIMATE-A (高 速 公 路)))
+            (VERB-C2 (VERB-A (发 生))
+             (SUBJ-PRED
+              (NOUN-B (NUM-UNIT-A (INTEGER (数 10)) (UNIT 辆)) (INANIMATE-A 车))
+              (NOT-PREFER-PAUSE) (VERB-P-A (ADV (连 环)) (VERB-A 撞)))))
+           (PAUSE ，)
+           (VERB-P-CONN-A
+            (VERB-C2 (VERB-A (ADV 已) (VERB-A 致))
+             (SUBJ-PRED (NOUN-T (NOUN-B (INTEGER 1)) (ANIMATE-A 人))
+              (NOT-PREFER-PAUSE) (VERB-A (死 亡))))
+            (PAUSE ，)
+            (VERB-C (VERB-A 多)
+             (NOUN-T
+              (NOUN-ZHI-MOD-A
+               (SUBJ-PRED (ANIMATE-A 人) (NOT-PREFER-PAUSE) (VERB-A (受 伤))) 的)
+              (NOUN-T (ABSTRACT-A (交 通)) (ABSTRACT-A (事 故))))))))
+         (END 。)))
+
+Input: 江苏省气象台也升级发布重污染天气橙色预警信号。
+Parse: ((SENTENCE
+         (SUBJ-PRED
+          (NOUN-T (NOUN-T (PLACE-A (江 苏)) (PLACE-A 省))
+           (NOUN-T (ABSTRACT-A (气 象)) (ABSTRACT-A 台)))
+          (NOT-PREFER-PAUSE)
+          (VERB-P-A (ADV 也)
+           (VERB-C2 (VERB-A (升 级))
+            (VERB-C (VERB-A (发 布))
+             (NOUN-T
+              (NOUN-T
+               (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+                (ABSTRACT-A (天 气)))
+               (NOUN-B (ADJ (ADJ-A 橙) 色) (ABSTRACT-A (预 警))))
+              (ABSTRACT-A (信 号)))))))
+         (END 。)))
+
+Input: 淮北、江淮等部分地区能见度小于200米，局部地区小于50米，并将持续。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T
+            (NOUN-T (NOUN-C (PLACE-A (淮 北)) (SHORT-PAUSE 、) (PLACE-A (江 淮)))
+             (ETC (等)) (NOUN-B (ROUGH-AMOUNT 部 分) (PLACE-A (地 区))))
+            (ABSTRACT-A (能 见 度)))
+           (NOT-PREFER-PAUSE)
+           (VERB-C (VERB-A (小 于))
+            (NOUN-B (NUM-UNIT-A (INTEGER 200) (UNIT 米)))))
+          (PAUSE ，)
+          (SUBJ-PRED (NOUN-B (ADJ-A (局 部)) (PLACE-A (地 区))) (NOT-PREFER-PAUSE)
+           (VERB-P-CONN-A
+            (VERB-C (VERB-A (小 于)) (NOUN-B (NUM-UNIT-A (INTEGER 50) (UNIT 米))))
+            (L-CONN (PAUSE ，) (CONN 并)) (VERB-P-A (ADV 将) (VERB-A (持 续))))))
+         (END 。)))
+
+Input: 28日，陜西省西安市空气质量为严重污染，重污染天气预警等级升级为橙色预警，并启动Ⅱ级应急响应。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (TIME-PERIOD-A (INTEGER 28) 日) (PAUSE ，)
+           (NOUN-T
+            (NOUN-T
+             (NOUN-T (NOUN-T (PLACE-A (陜 西)) (PLACE-A 省))
+              (NOUN-T (PLACE-A (西 安)) (PLACE-A 市)))
+             (INANIMATE-A (空 气)))
+            (ABSTRACT-A (质 量)))
+           (ALT-VERB-C (VERB-A 为) (NOUN-B (ADJ-A (严 重)) (ABSTRACT-A (污 染)))))
+          (PAUSE ，)
+          (SUBJ-PRED
+           (NOUN-T (NOUN-B (ADJ-A 重) (ABSTRACT-A (污 染)))
+            (NOUN-T (NOUN-T (ABSTRACT-A (天 气)) (ABSTRACT-A (预 警)))
+             (ABSTRACT-A (等 级))))
+           (NOT-PREFER-PAUSE)
+           (VERB-C-CONN-A
+            (VERB-C (VERB-B (VERB-A (升 级)) 为)
+             (NOUN-B (ADJ (ADJ-A 橙) 色) (ABSTRACT-A (预 警))))
+            (L-CONN (PAUSE ，) (CONN 并))
+            (VERB-C (VERB-A (启 动))
+             (NOUN-T (NUM-UNIT-A (INTEGER 2) (UNIT 级))
+              (NOUN-B (VERB-A (应 急)) (ABSTRACT-A (响 应))))))))
+         (END 。)))
+
+Input: 同日，重庆市环境保护局官方网站显示空气质量为中度污染，首要污染物为PM2.5。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (AD-HOC-TIME-PT (VERB-A 同) 日) (PAUSE ，)
+           (NOUN-T
+            (NOUN-T
+             (NOUN-T (NOUN-T (PLACE-A (重 庆)) (PLACE-A 市)) (ABSTRACT-A (环 境)))
+             (NOUN-T (ABSTRACT-A (保 护)) (ABSTRACT-A 局)))
+            (NOUN-B (ADJ-A (官 方)) (ABSTRACT-A (网 站))))
+           (VERB-C2 (VERB-A (显 示))
+            (SUBJ-PRED (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (质 量)))
+             (NOT-PREFER-PAUSE)
+             (ALT-VERB-C (VERB-A 为)
+              (NOUN-B (ADJ-A (中 度)) (ABSTRACT-A (污 染)))))))
+          (PAUSE ，)
+          (SUBJ-PRED
+           (NOUN-T (NOUN-B (ADJ-A (首 要)) (ABSTRACT-A (污 染))) (INANIMATE-A 物))
+           (NOT-PREFER-PAUSE) (VERB-C (VERB-A 为) (INANIMATE-A (P M 2 . 5)))))
+         (END 。)))
+
+Input: 有许多大陆网民发布了有关当地空气污染的照片。
+Parse: ((SENTENCE
+         (VERB-C2 (VERB-A 有)
+          (SUBJ-PRED
+           (NOUN-T (ROUGH-AMOUNT 许 多)
+            (NOUN-T (PLACE-A (大 陆)) (ANIMATE-A (网 民))))
+           (NOT-PREFER-PAUSE)
+           (VERB-C (VERB (VERB-A (发 布)) (VERB-SUFFIX-LE 了))
+            (NOUN-B
+             (NOUN-ZHI-MOD-A
+              (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 有 关)
+               (NOUN-T (NOUN-T (PLACE-A (当 地)) (INANIMATE-A (空 气)))
+                (ABSTRACT-A (污 染))))
+              的)
+             (INANIMATE-A (照 片))))))
+         (END 。)))
+
+Input: 有网民说：「十九大之后中共把霾就变成了雾，我叫一声『雾』它敢答应么，明明是霾嘛。」
+Parse: ((CLAUSES
+         (SUBJ-PRED (NOUN-B (VERB-A 有) (ANIMATE-A (网 民))) (NOT-PREFER-PAUSE)
+          (VERB-A 说))
+         (PAUSE ：)
+         (CLAUSE-B 「
+          (SENTENCE
+           (CLAUSES
+            (SUBJ-PRED (TIME-PT-E (ABSTRACT-A 19 大) (TIME-F-B 之 后)) (MAY-PAUSE)
+             (ABSTRACT-A (中 共))
+             (VERB-P-A (VERB-MOD 把 (INANIMATE-A 霾))
+              (VERB-C
+               (VERB (VERB-B (VERB-A (ADV 就) (VERB-A 变)) 成) (VERB-SUFFIX-LE 了))
+               (INANIMATE-A 雾))))
+            (PAUSE ，)
+            (CLAUSES
+             (CLAUSE-A
+              (CLAUSE-A0
+               (SUBJ-PRED (PRONOUN 我) (NOT-PREFER-PAUSE)
+                (VERB-C (VERB-A 叫)
+                 (NOUN-B (NUM-UNIT-A (INTEGER 1) (UNIT 声))
+                  (NOUN-A 『 (INANIMATE-A 雾) 』))))
+               (SUBJ-PRED (PRONOUN 它) (NOT-PREFER-PAUSE)
+                (VERB-P-A (HELP-VERB 敢) (VERB-A (答 应)))))
+              (CLAUSE-SUPP 么))
+             (PAUSE ，)
+             (CLAUSE-A
+              (VERB-P-A (ADV (明 明)) (VERB-C (VERB-A 是) (INANIMATE-A 霾)))
+              (EXCLAIM-A 嘛))))
+           (END 。))
+          」)))
+

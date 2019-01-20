@@ -1,0 +1,254 @@
+Input: 中国年逾百万人死于空气污染
+Parse: ((SUBJ-PRED
+         (NOUN-T (PLACE-A (中 国))
+          (NOUN-T (NOUN-B (NUM (VERB-A (ADV 年) (VERB-A 逾)) (INTEGER 1000000)))
+           (ANIMATE-A 人)))
+         (NOT-PREFER-PAUSE)
+         (VERB-C (VERB-A (死 于))
+          (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (污 染))))))
+
+Input: 内地雾霾问题日趋严重，与1970年代末实施改革开放，大力发展经济不无关系，但近40年来，内地高速发展的经济主要依靠低能源效率和廉价劳力推动，相应的环境保护意识及法规却非常薄弱。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T (NOUN-T (PLACE-A (内 地)) (INANIMATE-A (雾 霾)))
+            (ABSTRACT-A (问 题)))
+           (NOT-PREFER-PAUSE) (ADJ-X (ADV (日 趋)) (ADJ-A (严 重))))
+          (PAUSE ，)
+          (CLAUSES
+           (VERB-P-CONN-A
+            (VERB-P-A
+             (N-VERB-MOD-FRONT 与
+              (VERB-P-CONN-A
+               (VERB-P-A
+                (VERB-MOD
+                 (TIME-PT-C (TIME-PT-A (1 9 7 0) (TIME-POINT-NAME 年 代)) 末)
+                 (MAY-PAUSE))
+                (VERB-C (VERB-A (实 施)) (ABSTRACT-A (改 革 开 放))))
+               (PAUSE ，)
+               (VERB-P-A (ADV (ADJ-A (大 力)))
+                (VERB-C (VERB-A (发 展)) (ABSTRACT-A (经 济))))))
+             (VERB-C (VERB-A (不 无)) (ABSTRACT-A (关 系))))
+            (PAUSE ，)
+            (PRED-V (BUT 但) (MAY-PAUSE)
+             (SUBJ-PRED
+              (TIME-PT-G
+               (AD-HOC-TIME-PT (NOUN-B (NUM-E (PRE-APPROX 近) (INTEGER 40))) 年)
+               (TIME-STARTING-UPTO 来))
+              (PAUSE ，)
+              (NOUN-B
+               (NOUN-ZHI-MOD-A
+                (SUBJ-PRED (PLACE-A (内 地)) (NOT-PREFER-PAUSE)
+                 (VERB-P-A (ADV (ADJ-A (高 速))) (VERB-A (发 展))))
+                的)
+               (ABSTRACT-A (经 济)))
+              (VERB-P-A (ADV (主 要))
+               (VERB-P-A
+                (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 依 靠)
+                 (NOUN-C
+                  (NOUN-T (NOUN-B (ADJ-A 低) (ABSTRACT-A (能 源)))
+                   (ABSTRACT-A (效 率)))
+                  (CONN 和) (NOUN-B (ADJ-A (廉 价)) (ABSTRACT-A (劳 力)))))
+                (VERB-A (推 动)))))))
+           (PAUSE ，)
+           (SUBJ-PRED
+            (NOUN-T (NOUN-ZHI-MOD-A (ADJ-A (相 应)) 的)
+             (NOUN-C
+              (NOUN-T (NOUN-T (ABSTRACT-A (环 境)) (ABSTRACT-A (保 护)))
+               (ABSTRACT-A (意 识)))
+              (CONN 及) (ABSTRACT-A (法 规))))
+            (NOT-PREFER-PAUSE)
+            (ADJ-P-B (ADV 却) (ADJ-X (ADV (非 常)) (ADJ-A (薄 弱)))))))
+         (END 。)))
+
+Input: 去年，世卫根据最新数据推算，2012年中国有逾103万人死于空气污染，死亡人数排名全球第一，远超仅次印度的62万人。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (TIME-PT-A (去 年)) (PAUSE ，) (ABSTRACT-A (世 卫))
+           (VERB-P-A
+            (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 根 据)
+             (NOUN-B (ADJ-A (最 新)) (ABSTRACT-A (数 据))))
+            (VERB-A (推 算))))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED (TIME-PT-A (2 0 1 2) 年) (MAY-PAUSE) (PLACE-A (中 国))
+            (VERB-C2 (VERB-A 有)
+             (SUBJ-PRED
+              (NOUN-T (NOUN-B (NUM (VERB-A 逾) (INTEGER 1030000)))
+               (ANIMATE-A 人))
+              (NOT-PREFER-PAUSE)
+              (VERB-C (VERB-A (死 于))
+               (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (污 染)))))))
+           (PAUSE ，)
+           (SUBJ-PRED
+            (NOUN-T (NOUN-B (VERB-A (死 亡)) (ANIMATE-A 人)) (ABSTRACT-A 数))
+            (NOT-PREFER-PAUSE)
+            (VERB-C-CONN-A
+             (VERB-C (VERB-A (排 名))
+              (NOUN-T (ADJ-A (全 球)) (NOUN-B (T-ORDINAL 第 (INTEGER 1)))))
+             (PAUSE ，)
+             (VERB-C (VERB-A (ADV (ADJ-A 远)) (VERB-A 超))
+              (NOUN-T
+               (NOUN-ZHI-MOD-A (VERB-C (VERB-A (仅 次)) (PLACE-A (印 度))) 的)
+               (NOUN-T (NOUN-B (INTEGER 620000)) (ANIMATE-A 人))))))))
+         (END 。)))
+
+Input: 2013年底，内地发生震惊中外的严重雾霾事件，除天津、河北、山东、江苏、安徽、河南、浙江、上海等多地空气质量指数达到六级严重污染级别，临近的台湾、日本和韩国，甚至美国也受波及。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (TIME-PT-C (TIME-PT-A (2 0 1 3) 年) 底) (PAUSE ，)
+           (PLACE-A (内 地))
+           (VERB-C (VERB-A (发 生))
+            (NOUN-T
+             (NOUN-ZHI-MOD-A (VERB-C (VERB-A (震 惊)) (DIR-SUFFIX-PLACE (中 外)))
+              的)
+             (NOUN-T (ADJ-A (严 重))
+              (NOUN-T (INANIMATE-A (雾 霾)) (ABSTRACT-A (事 件)))))))
+          (PAUSE ，)
+          (CLAUSE-A00
+           (VERB-MOD-FRONT (BESIDES 除)
+            (SUBJ-PRED
+             (NOUN-T
+              (NOUN-T
+               (NOUN-T
+                (NOUN-T
+                 (NOUN-C
+                  (NOUN-C
+                   (NOUN-C
+                    (NOUN-C
+                     (NOUN-C
+                      (NOUN-C
+                       (NOUN-C (PLACE-A (天 津)) (SHORT-PAUSE 、) (PLACE-A (河 北)))
+                       (SHORT-PAUSE 、) (PLACE-A (山 东)))
+                      (SHORT-PAUSE 、) (PLACE-A (江 苏)))
+                     (SHORT-PAUSE 、) (PLACE-A (安 徽)))
+                    (SHORT-PAUSE 、) (PLACE-A (河 南)))
+                   (SHORT-PAUSE 、) (PLACE-A (浙 江)))
+                  (SHORT-PAUSE 、) (PLACE-A (上 海)))
+                 (ETC (等)) (NOUN-B (ROUGH-AMOUNT 多) (PLACE-A 地)))
+                (INANIMATE-A (空 气)))
+               (ABSTRACT-A (质 量)))
+              (ABSTRACT-A (指 数)))
+             (NOT-PREFER-PAUSE)
+             (VERB-C (VERB-A (达 到))
+              (NOUN-T (NUM-UNIT-A (INTEGER 6) (UNIT 级))
+               (NOUN-T (NOUN-B (ADJ-A (严 重)) (ABSTRACT-A (污 染)))
+                (ABSTRACT-A (级 别)))))))
+           (PAUSE ，)
+           (SUBJ-PRED
+            (NOUN-T (NOUN-ZHI-MOD-A (VERB-A (临 近)) 的)
+             (NOUN-C
+              (NOUN-C (NOUN-C (PLACE-A (台 湾)) (SHORT-PAUSE 、) (PLACE-A (日 本)))
+               (CONN 和) (PLACE-A (韩 国)))
+              (NOUN-CONN (PAUSE ，) 甚 至) (PLACE-A (美 国))))
+            (NOT-PREFER-PAUSE)
+            (VERB-P-A (ADV 也) (VERB-P-A (VERB-MOD 受) (VERB-A (波 及)))))))
+         (END 。)))
+
+Input: 美国健康影响研究所和清华大学去年发布的调查报告显示，燃煤是当前内地空气污染的最主要来源，2013年燃煤「贡献」40%的PM2.5，这一因素造成的空气污染导致36.6万人过早死亡。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T
+            (NOUN-ZHI-MOD-A
+             (SUBJ-PRED
+              (NOUN-C
+               (NOUN-T (PLACE-A (美 国))
+                (NOUN-T (NOUN-B (ADJ-A (健 康)) (ABSTRACT-A (影 响)))
+                 (PLACE-A (研 究 所))))
+               (CONN 和) (PLACE-A (清 华 大 学)))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A (VERB-MOD (TIME-PT-A (去 年)) (MAY-PAUSE))
+               (VERB-A (发 布))))
+             的)
+            (NOUN-B (VERB-A (调 查)) (ABSTRACT-A (报 告))))
+           (NOT-PREFER-PAUSE) (VERB-A (显 示)))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED (INANIMATE-A (燃 煤)) (NOT-PREFER-PAUSE)
+            (VERB-C (VERB-A 是)
+             (NOUN-T
+              (NOUN-T
+               (NOUN-T (NOUN-T (NOUN-B (TIME-PT-A (当 前))) (PLACE-A (内 地)))
+                (INANIMATE-A (空 气)))
+               (ABSTRACT-A (污 染)))
+              的 (NOUN-B (ADJ-X (ADV 最) (ADJ-A (主 要))) (ABSTRACT-A (来 源))))))
+           (PAUSE ，)
+           (CLAUSES
+            (SUBJ-PRED (TIME-PT-A (2 0 1 3) 年) (MAY-PAUSE) (INANIMATE-A (燃 煤))
+             (VERB-C (VERB-A 「 (VERB-A (贡 献)) 」)
+              (NOUN-T (NOUN-B (PERCENTAGE (INTEGER 40) %)) 的
+               (INANIMATE-A (P M 2 . 5)))))
+            (PAUSE ，)
+            (SUBJ-PRED
+             (NOUN-T
+              (NOUN-ZHI-MOD-A
+               (SUBJ-PRED
+                (NOUN-T (NOUN-T (P-PRONOUN-A 这) (NOUN-B (INTEGER 1)))
+                 (ABSTRACT-A (因 素)))
+                (NOT-PREFER-PAUSE) (VERB-A (造 成)))
+               的)
+              (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (污 染))))
+             (NOT-PREFER-PAUSE)
+             (VERB-C2 (VERB-A (导 致))
+              (SUBJ-PRED
+               (NOUN-T (NOUN-B (INTEGER ((DECIMAL (INTEGER 36) . (6)) 10000)))
+                (ANIMATE-A 人))
+               (NOT-PREFER-PAUSE)
+               (VERB-P-A (ADV (ADJ-A (过 早))) (VERB-A (死 亡)))))))))
+         (END 。)))
+
+Input: 北京市环保应急中心主任张大伟称，从国际经验看，空气治理是一个长期的艰巨的工程，要30到50年才有根本的改变。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T
+            (NOUN-T (NOUN-T (PLACE-A (北 京)) (PLACE-A 市))
+             (NOUN-T
+              (NOUN-T (ABSTRACT-A (环 保))
+               (NOUN-B (VERB-A (应 急)) (PLACE-A (中 心))))
+              (ANIMATE-A (主 任))))
+            (WHOLE-NAME (SURNAME 张) (大 伟)))
+           (NOT-PREFER-PAUSE) (VERB-A 称))
+          (PAUSE ，)
+          (CLAUSES
+           (CLAUSE-A00
+            (VERB-MOD-FRONT (P-LCP-PREFIX 从)
+             (NOUN-T (ABSTRACT-A (国 际)) (ABSTRACT-A (经 验))) (LC-KAN4 看))
+            (PAUSE ，)
+            (SUBJ-PRED (NOUN-T (INANIMATE-A (空 气)) (NOUN-B (VERB-A (治 理))))
+             (NOT-PREFER-PAUSE)
+             (VERB-C (VERB-A 是)
+              (NOUN-T (NUM-UNIT-A (INTEGER 1) (UNIT 个))
+               (NOUN-T (NOUN-ZHI-MOD-A (ADJ-A (长 期)) 的)
+                (NOUN-B (NOUN-ZHI-MOD-A (ADJ-A (艰 巨)) 的)
+                 (ABSTRACT-A (工 程))))))))
+           (PAUSE ，)
+           (VERB-AND
+            (VERB-C (HELP-VERB 要)
+             (NOUN-B
+              (TIME-PERIOD-A (NUM-C-RANGE (INTEGER 30) 到 (INTEGER 50)) 年)))
+            (VERB-C (VERB-A (ADV 才) (VERB-A 有))
+             (NOUN-T (ABSTRACT-A (根 本)) 的 (VERB-A (改 变)))))))
+         (END 。)))
+
+Input: 报告并预测，即使内地严控排放，2030年仍会有99万人因PM2.5过早死亡。
+Parse: ((SENTENCE
+         (SUBJ-PRED (ABSTRACT-A (报 告)) (NOT-PREFER-PAUSE)
+          (VERB-P-CONN-A (VERB-P-A (ADV 并) (VERB-A (预 测))) (PAUSE ，)
+           (PRED-V (ALTHOUGH 即 使)
+            (CLAUSE
+             (SUBJ-PRED (PLACE-A (内 地)) (NOT-PREFER-PAUSE)
+              (VERB-C (VERB-A (ADV 严) (VERB-A 控)) (ABSTRACT-A (排 放))))
+             (SEP ，))
+            (VERB-P-A (VERB-MOD (TIME-PT-A (2 0 3 0) 年) (MAY-PAUSE))
+             (VERB-P-A (ADV 仍)
+              (VERB-P-A (HELP-VERB 会)
+               (VERB-C2 (VERB-A 有)
+                (SUBJ-PRED (NOUN-T (NOUN-B (INTEGER 990000)) (ANIMATE-A 人))
+                 (NOT-PREFER-PAUSE)
+                 (VERB-P-A
+                  (VERB-MOD-FRONT (BECAUSE 因) (INANIMATE-A (P M 2 . 5)))
+                  (VERB-P-A (ADV (ADJ-A (过 早))) (VERB-A (死 亡))))))))))))
+         (END 。)))
+

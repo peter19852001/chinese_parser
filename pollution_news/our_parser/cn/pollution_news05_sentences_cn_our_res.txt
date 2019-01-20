@@ -1,0 +1,300 @@
+Input: 北京雾霾卷土重来
+Parse: ((SUBJ-PRED (NOUN-T (PLACE-A (北 京)) (INANIMATE-A (雾 霾)))
+         (NOT-PREFER-PAUSE) (VERB-A (卷 土 重 来))))
+
+Input: 原因可能是这个
+Parse: ((SUBJ-PRED (ABSTRACT-A (原 因)) (NOT-PREFER-PAUSE)
+         (VERB-P-A (FRONT-ADV (可 能))
+          (VERB-C (VERB-A 是)
+           (NOUN-B (PRONOUN-UNIT (P-PRONOUN-A 这) (UNIT 个)))))))
+
+Input: 过去常笼罩雾霾中的中国首都北京，在刚过去的冬天供暖季却经常见到蓝天。
+Parse: ((SENTENCE
+         (SUBJ-PRED
+          (NOUN-T
+           (NOUN-ZHI-MOD-A
+            (VERB-P-A (VERB-MOD (TIME-PT-A (过 去)) (MAY-PAUSE))
+             (VERB-P-A (ADV 常)
+              (VERB-C (VERB-A (笼 罩))
+               (NOUN-T (INANIMATE-A (雾 霾)) (DIR-SUFFIX-PLACE (DIR 中))))))
+            的)
+           (NOUN-T (NOUN-T (PLACE-A (中 国)) (PLACE-A (首 都))) (PLACE-A (北 京))))
+          (PAUSE ，)
+          (VERB-P-A
+           (VERB-MOD
+            (TIME-PT-H (TIME-AT-TO 在)
+             (TIME-PT-E (NOUN-ZHI-MOD-A (VERB-P-A (ADV 刚) (DIR-VERB (过 去))) 的)
+              (TIME-PT-D (TIME-PT-A (冬 天)) (AD-HOC-TIME-PT (VERB-A (供 暖)) 季))))
+            (MAY-PAUSE))
+           (VERB-P-A (ADV 却)
+            (VERB-P-A (ADV (经 常))
+             (VERB-C (VERB-A (见 到)) (NOUN-B (ADJ-A 蓝) (INANIMATE-A 天)))))))
+         (END 。)))
+
+Input: 只是，冬季控制污染措施结束后，3月的北京雾霾重现，外媒分析，北京空污总是紧随经济规划而变动。
+Parse: ((SENTENCE
+         (CLAUSES
+          (CLAUSE-A00 (FRONT-ADV (只 是)) (PAUSE ，)
+           (SUBJ-PRED
+            (TIME-PT-E
+             (SUBJ-PRED (TIME-PT-A (冬 季)) (MAY-PAUSE)
+              (NOUN-B (VERB-X (VERB-A (控 制)) (ABSTRACT-A (污 染)))
+               (ABSTRACT-A (措 施)))
+              (VERB-A (结 束)))
+             (TIME-F-B 后))
+            (PAUSE ，) (NOUN-T (NOUN-B (TIME-PT-A (3) 月)) 的 (PLACE-A (北 京)))
+            (OBJ-PRED (INANIMATE-A (雾 霾)) (VERB-A (重 现)))))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED (ABSTRACT-A (外 媒)) (NOT-PREFER-PAUSE) (VERB-A (分 析)))
+           (PAUSE ，)
+           (SUBJ-PRED (NOUN-T (PLACE-A (北 京)) (ABSTRACT-A (空 污)))
+            (NOT-PREFER-PAUSE)
+            (VERB-P-A (ADV (总 是))
+             (VERB-P-A
+              (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 紧 随)
+               (NOUN-T (ABSTRACT-A (经 济)) (ABSTRACT-A (规 划))))
+              (VERB-P-A (ADV 而) (VERB-A (变 动))))))))
+         (END 。)))
+
+Input: 英国金融时报（FT）中文网30日报导，北京市2017年细悬浮微粒（PM2.5）平均浓度下降逾1/5，这显示中国将重工业迁出北京、减少煤炭依赖对环境产生积极影响。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T
+            (NOUN-T
+             (NOUN-T (NOUN-T (PLACE-A (英 国)) (ABSTRACT-A (金 融)))
+              (ABSTRACT-A (时 报)))
+             (NOUN-B （ (NAME (F T)) ）))
+            (NOUN-T (ABSTRACT-A (中 文)) (ABSTRACT-A 网)))
+           (NOT-PREFER-PAUSE)
+           (VERB-P-A (VERB-MOD (TIME-PT-A (3 0) 日) (MAY-PAUSE))
+            (VERB-A (报 导))))
+          (PAUSE ，)
+          (CLAUSES
+           (SUBJ-PRED
+            (NOUN-T
+             (NOUN-T (NOUN-T (PLACE-A (北 京)) (PLACE-A 市))
+              (NOUN-T (NOUN-B (TIME-PERIOD-A (INTEGER 2017) 年))
+               (NOUN-T (ADJ-A 细) (NOUN-B (VERB-A (悬 浮)) (INANIMATE-A (微 粒))))))
+             (NOUN-T (NOUN-A （ (INANIMATE-A (P M 2 . 5)) ）)
+              (NOUN-B (ADJ-A (平 均)) (ABSTRACT-A (浓 度)))))
+            (NOT-PREFER-PAUSE)
+            (VERB-C (VERB-A (下 降)) (NOUN-B (NUM (VERB-A 逾) 1/5))))
+           (PAUSE ，)
+           (SUBJ-PRED (P-PRONOUN-A 这) (NOT-PREFER-PAUSE)
+            (VERB-C2 (VERB-A (显 示))
+             (SUBJ-PRED (PLACE-A (中 国)) (NOT-PREFER-PAUSE)
+              (PRED-S
+               (VERB-P-A (VERB-MOD 将 (ABSTRACT-A (重 工 业)))
+                (VERB-C (VERB-B (VERB-A 迁) (DIR-VERB 出)) (PLACE-A (北 京))))
+               (PAUSE 、)
+               (VERB-AND
+                (VERB-C (VERB-A (减 少))
+                 (NOUN-T (INANIMATE-A (煤 炭)) (ABSTRACT-A (依 赖))))
+                (VERB-P-A (VERB-MOD (P-NOUN-WORD 对) (ABSTRACT-A (环 境)))
+                 (VERB-C (VERB-A (产 生))
+                  (NOUN-B (ADJ-A (积 极)) (ABSTRACT-A (影 响))))))))))))
+         (END 。)))
+
+Input: 去年11月至今年3月，在通常因燃煤供暖导致雾霾天增多的冬季供暖期间，北京空污却减少。
+Parse: ((SENTENCE
+         (SUBJ-PRED
+          (TIME-PT-CONN
+           (TIME-PT-D-CONN-A (TIME-PT-D (TIME-PT-A (去 年)) (TIME-PT-A (1 1) 月))
+            至 (TIME-PT-D (TIME-PT-A (今 年)) (TIME-PT-A (3) 月)))
+           (PAUSE ，)
+           (TIME-PT-H (TIME-AT-TO 在)
+            (TIME-PT-E
+             (NOUN-ZHI-MOD-A
+              (VERB-P-A (ADV (ADJ-A (通 常)))
+               (VERB-P-A
+                (VERB-MOD-FRONT (BECAUSE 因)
+                 (NOUN-T (INANIMATE-A (燃 煤)) (NOUN-B (VERB-A (供 暖)))))
+                (VERB-C2 (VERB-A (导 致))
+                 (SUBJ-PRED (NOUN-B (AD-HOC-TIME-PT (INANIMATE-A (雾 霾)) 天))
+                  (NOT-PREFER-PAUSE) (VERB-A (增 多))))))
+              的)
+             (TIME-PT-D (TIME-PT-A (冬 季))
+              (AD-HOC-TIME-PT (VERB-A (供 暖)) (期 间))))))
+          (PAUSE ，) (NOUN-T (PLACE-A (北 京)) (ABSTRACT-A (空 污)))
+          (VERB-P-A (ADV 却) (VERB-A (减 少))))
+         (END 。)))
+
+Input: 报导指出，2018年初的刺激支出可能使得工业活动大增，从而导致重度空气污染卷土重来。
+Parse: ((SENTENCE
+         (SUBJ-PRED (ABSTRACT-A (报 导)) (NOT-PREFER-PAUSE)
+          (VERB-C2 (VERB-MAY-PAUSE (VERB-B (VERB-A 指) (DIR-VERB 出)) (PAUSE ，))
+           (SUBJ-PRED
+            (NOUN-T (NOUN-B (TIME-PT-C (TIME-PT-A (2 0 1 8) 年) 初)) 的
+             (NOUN-B (VERB-A (刺 激)) (ABSTRACT-A (支 出))))
+            (NOT-PREFER-PAUSE)
+            (VERB-P-CONN-A
+             (VERB-P-A (FRONT-ADV (可 能))
+              (VERB-C2 (VERB-B (VERB-A 使) 得)
+               (SUBJ-PRED (NOUN-T (ABSTRACT-A (工 业)) (ABSTRACT-A (活 动)))
+                (NOT-PREFER-PAUSE) (VERB-A (大 增)))))
+             (PAUSE ，)
+             (VERB-P-A (FRONT-ADV (从 而))
+              (VERB-C2 (VERB-A (导 致))
+               (SUBJ-PRED
+                (NOUN-T (NOUN-B (ADJ-A (重 度)) (INANIMATE-A (空 气)))
+                 (ABSTRACT-A (污 染)))
+                (NOT-PREFER-PAUSE) (VERB-A (卷 土 重 来)))))))))
+         (END 。)))
+
+Input: 例如，2017年10月中共第19次全国代表大会召开前，工业活动大幅上扬，以至中国年度煤炭消耗量出现3年来首次成长。
+Parse: ((SENTENCE
+         (CLAUSES
+          (CLAUSE-A00 (FRONT-ADV (例 如)) (PAUSE ，)
+           (SUBJ-PRED
+            (TIME-PT-E
+             (SUBJ-PRED (TIME-PT-D (TIME-PT-A (2 0 1 7) 年) (TIME-PT-A (1 0) 月))
+              (MAY-PAUSE)
+              (NOUN-T (ABSTRACT-A (中 共))
+               (NOUN-T (NUM-UNIT-A (T-ORDINAL 第 (INTEGER 19)) (UNIT 次))
+                (NOUN-T
+                 (NOUN-T (NOUN-B (P-PRONOUN-A 全) (PLACE-A 国))
+                  (ANIMATE-A (代 表)))
+                 (ABSTRACT-A (大 会)))))
+              (VERB-A (召 开)))
+             (TIME-F-B 前))
+            (PAUSE ，) (NOUN-T (ABSTRACT-A (工 业)) (ABSTRACT-A (活 动)))
+            (VERB-P-A (ADV (ADJ-A (大 幅))) (VERB-A (上 扬)))))
+          (PAUSE ，)
+          (CLAUSE-A00 (FRONT-ADV (以 至)) (MAY-PAUSE)
+           (SUBJ-PRED
+            (NOUN-T (PLACE-A (中 国))
+             (NOUN-T (NOUN-B (TIME-PERIOD-A (年 度)))
+              (NOUN-T (INANIMATE-A (煤 炭))
+               (NOUN-T (ABSTRACT-A (消 耗)) (ABSTRACT-A 量)))))
+            (NOT-PREFER-PAUSE)
+            (VERB-C2 (VERB-A (出 现))
+             (VERB-P-A
+              (VERB-MOD (TIME-PT-G (TIME-PT-A (3) 年) (TIME-STARTING-UPTO 来))
+               (MAY-PAUSE))
+              (VERB-P-A (NUM-UNIT-A (T-ORDINAL 首) (UNIT 次))
+               (VERB-A (成 长))))))))
+         (END 。)))
+
+Input: 中国东北省份2012年至2016年经济低迷，有助减少这一时期的总体颗粒物排放量。
+Parse: ((SENTENCE
+         (CLAUSE-A00
+          (VERB-MOD-FRONT (NOUN-T (PLACE-A (中 国)) (PLACE-A (东 北 省 份))))
+          (MAY-PAUSE)
+          (SUBJ-PRED
+           (TIME-PERIOD-B-CONN (TIME-PERIOD-A (INTEGER 2012) 年) 至
+            (TIME-PERIOD-A (INTEGER 2016) 年))
+           (MAY-PAUSE) (ABSTRACT-A (经 济))
+           (PRED-S (ADJ-A (低 迷)) (PAUSE ，)
+            (VERB-C2 (VERB-A (有 助))
+             (VERB-C (VERB-A (减 少))
+              (NOUN-T
+               (NOUN-B
+                (TIME-PT-B (P-PRONOUN-A 这) (TIME-PERIOD-A (INTEGER 1) (时 期))))
+               的
+               (NOUN-T (NOUN-B (ADJ-A (总 体)) (INANIMATE-A (颗 粒 物)))
+                (NOUN-T (ABSTRACT-A (排 放)) (ABSTRACT-A 量)))))))))
+         (END 。)))
+
+Input: 通常情况下，由于春节期间全中国放假，1月和2月的用电量不会太高。
+Parse: ((SENTENCE
+         (CLAUSE-A00
+          (VERB-MOD-FRONT
+           (NOUN-B (NOUN-B (ADJ-A (通 常)) (ABSTRACT-A (情 况))) (DIR 下)))
+          (PAUSE ，)
+          (CLAUSE-A00
+           (VERB-MOD-FRONT (BECAUSE 由 于)
+            (SUBJ-PRED (AD-HOC-TIME-PT (春 节) (期 间)) (MAY-PAUSE)
+             (NOUN-B (P-PRONOUN-A 全) (PLACE-A (中 国))) (VERB-A (放 假))))
+           (PAUSE ，)
+           (SUBJ-PRED
+            (NOUN-T
+             (NOUN-B
+              (TIME-PT-B-CONN-A (TIME-PT-A (1) 月) (CONN 和) (TIME-PT-A (2) 月)))
+             的 (ABSTRACT-A (用 电 量)))
+            (NOT-PREFER-PAUSE)
+            (VERB-C (VERB-A (ADV 不) (HELP-VERB 会))
+             (NOUN-B (ADJ-X (ADV 太) (ADJ-A 高)))))))
+         (END 。)))
+
+Input: 但今年头两个月，电力消耗量出现创纪录的逾11%成长，这很可能是由建筑、钢铁和水泥生产等重工业活动造成的。
+Parse: ((SENTENCE
+         (CLAUSE-A
+          (SUBJ-PRED
+           (PRED-V (BUT 但) (MAY-PAUSE)
+            (SUBJ-PRED
+             (TIME-PERIOD-B (TIME-PERIOD-A (今 年))
+              (TIME-PERIOD-A (T-ORDINAL 头 (INTEGER 2)) 个 月))
+             (PAUSE ，)
+             (NOUN-T (ABSTRACT-A (电 力))
+              (NOUN-T (ABSTRACT-A (消 耗)) (ABSTRACT-A 量)))
+             (VERB-C (VERB-A (出 现))
+              (NOUN-T
+               (NOUN-ZHI-MOD-A (VERB-C (VERB-A 创) (INANIMATE-A (纪 录))) 的)
+               (NOUN-T (NOUN-B (NUM (VERB-A 逾) (PERCENTAGE (INTEGER 11) %)))
+                (ABSTRACT-A (成 长)))))))
+           (PAUSE ，)
+           (VERB-P-A (ADV 这)
+            (VERB-P-A (ADV 很)
+             (VERB-P-A (FRONT-ADV (可 能))
+              (VERB-C2 (VERB-A 是)
+               (VERB-P-A
+                (VERB-MOD (P-NOUN-WORD 由)
+                 (NOUN-T
+                  (NOUN-C (PLACE-A (建 筑)) (SHORT-PAUSE 、)
+                   (NOUN-T
+                    (NOUN-C (INANIMATE-A (钢 铁)) (CONN 和) (INANIMATE-A (水 泥)))
+                    (ABSTRACT-A (生 产))))
+                  (ETC (等)) (NOUN-T (ABSTRACT-A (重 工 业)) (ABSTRACT-A (活 动)))))
+                (VERB-A (造 成))))))))
+          (CLAUSE-SUPP 的))
+         (END 。)))
+
+Input: 报导说，北京的空污水准总是随着经济规划的变化而波动，雾霾缓解或许只是暂时的。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (ABSTRACT-A (报 导)) (NOT-PREFER-PAUSE)
+           (VERB-C2 (VERB-MAY-PAUSE (VERB-A 说) (PAUSE ，))
+            (SUBJ-PRED
+             (NOUN-T (PLACE-A (北 京)) 的
+              (NOUN-T (ABSTRACT-A (空 污)) (ABSTRACT-A (水 准))))
+             (NOT-PREFER-PAUSE)
+             (VERB-P-A (ADV (总 是))
+              (VERB-P-A
+               (N-VERB-MOD-FRONT (P-NOUN-VP-SP-WORD 随 着)
+                (NOUN-T (NOUN-T (ABSTRACT-A (经 济)) (ABSTRACT-A (规 划))) 的
+                 (ABSTRACT-A (变 化))))
+               (VERB-P-A (ADV 而) (VERB-A (波 动))))))))
+          (PAUSE ，)
+          (SUBJ-PRED
+           (SUBJ-PRED (INANIMATE-A (雾 霾)) (NOT-PREFER-PAUSE) (VERB-A (缓 解)))
+           (MAY-PAUSE)
+           (PRED
+            (ADJ-P-B (FRONT-ADV (或 许)) (ADJ-X (FRONT-ADV (只 是)) (ADJ-A (暂 时))))
+            的)))
+         (END 。)))
+
+Input: 在冬季控制污染措施取消后，3月的北京连续多天出现雾霾天，加剧了这担忧。
+Parse: ((SENTENCE
+         (SUBJ-PRED
+          (TIME-PT-H (TIME-AT-TO 在)
+           (TIME-PT-E
+            (SUBJ-PRED (TIME-PT-A (冬 季)) (MAY-PAUSE)
+             (NOUN-B (VERB-X (VERB-A (控 制)) (ABSTRACT-A (污 染)))
+              (ABSTRACT-A (措 施)))
+             (VERB-A (取 消)))
+            (TIME-F-B 后)))
+          (PAUSE ，) (NOUN-T (NOUN-B (TIME-PT-A (3) 月)) 的 (PLACE-A (北 京)))
+          (VERB-P-CONN-A
+           (VERB-P-A
+            (VERB-MOD
+             (TIME-PERIOD (ADJ-A (连 续)) (TIME-PERIOD-A (ROUGH-AMOUNT 多) 天))
+             (MAY-PAUSE))
+            (VERB-C (VERB-A (出 现))
+             (NOUN-B (AD-HOC-TIME-PT (INANIMATE-A (雾 霾)) 天))))
+           (PAUSE ，)
+           (VERB-C (VERB (VERB-A (加 剧)) (VERB-SUFFIX-LE 了))
+            (NOUN-B (P-PRONOUN-A 这) (ABSTRACT-A (担 忧))))))
+         (END 。)))
+

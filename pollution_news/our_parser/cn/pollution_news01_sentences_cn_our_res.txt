@@ -1,0 +1,236 @@
+Input: 空气污染雾霾肆虐
+Parse: ((SUBJ-PRED
+         (NOUN-T (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (污 染)))
+          (INANIMATE-A (雾 霾)))
+         (NOT-PREFER-PAUSE) (VERB-A (肆 虐))))
+
+Input: 北方人较南方人短寿3年
+Parse: ((SUBJ-PRED (NOUN-T (DIR-SUFFIX-PLACE (DIR 北) 方) (ANIMATE-A 人))
+         (NOT-PREFER-PAUSE)
+         (VERB-P-A
+          (COMPARE 较 (NOUN-T (DIR-SUFFIX-PLACE (DIR 南) 方) (ANIMATE-A 人)))
+          (VERB-C (VERB-A (短 寿)) (NOUN-B (TIME-PERIOD-A (INTEGER 3) 年))))))
+
+Input: 中国尤其北部地区空气污染严重，更直接影响民众健康。
+Parse: ((SENTENCE
+         (SUBJ-PRED
+          (NOUN-T
+           (NOUN-T
+            (NOUN-T (PLACE-A (中 国))
+             (NOUN-T (NOUN-T (P-PRONOUN-A (尤 其)) (DIR-SUFFIX-PLACE (北 部)))
+              (PLACE-A (地 区))))
+            (INANIMATE-A (空 气)))
+           (ABSTRACT-A (污 染)))
+          (NOT-PREFER-PAUSE)
+          (PRED-S (ADJ-A (严 重)) (PAUSE ，)
+           (VERB-P-A (ADV 更)
+            (VERB-P-A (ADV (直 接))
+             (VERB-C (VERB-A (影 响))
+              (NOUN-T (ANIMATE-A (民 众)) (ABSTRACT-A (健 康))))))))
+         (END 。)))
+
+Input: 美国芝加哥大学一项研究指出，因为雾霾等空气污染问题，中国北方人比起南方人短寿3年，哈尔滨等东北重工业城市的居民甚至可能短寿6.9年。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T
+            (NOUN-T (NOUN-T (PLACE-A (美 国)) (PLACE-A (芝 加 哥))) (PLACE-A (大 学)))
+            (NOUN-B (NUM-UNIT-A (INTEGER 1) (UNIT 项)) (ABSTRACT-A (研 究))))
+           (NOT-PREFER-PAUSE) (VERB-B (VERB-A 指) (DIR-VERB 出)))
+          (PAUSE ，)
+          (CLAUSES
+           (CLAUSE-A00
+            (VERB-MOD-FRONT (BECAUSE 因 为)
+             (NOUN-T
+              (NOUN-T
+               (NOUN-T (INANIMATE-A (雾 霾)) (ETC (等)) (INANIMATE-A (空 气)))
+               (ABSTRACT-A (污 染)))
+              (ABSTRACT-A (问 题))))
+            (PAUSE ，)
+            (SUBJ-PRED
+             (NOUN-T (NOUN-B (PLACE-A (中 国)) (DIR-SUFFIX-PLACE (DIR 北) 方))
+              (ANIMATE-A 人))
+             (NOT-PREFER-PAUSE)
+             (VERB-P-A
+              (COMPARE (P-WORD-BI3 比 起)
+               (NOUN-T (DIR-SUFFIX-PLACE (DIR 南) 方) (ANIMATE-A 人)))
+              (VERB-C (VERB-A (短 寿)) (NOUN-B (TIME-PERIOD-A (INTEGER 3) 年))))))
+           (PAUSE ，)
+           (SUBJ-PRED
+            (NOUN-T
+             (NOUN-T (PLACE-A (哈 尔 滨)) (ETC (等))
+              (NOUN-T
+               (NOUN-T (DIR-SUFFIX-PLACE (DIR (东 北))) (ABSTRACT-A (重 工 业)))
+               (PLACE-A (城 市))))
+             的 (ANIMATE-A (居 民)))
+            (NOT-PREFER-PAUSE)
+            (VERB-P-A (FRONT-ADV (甚 至))
+             (VERB-P-A (FRONT-ADV (可 能))
+              (VERB-C (VERB-A (短 寿))
+               (NOUN-B (TIME-PERIOD-A (DECIMAL (INTEGER 6) . (9)) 年))))))))
+         (END 。)))
+
+Input: 美国芝加哥大学能源政策研究所周一（11日）发表报告，研究人员分析中国154个城市自1981年至2012年的空气质素数据，发现淮河以北地区的污染程度较以南地区高出46%，导致北方人平均寿命减少3.1年，无论男女老幼也受影响。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED
+           (NOUN-T (PLACE-A (美 国))
+            (NOUN-T
+             (NOUN-T
+              (NOUN-T (NOUN-T (PLACE-A (芝 加 哥)) (PLACE-A (大 学)))
+               (ABSTRACT-A (能 源)))
+              (ABSTRACT-A (政 策)))
+             (PLACE-A (研 究 所))))
+           (NOT-PREFER-PAUSE)
+           (VERB-P-A
+            (VERB-MOD
+             (TIME-PT-D (TIME-PT-A (周 一)) (TIME-PT-A （ (TIME-PT-A (1 1) 日) ）))
+             (MAY-PAUSE))
+            (VERB-C (VERB-A (发 表)) (ABSTRACT-A (报 告)))))
+          (PAUSE ，)
+          (SUBJ-PRED (ANIMATE-A (研 究 人 员)) (NOT-PREFER-PAUSE)
+           (VERB-P-CONN-A
+            (VERB-P-CONN-A
+             (VERB-C (VERB-A (分 析))
+              (NOUN-T
+               (NOUN-T (PLACE-A (中 国))
+                (NOUN-B (NUM-UNIT-A (INTEGER 154) (UNIT 个)) (PLACE-A (城 市))))
+               (NOUN-T
+                (NOUN-B
+                 (TIME-PT-I (TIME-FROM 自)
+                  (TIME-PT-B-CONN-A (TIME-PT-A (1 9 8 1) 年) 至
+                   (TIME-PT-A (2 0 1 2) 年))))
+                的
+                (NOUN-T (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (质 素)))
+                 (ABSTRACT-A (数 据))))))
+             (PAUSE ，)
+             (VERB-C2-CONN-A
+              (VERB-C2 (VERB-A (发 现))
+               (SUBJ-PRED
+                (NOUN-T
+                 (NOUN-T (NOUN-B (PLACE-A (淮 河)) (DIR-SUFFIX-PLACE (以 北)))
+                  (PLACE-A (地 区)))
+                 的 (NOUN-T (ABSTRACT-A (污 染)) (ABSTRACT-A (程 度))))
+                (NOT-PREFER-PAUSE)
+                (VERB-P-A
+                 (COMPARE 较 (NOUN-T (DIR-SUFFIX-PLACE (以 南)) (PLACE-A (地 区))))
+                 (VERB-C (VERB-A (高 出))
+                  (NOUN-B (PERCENTAGE (INTEGER 46) %))))))
+              (PAUSE ，)
+              (VERB-C2 (VERB-A (导 致))
+               (SUBJ-PRED
+                (NOUN-T (NOUN-T (DIR-SUFFIX-PLACE (DIR 北) 方) (ANIMATE-A 人))
+                 (NOUN-B (ADJ-A (平 均)) (ABSTRACT-A (寿 命))))
+                (NOT-PREFER-PAUSE)
+                (VERB-C (VERB-A (减 少))
+                 (NOUN-B (TIME-PERIOD-A (DECIMAL (INTEGER 3) . (1)) 年)))))))
+            (PAUSE ，)
+            (PRED-V (ALTHOUGH 无 论) (ANIMATE-A (男 女 老 幼)) (ALSO 也)
+             (VERB-P-A (VERB-MOD 受) (VERB-A (影 响)))))))
+         (END 。)))
+
+Input: 而增加的死亡率通常与心肺疾病有关。
+Parse: ((SENTENCE
+         (SUBJ-PRED
+          (NOUN-T (VERB-X (ADV 而) (VERB-A (增 加))) 的
+           (NOUN-B (VERB-A (死 亡)) (ABSTRACT-A 率)))
+          (NOT-PREFER-PAUSE)
+          (VERB-P-A (ADV (ADJ-A (通 常)))
+           (VERB-P-A
+            (N-VERB-MOD-FRONT 与
+             (NOUN-T (INANIMATE-A 心)
+              (NOUN-T (INANIMATE-A 肺) (INANIMATE-A (疾 病)))))
+            (VERB-A (有 关)))))
+         (END 。)))
+
+Input: 研究人员认为，中国北部地区在冬季通常燃煤供暖，使当地空气污染尤其严重，形成大范围的雾霾。
+Parse: ((SENTENCE
+         (SUBJ-PRED (ANIMATE-A (研 究 人 员)) (NOT-PREFER-PAUSE)
+          (VERB-P-CONN-A
+           (VERB-C2-CONN-A
+            (VERB-C2 (VERB-MAY-PAUSE (VERB-A (认 为)) (PAUSE ，))
+             (SUBJ-PRED
+              (NOUN-T (NOUN-B (PLACE-A (中 国)) (DIR-SUFFIX-PLACE (北 部)))
+               (PLACE-A (地 区)))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A
+               (VERB-MOD (TIME-PT-H (TIME-AT-TO 在) (TIME-PT-A (冬 季)))
+                (MAY-PAUSE))
+               (VERB-P-A (ADV (ADJ-A (通 常)))
+                (VERB-AND (VERB-C (VERB-A 燃) (INANIMATE-A 煤))
+                 (VERB-A (供 暖)))))))
+            (PAUSE ，)
+            (VERB-C2 (VERB-A 使)
+             (SUBJ-PRED
+              (NOUN-T (NOUN-T (PLACE-A (当 地)) (INANIMATE-A (空 气)))
+               (ABSTRACT-A (污 染)))
+              (NOT-PREFER-PAUSE) (ADJ-X (ADV (尤 其)) (ADJ-A (严 重))))))
+           (PAUSE ，)
+           (VERB-C (VERB-A (形 成))
+            (NOUN-B (NOUN-ZHI-MOD-A (ADJ-A (大 范 围)) 的) (INANIMATE-A (雾 霾))))))
+         (END 。)))
+
+Input: 而空气中的PM2.5悬浮粒子，更是北部人口寿命缩减的元凶。
+Parse: ((SENTENCE
+         (PRED-V (BUT 而) (MAY-PAUSE)
+          (SUBJ-PRED
+           (NOUN-T (NOUN-T (INANIMATE-A (空 气)) (DIR-SUFFIX-PLACE (DIR 中))) 的
+            (NOUN-T (INANIMATE-A (P M 2 . 5))
+             (NOUN-B (VERB-A (悬 浮)) (INANIMATE-A (粒 子)))))
+           (PAUSE ，)
+           (VERB-C (VERB-A (ADV 更) (VERB-A 是))
+            (NOUN-B
+             (NOUN-ZHI-MOD-A
+              (SUBJ-PRED
+               (NOUN-T (NOUN-T (DIR-SUFFIX-PLACE (北 部)) (ABSTRACT-A (人 口)))
+                (ABSTRACT-A (寿 命)))
+               (NOT-PREFER-PAUSE) (VERB-A (缩 减)))
+              的)
+             (ANIMATE-A (元 凶))))))
+         (END 。)))
+
+Input: 研究指出，若中国能遵守世界卫生组织的空气质量标准，中国人平均寿命可延长3.5年，北京民众平均寿命额外增加6.4年，哈尔滨民众平均寿命更增加6.9年。
+Parse: ((SENTENCE
+         (CLAUSES
+          (SUBJ-PRED (ABSTRACT-A (研 究)) (NOT-PREFER-PAUSE)
+           (VERB-B (VERB-A 指) (DIR-VERB 出)))
+          (PAUSE ，)
+          (CLAUSES
+           (PRED-V (IF 若)
+            (SUBJ-PRED (PLACE-A (中 国)) (NOT-PREFER-PAUSE)
+             (VERB-P-A (ADV 能)
+              (VERB-C (VERB-A (遵 守))
+               (NOUN-T
+                (NOUN-T (PLACE-A (世 界))
+                 (NOUN-T (ABSTRACT-A (卫 生)) (ABSTRACT-A (组 织))))
+                的
+                (NOUN-T (NOUN-T (INANIMATE-A (空 气)) (ABSTRACT-A (质 量)))
+                 (ABSTRACT-A (标 准))))))))
+           (PAUSE ，)
+           (CLAUSES
+            (SUBJ-PRED
+             (NOUN-T (NOUN-T (PLACE-A (中 国)) (ANIMATE-A 人))
+              (NOUN-B (ADJ-A (平 均)) (ABSTRACT-A (寿 命))))
+             (NOT-PREFER-PAUSE)
+             (VERB-P-A (ADV 可)
+              (VERB-C (VERB-A (延 长))
+               (NOUN-B (TIME-PERIOD-A (DECIMAL (INTEGER 3) . (5)) 年)))))
+            (PAUSE ，)
+            (CLAUSES
+             (SUBJ-PRED
+              (NOUN-T (NOUN-T (PLACE-A (北 京)) (ANIMATE-A (民 众)))
+               (NOUN-B (ADJ-A (平 均)) (ABSTRACT-A (寿 命))))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A (ADV (ADJ-A (额 外)))
+               (VERB-C (VERB-A (增 加))
+                (NOUN-B (TIME-PERIOD-A (DECIMAL (INTEGER 6) . (4)) 年)))))
+             (PAUSE ，)
+             (SUBJ-PRED
+              (NOUN-T (NOUN-T (PLACE-A (哈 尔 滨)) (ANIMATE-A (民 众)))
+               (NOUN-B (ADJ-A (平 均)) (ABSTRACT-A (寿 命))))
+              (NOT-PREFER-PAUSE)
+              (VERB-P-A (ADV 更)
+               (VERB-C (VERB-A (增 加))
+                (NOUN-B (TIME-PERIOD-A (DECIMAL (INTEGER 6) . (9)) 年)))))))))
+         (END 。)))
+
